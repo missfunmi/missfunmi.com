@@ -1,0 +1,19 @@
+---js
+const permalink = "tags/index.html";
+---
+<section class="hero">
+  <div class="hero-title">Tags</div>
+  <div class="hero-subtitle">A collection of writings &mdash; short and long &mdash; on a myriad of topics.
+  </div>
+  <div class="action-link-container"><a href="/feed.xml" class="action-link">subscribe to the rss feed</a></div>
+</section>
+
+<section class="page-content">
+  <ul>
+    {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+      {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      {% set postCount %}{{ collections[tag] | length }}{% endset %}
+      <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }} ({{ postCount }})</a></li>
+    {% endfor %}
+  </ul>
+</section>

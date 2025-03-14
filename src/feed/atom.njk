@@ -1,0 +1,32 @@
+---js
+const eleventyNavigation = {
+key: "feed",
+order: 4
+};
+const permalink = "feed.xml";
+const layout = "";
+const numberOfLatestPostsToShow = 15;
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/atom.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
+  <title>Web Feed | {{ metadata.author.name }}</title>
+  <subtitle>{{ metadata.description }}</subtitle>
+  <link href="{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self" />
+  <link href="{{ metadata.url | addPathPrefixToFullUrl }}" />
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.url | addPathPrefixToFullUrl }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+  </author>
+  {%- for post in collections.posts | reverse | head(-1 * numberOfLatestPostsToShow) %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <summary type="html">{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) | excerpt }}...</summary>
+  </entry>
+  {%- endfor %}
+</feed>

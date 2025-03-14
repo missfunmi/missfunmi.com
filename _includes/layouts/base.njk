@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+
+  <title>{{ title or metadata.title }} | {{ metadata.author.name }}</title>
+  <meta name="description" content="{{ description or metadata.description }}">
+  <meta name="generator" content="{{ eleventy.generator }}">
+  <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}'s blog">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  <a href="#skip" class="visually-hidden">Skip to main content</a>
+  {% include "layouts/header.njk" %}
+  <main id="skip">
+    {{ content | safe }}
+  </main>
+  {% include "layouts/footer.njk" %}
+  <script type="module" src="{% getBundleFileUrl "js" %}"></script>
+</body>
+
+</html>

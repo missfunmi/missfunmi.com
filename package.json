@@ -1,0 +1,34 @@
+{
+  "name": "missfunmi.com",
+  "version": "1.0.0",
+  "description": "Personal website of Funmi Oludaiye.",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+    "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Funmi Oludaiye",
+    "url": "https://missfunmi.com/"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "eleventy-plugin-reading-time": "^0.0.1",
+    "luxon": "^3.5.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-link-attributes": "^4.0.1",
+    "prismjs": "^1.30.0",
+    "zod": "^3.23.8",
+    "zod-validation-error": "^3.3.1"
+  }
+}

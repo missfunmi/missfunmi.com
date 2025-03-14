@@ -1,0 +1,14 @@
+{# TODO - implement online vs offline category separation #}
+
+<section class="posts-list">
+  {%- for project in projectslist | sortByPlacement %}
+  <div class="post-clip">
+    <a href="{{ project.url }}">
+      <div class="post-title">{{ project.data.name }}</div>
+      <div class="post-description"><span>{{ project.data.description }}</span></div>
+    </a>
+  </div>
+  {%- else %}
+    {{ metadata.placeholderText }}
+  {%- endfor %}
+</section>

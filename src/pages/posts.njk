@@ -1,0 +1,18 @@
+---js
+const eleventyNavigation = {
+key: "posts",
+order: 1
+};
+const permalink = "posts/index.html";
+---
+<section class="hero">
+  <div class="hero-title">Posts</div>
+  <div class="hero-subtitle">A collection of writings &mdash; short and long &mdash; on a myriad of <a href="pages/tags.njk">topics</a>.
+  </div>
+  <div class="action-link-container"><a href="/feed.xml" class="action-link">Subscribe to the RSS Feed</a></div>
+</section>
+
+{% set postslist = collections.posts %}
+<section class="page-content">
+  {% include "blurbs/postslist.njk" %}
+</section>

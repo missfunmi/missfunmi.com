@@ -1,0 +1,30 @@
+---js
+const numberOfLatestPostsToShow = 6;
+---
+
+<section class="hero">
+  <div class="hero-title">Hi, i'm Funmi</div>
+  <div class="hero-subtitle">I'm a software engineer and engineering leader in New York City and a co-organizer for <a
+      href="https://elc.community/public/clubs/new-york-city-3po/overview" target="_blank">ELC x NYC</a>.
+    Currently, I’m on a much-needed sabbatical at the <a
+      href="https://www.recurse.com/scout/click?t=c7bc9ba4cb3e6725e05e413f16f8c5a3" target="_blank">Recurse Center</a>.
+    Occasionally, I help run a few things for the <a href="https://brooklyntri.org/mission/btc-board"
+      target="_blank">Brooklyn Triathlon Club</a>.
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="page-content-title">recent musings</div>
+  {% set postsCount = collections.posts | length %}
+
+  {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+  {% set postslistCounter = postsCount %}
+  <section class="posts-list home-page-posts">
+    {% include "blurbs/postslist.njk" %}
+  </section>
+
+  {% set morePosts = postsCount - numberOfLatestPostsToShow %}
+  {% if morePosts > 0 %}
+  <div class="action-link-container"><a href="pages/posts.njk" class="action-link">Check out older posts</a></div>
+  {% endif %}
+</section>

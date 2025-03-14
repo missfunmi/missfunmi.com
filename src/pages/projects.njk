@@ -1,0 +1,17 @@
+---js
+const eleventyNavigation = {
+key: "projects",
+order: 2
+};
+const permalink = "projects/index.html";
+---
+<section class="hero">
+  <div class="hero-title">Projects</div>
+  <div class="hero-subtitle">A few things I’ve tinkered with recently, kept reasonably up-to-date.
+  </div>
+</section>
+
+{% set projectslist = collections["project-page"] %}
+<section class="page-content">
+  {% include "blurbs/projectslist.njk" %}
+</section>

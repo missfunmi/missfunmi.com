@@ -1,0 +1,32 @@
+---js
+const pagination = {
+	data: "collections",
+	size: 1,
+	alias: "tag",
+	filter: ["all","posts", "project-page"],
+};
+const eleventyExcludeFromCollections = true;
+const eleventyComputed = {
+	title: "Tagged with '{{ tag }}'",
+	permalink: function(data) {
+		return `/tags/${this.slugify(data.tag)}/`;
+	}
+};
+---
+<section class="hero">
+  <div class="hero-title">Tagged '{{ tag }}'</div>
+  <div class="hero-subtitle">a collection of writings about “{{ tag }}“.
+  </div>
+  <div class="action-link-container">
+    <a href="/feed.xml" class="action-link">subscribe to the rss feed</a>
+  </div>
+</section>
+
+{% set postslist = collections[tag] %}
+<section class="page-content">
+  {% include "blurbs/postslist.njk" %}
+</section>
+
+<div class="action-link-container">
+  <a href="pages/tags.njk" class="posts-backlink">All Tags</a>
+</div>

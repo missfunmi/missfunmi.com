@@ -1,0 +1,51 @@
+---
+layout: layouts/base.njk
+---
+<section class="post-hero">
+  <div class="action-link-container"><a href="pages/posts.njk" class="posts-backlink">All Posts</a></div>
+  <div class="post-metadata">
+    Filed under: <span class="tags-container">
+      {%- for tag in tags | filterTagList %}
+      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+      {%- if not loop.last %}, {% endif %}
+      {%- endfor %}
+    </span> • {{ content | readingTime({raw:true}) }} minute read
+  </div>
+  <div class="hero-title">{{ title }}</div>
+  <div class="hero-subtitle">{{ description }}</div>
+  <div class="post-publication-date">
+    <time datetime="{{ date | isoDate }}">
+      First Published {{ date | readableDate }}
+    </time>
+    {% if modified %}
+    • Last Updated <span>{{ modified | readableDate }}</span>
+    {% endif %}
+  </div>
+</section>
+
+<section class="page-content">
+  {{ content | safe }}
+
+  <!-- Previous and Next Post links -->
+  {%- if collections.posts %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+  {%- set nextPost = collections.posts | getNextCollectionItem %}
+
+  {%- if nextPost or previousPost %}
+  <ul class="next-previous-container">
+    {%- if previousPost %}
+    <li class="previous-post-container">
+      <a href="{{ previousPost.url }}" class="posts-backlink">{{ previousPost.data.title }}</a>
+    </li>
+    {%- endif %}
+
+    {%- if nextPost %}
+    <li class="next-post-container">
+      <a href="{{ nextPost.url }}" class="action-link">{{ nextPost.data.title }}</a>
+    </li>
+    {%- endif %}
+  </ul>
+  {%- endif %}
+  {%- endif %}
+</section>
