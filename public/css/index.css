@@ -14,7 +14,7 @@
   --font-color-lighter: #757575;
   --font-color-metadata: #b3b3b3;
   --bg-color: transparent;
-  --header-footer-bg: linear-gradient(#ffe8e8 0.05em, transparent 0.1em), linear-gradient(90deg, #ffe8e8 0.09em, #fff 0.1em);
+  --header-footer-bg: linear-gradient(#ffe8e8 0.05em, transparent 0.03em), linear-gradient(90deg, #ffe8e8 0.05em, #fff 0.08em);
 
   --active-link-color: #dd72bb;
   --hover-link-color: #6fa2ef;
@@ -45,16 +45,15 @@
 /* Start: Dark mode colors, keep these two blocks in sync */
 @media (prefers-color-scheme: dark) {
   :root {
-    --header-footer-bg: linear-gradient(#474747 0.05em, transparent 0.1em), linear-gradient(90deg, #474747 0.09em, var(--bg-color) 0.1em);
+    --header-footer-bg: linear-gradient(#474747 0.05em, transparent 0.03em), linear-gradient(90deg, #474747 0.05em, var(--bg-color) 0.08em);
     --external-link-icon: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTAiIGZpbGw9IiNlZmVmZWMiIHZpZXdCb3g9IjAgMCAxMCAxMCIgd2lkdGg9IjEwIj48cGF0aCBkPSJNNi4yNSAwaC0uNjI1emgtLjYyNXYxLjI1aDIuMjQ2TDMuOTI2IDUuMTc2bC0uNDMuNDQ5Ljg3OS44NzkuNDQ5LS40M0w4Ljc1IDIuMTI5djIuMjQ2SDEwVjB6TS42MjUuNjI1SDB6SDBWMTBoOS41MzFWNi4yNWgtMS4yNXYyLjVIMS4yNVYxLjg3NWgyLjVWLjYyNXoiLz48L3N2Zz4=);
     --font-color-default: #efefec;
     --font-color-lighter: #eaeaea;
     --bg-color: #2b282b;
   }
 }
-/* TODO: implement toggle  footer to apply these styles */
 :root.dark {
-  --header-footer-bg: linear-gradient(#474747 0.05em, transparent 0.1em), linear-gradient(90deg, #474747 0.09em, var(--bg-color) 0.1em);
+  --header-footer-bg: linear-gradient(#474747 0.05em, transparent 0.03em), linear-gradient(90deg, #474747 0.05em, var(--bg-color) 0.08em);
   --external-link-icon: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTAiIGZpbGw9IiNlZmVmZWMiIHZpZXdCb3g9IjAgMCAxMCAxMCIgd2lkdGg9IjEwIj48cGF0aCBkPSJNNi4yNSAwaC0uNjI1emgtLjYyNXYxLjI1aDIuMjQ2TDMuOTI2IDUuMTc2bC0uNDMuNDQ5Ljg3OS44NzkuNDQ5LS40M0w4Ljc1IDIuMTI5djIuMjQ2SDEwVjB6TS42MjUuNjI1SDB6SDBWMTBoOS41MzFWNi4yNWgtMS4yNXYyLjVIMS4yNVYxLjg3NWgyLjVWLjYyNXoiLz48L3N2Zz4=);
   --font-color-default: #efefec;
   --font-color-lighter: #eaeaea;
@@ -97,7 +96,7 @@ body {
 }
 
 main, header, footer {
-  padding: 2.5rem 5vw;
+  padding: 2.16rem 5vw;
 }
 
 main {
@@ -139,8 +138,8 @@ footer {
 }
 
 .logo {
-  width: 64.5px;
-  height: 64.5px;
+  width: 80px;
+  height: 80px;
 }
 
 header {
@@ -160,18 +159,17 @@ header {
   display: inline-block;
   text-decoration: none;
   margin-left: 0.3em;
+  font-weight: 600;
 }
 .nav-item a[href]:not(:hover),
 .nav-item a[href]:visited {
-  font-weight: 500;
   color: var(--font-color-default);
 }
 .nav-item a[href]:hover {
-  font-weight: 700;
   color: var(--hover-link-color);
+  border-bottom: 0.2rem solid var(--hover-link-color);
 }
 .nav a[href][aria-current="page"] {
-  font-weight: 700;
   color: var(--active-link-color);
 }
 
@@ -265,9 +263,7 @@ a.action-link:hover:after {
 }
 
 .page-content {
-  border-top-color: var(--border-color);
-  border-top-width: 1px;
-  border-top-style: dashed;
+  border-top: 1px dashed var(--border-color);
   margin-top: 2em;
   padding-top: 2em;
 }
@@ -302,6 +298,11 @@ a.action-link:hover:after {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.tags-list {
+  list-style: none;
+  padding-left: 0;
 }
 
 .post-clip {
@@ -372,9 +373,7 @@ a.posts-backlink:hover:before {
 	justify-content: space-between;
 	gap: .5em 1em;
 	list-style: none;
-  border-top-color: var(--border-color);
-  border-top-width: 1px;
-  border-top-style: dashed;
+  border-top: 1px dashed var(--border-color);
 	padding: 2em 0;
 	margin-top: 2em;
 }

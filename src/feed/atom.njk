@@ -26,7 +26,7 @@ const numberOfLatestPostsToShow = 15;
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <summary type="html">{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) | excerpt }}...</summary>
+    <summary type="html">{{ post.content | transformWithHtmlBase(absolutePostUrl, post.url) | shortenToExcerpt }}</summary>
   </entry>
   {%- endfor %}
 </feed>

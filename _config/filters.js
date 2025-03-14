@@ -50,13 +50,13 @@ export default function (eleventyConfig) {
     (entries || []).sort((a, b) => a.data.placement - b.data.placement)
   );
 
-  // Excerpt filter (used for atom feed)
-  eleventyConfig.addFilter("excerpt", (post) => {
-    const content = post
-      .replace(/(<([^>]+)>)/gi, "")
-      .split(" ")
-      .slice(0, 80)
-      .join(" ");
-    return content;
+  // Excerpt filter (currently only used in the atom feed) - shortens post content to the first 80 words and adds a trailing ellipsis if the post length is greater than the excerpt
+  eleventyConfig.addFilter("shortenToExcerpt", (post) => {
+    let rawText = post.replace(/(<([^>]+)>)/gi, "");
+    let excerpt = rawText.split(" ").slice(0, 80).join(" ");
+    if (rawText.length > excerpt.length) {
+      excerpt+=("...");
+    }
+    return excerpt;
   });
 }

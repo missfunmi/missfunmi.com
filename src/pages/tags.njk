@@ -9,11 +9,13 @@ const permalink = "tags/index.html";
 </section>
 
 <section class="page-content">
-  <ul>
+  <ul class="tags-list">
     {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
       {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
       {% set postCount %}{{ collections[tag] | length }}{% endset %}
       <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }} ({{ postCount }})</a></li>
+    {%- else %}
+      {{ metadata.placeholderText }}
     {% endfor %}
   </ul>
 </section>

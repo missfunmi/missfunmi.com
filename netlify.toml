@@ -1,0 +1,38 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+  [plugins.inputs.thresholds]
+    performance = 0.9
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "same-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "max-age=2592000, private"
+[[redirects]]
+  from = "/rss"
+  to = "/feed.xml"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/atom"
+  to = "/feed.xml"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/missfunmi"
+  status = 301
+  force = true

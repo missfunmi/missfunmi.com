@@ -12,8 +12,6 @@ import mila from "markdown-it-link-attributes";
 import pluginFilters from "./_config/filters.js";
 
 export default async function(eleventyConfig) {
-  eleventyConfig.setQuietMode(true);
-
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
