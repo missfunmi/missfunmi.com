@@ -11,14 +11,10 @@
   <meta name="generator" content="{{ eleventy.generator }}">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}'s blog">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-  <link rel="manifest" href="/assets/site.webmanifest">
-
-  <link rel="preconnect" href="https://rsms.me/">
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/css/index.css">
 </head>
 
@@ -29,7 +25,6 @@
     {{ content | safe }}
   </main>
   {% include "layouts/footer.njk" %}
-  <!-- <script type="module" src="{% getBundleFileUrl "js" %}"></script> -->
 </body>
 
 </html>

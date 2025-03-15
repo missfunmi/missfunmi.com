@@ -9,7 +9,9 @@
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "clean": "rm -r node_modules & rm -r _site & rm package-lock.json",
-    "cleanstart": "npm run clean & npm install && npm run start"
+    "cleanstart": "npm run clean & npm install && npm run start",
+    "cleanlite": "rm -r _site",
+    "cleanlitestart": "npm run cleanlite & npm run start"
   },
   "repository": {
     "type": "git",

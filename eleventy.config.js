@@ -18,13 +18,10 @@ export default async function(eleventyConfig) {
 		}
 	});
 
-  eleventyConfig.addPassthroughCopy({
-    "./src/assets/": "/assets",
-    "./src/robots.txt": "/robots.txt",
-    "./src/feed/atom.xsl": "./feed/atom.xsl"
-  });
-
-  eleventyConfig.addPlugin(lightningCSS);
+  eleventyConfig.addPassthroughCopy("./src/assets/");
+  eleventyConfig.addPassthroughCopy("./src/robots.txt");
+  eleventyConfig.addPassthroughCopy("./src/feed/atom.xsl");
+  eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
 
   eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpg,jpeg,gif}");
   eleventyConfig.addBundle("js", {
@@ -64,7 +61,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
   eleventyConfig.addPlugin(pluginRss);
-
+  eleventyConfig.addPlugin(lightningCSS);
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["webp", "svg", "auto"],
