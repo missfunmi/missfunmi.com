@@ -3,13 +3,11 @@
 @import url("_icons.css");
 
 :root {
-  font-family: Inter, sans-serif;
-  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+  font-family: InterVariable, sans-serif;
+  font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
-
-  color-scheme: light dark;
 
   --font-color-default: #3e3e3e;
   --font-color-lighter: #757575;
@@ -24,15 +22,6 @@
 
   color: var(--font-color-default);
   background-color: var(--bg-color);
-}
-
-@supports (font-variation-settings: normal) {
-  :root {
-    font-family: InterVariable, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smooth: never;
-  }
 }
 
 /* Start theme color toggles -- keep these two blocks in sync */

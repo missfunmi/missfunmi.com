@@ -3,6 +3,7 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventySyntaxHighlightPlugin from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import dirOutputPlugin from "@11ty/eleventy-plugin-directory-output";
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import readingTimePlugin from "eleventy-plugin-reading-time";
 import markdownIt from "markdown-it";
@@ -12,6 +13,15 @@ import mila from "markdown-it-link-attributes";
 import pluginFilters from "./src/_config/filters.js";
 
 export default async function(eleventyConfig) {
+  eleventyConfig.setQuietMode(true);
+	eleventyConfig.addPlugin(dirOutputPlugin, {
+		columns: {
+			filesize: true,
+			benchmark: true,
+		},
+		warningFileSize: 400 * 1000,
+	});
+
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
