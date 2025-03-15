@@ -1,15 +1,15 @@
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventySyntaxHighlightPlugin from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import readingTimePlugin from "eleventy-plugin-reading-time";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItFootnote from "markdown-it-footnote";
 import mila from "markdown-it-link-attributes";
-import pluginFilters from "./_config/filters.js";
+import pluginFilters from "./src/_config/filters.js";
 
 export default async function(eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
@@ -19,16 +19,14 @@ export default async function(eleventyConfig) {
 	});
 
   eleventyConfig.addPassthroughCopy({
-    "./public/": "/",
+    "./src/assets/": "/assets",
+    "./src/robots.txt": "/robots.txt",
     "./src/feed/atom.xsl": "./feed/atom.xsl"
   });
 
-  eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpg,jpeg,gif}");
-  eleventyConfig.addWatchTarget("public/**/*.{svg,webp,png,jpg,jpeg,gif}");
+  eleventyConfig.addPlugin(lightningCSS);
 
-  eleventyConfig.addBundle("css", {
-    toFileDirectory: "dist",
-  });
+  eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpg,jpeg,gif}");
   eleventyConfig.addBundle("js", {
     toFileDirectory: "dist",
   });
@@ -67,6 +65,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
   eleventyConfig.addPlugin(pluginRss);
 
+
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["webp", "svg", "auto"],
     failOnError: false,
@@ -101,9 +100,7 @@ export const config = {
 	markdownTemplateEngine: "njk",
 	htmlTemplateEngine: "njk",
 	dir: {
-		input: "src",              // default: "."
-		includes: "../_includes",  // default: "_includes" (`input` relative)
-		data: "../_data",          // default: "_data" (`input` relative)
+		input: "src",
 		output: "_site"
 	},
   pathPrefix: '/',

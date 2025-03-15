@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 <section class="post-hero">
-  <div class="action-link-container"><a href="pages/posts.njk" class="posts-backlink">All Posts</a></div>
+  <div class="action-link-container"><a href="pages/posts.njk" class="back-link">All Posts</a></div>
   <div class="post-metadata">
     Filed under: <span class="tags-container">
       {%- for tag in tags | filterTagList %}
@@ -36,7 +36,7 @@ layout: layouts/base.njk
   <ul class="next-previous-container">
     {%- if previousPost %}
     <li class="previous-post-container">
-      <a href="{{ previousPost.url }}" class="posts-backlink">{{ previousPost.data.title }}</a>
+      <a href="{{ previousPost.url }}" class="back-link">{{ previousPost.data.title }}</a>
     </li>
     {%- endif %}
 
