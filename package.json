@@ -38,10 +38,12 @@
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
     "@netlify/plugin-lighthouse": "^6.0.1",
+    "html-minifier-terser": "^7.2.0",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-footnote": "^4.0.0",
-    "markdown-it-link-attributes": "^4.0.1"
+    "markdown-it-link-attributes": "^4.0.1",
+    "terser": "^5.39.0"
   }
 }

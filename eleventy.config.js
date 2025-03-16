@@ -5,6 +5,8 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import dirOutputPlugin from "@11ty/eleventy-plugin-directory-output";
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
+import { minify } from "terser";
+import htmlmin from "html-minifier-terser";
 import readingTimePlugin from "eleventy-plugin-reading-time";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -34,9 +36,6 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
 
   eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpg,jpeg,gif}");
-  eleventyConfig.addBundle("js", {
-    toFileDirectory: "dist",
-  });
 
   let markdownItOptions = {
     html: true,
@@ -73,6 +72,19 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(lightningCSS);
 
+  eleventyConfig.addNunjucksAsyncFilter(
+    "jsmin",
+    async function (code, callback) {
+      try {
+        const minified = await minify(code);
+        callback(null, minified.code);
+      } catch (err) {
+        console.error("Terser error: ", err);
+        callback(null, code);
+      }
+    }
+  );
+
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["webp", "svg", "auto"],
     failOnError: false,
@@ -91,6 +103,23 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(readingTimePlugin);
   eleventyConfig.addPlugin(IdAttributePlugin, {});
 
+  eleventyConfig.addTransform("htmlmin", function (content) {
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let minified = htmlmin.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+				minifyCSS: true,
+        minifyJS: true
+			});
+
+			return minified;
+		}
+
+		// If not an HTML output, return content as-is
+		return content;
+	});
+
   eleventyConfig.addShortcode("currentBuildDate", () => {
     return new Date().toISOString();
   });
@@ -100,6 +129,7 @@ export const config = {
 	templateFormats: [
 		"md",
 		"njk",
+    "js",
 		"html",
 		"liquid",
 		"11ty.js",

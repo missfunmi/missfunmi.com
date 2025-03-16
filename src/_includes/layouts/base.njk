@@ -21,15 +21,11 @@
   <link rel="preload" href="/assets/images/logo.svg" as="image">
 
   <link rel="stylesheet" href="/css/main.css">
-  <!-- TODO: hacky persistent theme toggle implementation, will fix later -->
-  <script type="text/javascript">
-    var checked = JSON.parse(localStorage.getItem('toggleTheme'));
-    document.getElementById('toggle-theme').checked = checked;
-    function persistThemeSelection() {
-      var toggleThemeCheckbox = document.getElementById('toggle-theme');
-      localStorage.setItem('toggleTheme', toggleThemeCheckbox.checked);
-    }
-  </script>
+
+  {% set js %}
+    {% include "js/main.js" %}
+  {% endset %}
+  <script>{{ js | jsmin | safe }}</script>
 </head>
 
 <body>
@@ -39,12 +35,11 @@
     {{ content | safe }}
   </main>
   {% include "layouts/footer.njk" %}
-  
-  <!-- TODO: hacky persistent theme toggle implementation, will fix later -->
-  <script type="text/javascript">
-    var checked = JSON.parse(localStorage.getItem('toggleTheme'));
-    document.getElementById('toggle-theme').checked = checked;
-  </script>
+
+  {% set js %}
+    {% include "js/toggle-theme.js" %}
+  {% endset %}
+  <script>{{ js | jsmin | safe }}</script>
 </body>
 
 </html>

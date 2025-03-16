@@ -12,9 +12,10 @@
   --font-color-default: #3e3e3e;
   --font-color-lighter: #757575;
   --font-color-metadata: #b3b3b3;
-  --bg-color: #fff;
 
-  --header-footer-bg: linear-gradient(#ffe8e8 0.05em, transparent 0.03em), linear-gradient(90deg, #ffe8e8 0.05em, #fff 0.08em);
+  --bg-color: #fff;
+  --grid-line-color: #ffe8e8 ;
+  --header-footer-bg: linear-gradient(var(--grid-line-color) 0.05em, transparent 0.03em), linear-gradient(90deg, var(--grid-line-color) 0.05em, var(--bg-color) 0.08em);
 
   --active-link-color: #dd72bb;
   --hover-link-color: #6fa2ef;
@@ -27,19 +28,19 @@
 /* Start theme color toggles -- keep these two blocks in sync */
 @media (prefers-color-scheme: dark) {
   :root {
-    --header-footer-bg: linear-gradient(#474747 0.05em, transparent 0.03em), linear-gradient(90deg, #474747 0.05em, var(--bg-color) 0.08em);
+    --bg-color: #2b282b;
+    --grid-line-color: #433;
     --external-link-icon: var(--external-link-icon-lighter);
     --font-color-default: #efefec;
     --font-color-lighter: #eaeaea;
-    --bg-color: #2b282b;
   }
 
   :root:has(#toggle-theme:checked) {
-    --header-footer-bg: linear-gradient(#ffe8e8 0.05em, transparent 0.03em), linear-gradient(90deg, #ffe8e8 0.05em, #fff 0.08em);
+    --bg-color: #fff;
+    --grid-line-color: #ffe8e8 ;
     --external-link-icon: var(--external-link-icon-darker);
     --font-color-default: #3e3e3e;
     --font-color-lighter: #757575;
-    --bg-color: #fff;
   }
 
   #toggle-theme-label::before {
@@ -53,19 +54,19 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --header-footer-bg: linear-gradient(#ffe8e8 0.05em, transparent 0.03em), linear-gradient(90deg, #ffe8e8 0.05em, #fff 0.08em);
+    --bg-color: #fff;
+    --grid-line-color: #ffe8e8 ;
     --external-link-icon: var(--external-link-icon-darker);
     --font-color-default: #3e3e3e;
     --font-color-lighter: #757575;
-    --bg-color: #fff;
   }
 
   :root:has(#toggle-theme:checked) {
-    --header-footer-bg: linear-gradient(#474747 0.05em, transparent 0.03em), linear-gradient(90deg, #474747 0.05em, var(--bg-color) 0.08em);
+    --bg-color: #2b282b;
+    --grid-line-color: #433;
     --external-link-icon: var(--external-link-icon-lighter);
     --font-color-default: #efefec;
     --font-color-lighter: #eaeaea;
-    --bg-color: #2b282b;
   }
 
   #toggle-theme-label::before {
