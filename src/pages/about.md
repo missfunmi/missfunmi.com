@@ -13,7 +13,7 @@ const permalink = "about/index.html";
 <section class="page-content">
 
 ## Who are you?
-My name is Funmi, and I'm a software engineering leader based in Brooklyn, New York City. I started my career as a software engineer on Wall Street and have so far lived in Lagos, Washington DC, New York, London, and San Francisco. I get excited about lots of different things including books, sequins, mindfulness, travel, being outdoors, building community, unreasonably committed app streaks, and limited edition Nespresso coffee pods. I recently decided to take a sabbatical from work to explore some other creative interests. I'm looking forward to writing about all of that here!
+My name is Funmi, and I'm an engineering leader based in Brooklyn, New York. I started my career as a software engineer on Wall Street and have so far lived in Lagos, Washington DC, New York, London, and San Francisco. I get excited about lots of different things including books, sequins, mindfulness, travel, being outdoors, building community, unreasonably committed app streaks, and limited edition Nespresso coffee pods. I recently decided to take a sabbatical from work to explore some other creative interests. I'm looking forward to writing about all of that here!
 
 ## Sure... but what's your _full_ name?
 Okay, you caught me. My full name is [Olufunmilayo](https://www.ancestry.com/first-name-meaning/olufunmilayo), but nobody calls me that --- Funmi works great!
