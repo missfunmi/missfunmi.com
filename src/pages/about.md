@@ -3,6 +3,7 @@ const eleventyNavigation = {
   key: "about",
   order: 3
 };
+const title = "About";
 const permalink = "about/index.html";
 ---
 <section class="hero">
