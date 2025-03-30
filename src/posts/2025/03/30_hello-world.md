@@ -2,7 +2,6 @@
 title: Hello, world!
 description: Oh look, it's a(nother) blog on the internet.
 date: 2025-03-30
-draft: true
 tags: uncategorized
 ---
 
