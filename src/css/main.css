@@ -404,6 +404,54 @@ a.back-link:hover:before {
   padding-top: 0.2em;
 }
 
+p code {
+  border: 2px dotted #eebcde;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+blockquote {
+  display: flex;
+	flex-direction: column;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-feature-settings: 'ss03';
+}
+
+blockquote p {
+	font-size: 2.1rem;
+  font-weight: 500;
+  max-width: 600px;
+  width: 100%;
+	line-height: 1.1;
+  position: relative;
+	margin: 0;
+  position: relative;
+  font-style: italic;
+}
+
+blockquote p:before,
+blockquote p:after {
+	position: absolute;
+	color: #eebcde;
+	font-size: 4rem;
+  font-style: normal;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote p:before {
+	content: '“';
+	top: -2rem;
+	left: -2.6rem;
+}
+
+blockquote p:after {
+	content: '”';
+	bottom: -3rem;
+	right: -2.6rem;
+}
+
 .next-previous-container {
   display: flex;
   justify-content: space-between;
