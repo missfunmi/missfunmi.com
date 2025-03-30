@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventySyntaxHighlightPlugin from "@11ty/eleventy-plugin-syntaxhighlight";
@@ -17,8 +18,8 @@ import pluginFilters from "./src/_config/filters.js";
 export default async function(eleventyConfig) {
   eleventyConfig.setQuietMode(true);
 	eleventyConfig.addPlugin(dirOutputPlugin, {
-		columns: {
-			filesize: true,
+    columns: {
+      filesize: true,
 			benchmark: true,
 		},
 		warningFileSize: 400 * 1000,

@@ -7,11 +7,11 @@
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-    "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve",
     "clean": "rm -r node_modules & rm -r _site & rm package-lock.json",
     "cleanstart": "npm run clean & npm install && npm run start",
-    "cleanlite": "rm -r _site",
-    "cleanlitestart": "npm run cleanlite & npm run start"
+    "cleansite": "rm -r _site",
+    "cleansitestart": "npm run cleanlite & npm run start"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,7 @@
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
     "@netlify/plugin-lighthouse": "^6.0.1",
+    "dotenv": "^16.4.7",
     "html-minifier-terser": "^7.2.0",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
