@@ -136,12 +136,12 @@ a[href]:hover {
 
 /* For use with external links or links that open in a new tab */
 a[target="_blank"]:after,
-a[href^="http"]:after {
+a[href^="http"]:not(.external-no-arrow):after {
   content: " " var(--external-link-icon);
 }
 
 a[target="_blank"]:hover:after,
-a[href^="http"]:hover:after {
+a[href^="http"]:not(.external-no-arrow):hover:after {
   content: " " var(--external-link-icon-hover);
 }
 

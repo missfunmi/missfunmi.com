@@ -1,10 +1,12 @@
 <footer>
   <div class="copyright">
     <div class="copyright-text">
-      <span class="copyright-maintext">&copy; {{ metadata.year }} {{ metadata.author.name }}.</span> <span class="copyright-subtext">All rights reserved.</span>
+      <span class="copyright-maintext">&copy; {{ metadata.year }} {{ metadata.author.name }}.</span> <span
+        class="copyright-subtext">All rights reserved.</span>
     </div>
     <div class="toggle-theme-container">
-      <input id="toggle-theme" type="checkbox" name="toggle-theme" class="visually-hidden" onclick="persistThemeSelection()">
+      <input id="toggle-theme" type="checkbox" name="toggle-theme" class="visually-hidden"
+        onclick="persistThemeSelection()">
       <label for="toggle-theme" id="toggle-theme-label"></label>
     </div>
   </div>
@@ -16,6 +18,13 @@
       <div class="footer-link-item"><a href="https://strava.com/athletes/4621317" target="_blank">Strava</a></div>
       <div class="footer-link-item"><a href="https://www.recurse.com/scout/click?t=c7bc9ba4cb3e6725e05e413f16f8c5a3"
           target="_blank">Recurse Center</a></div>
+      <div class="footer-link-item">
+        <a id="rc-ring-prev" class="external-no-arrow" href="https://ring.recurse.com/prev?id=50">&#8592;</a>
+        <a id="rc-ring-home" class="external-no-arrow" data-rc-uuid="b56124b8-ce1f-45f1-9e7f-a21268aebe1c"
+          href="https://ring.recurse.com/">RC Webring</a>
+        <a id="rc-ring-next" class="external-no-arrow" href="https://ring.recurse.com/next?id=50">&#8594;</a>
+        <a id="rc-ring-rand" class="external-no-arrow" href="https://ring.recurse.com/rand" style="font-size: larger;">&#x007E;</a>
+      </div>
     </div>
     <div class="footer-link-box">
       <div class="footer-link-item"><a href="pages/posts.njk">Posts</a></div>
