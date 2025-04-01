@@ -2,7 +2,6 @@
 title: "Quick Tip: Add a Snippet to vs Code to Pre-fill Front Matter on Eleventy Sites"
 description: I just discovered a VS Code hack everyone probably already knows!
 date: 2025-03-31
-draft: true
 tags: software tips
 permalink: "/quick-tip-add-vscode-snippets/"
 ---
