@@ -25,6 +25,9 @@ export default async function(eleventyConfig) {
 		warningFileSize: 400 * 1000,
 	});
 
+  eleventyConfig.addBundle("css");
+  eleventyConfig.addBundle("js");
+
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
