@@ -1,6 +1,7 @@
 @import url("_reset.css");
 @import url("_inter.css");
 @import url("_icons.css");
+@import url("_code.css");
 
 :root {
   font-family: InterVariable, sans-serif;
