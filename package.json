@@ -11,7 +11,7 @@
     "clean": "rm -r node_modules & rm -r _site & rm package-lock.json",
     "cleanstart": "npm run clean & npm install && npm run start",
     "cleansite": "rm -r _site",
-    "cleansitestart": "npm run cleanlite & npm run start"
+    "cleansitestart": "npm run cleansite & npm run start"
   },
   "repository": {
     "type": "git",
