@@ -12,9 +12,9 @@ _I recently built a [Playdate game in Rust](https://github.com/missfunmi/tictact
 
 ![playdate](playdate.gif)
 
-I've personally never really been a big gamer, but I love the peppy bright yellow colorway of the Playdate and its quirky form factor. Separately, I recently became interested in learning Rust, and I wanted to do so by building something practical rather than just going through the tutorial. While Rust is not officially supported by Playdate, there are unofficial libraries that enable developing and building Playdate games in Rust, so I thought I'd try my hand at one of them.
+I've personally never really been a big gamer, but I love the peppy bright yellow colorway of the Playdate and its quirky form factor. Separately, I recently became interested in learning Rust, and I wanted to do so by building something practical in addition to going through the Rust book. 
 
-I chose to use the [crankstart](https://github.com/pd-rs/crankstart) crate, mostly because it was the first one I came across and it's been around the longest. Since it's an unofficially maintained library, feature-wise it's several versions behind the official Playdate SDK.
+While Rust is not officially supported by Playdate, there are unofficial libraries that enable developing and building Playdate games in Rust, so I thought I'd try my hand at one of them. I chose to use the [crankstart](https://github.com/pd-rs/crankstart) crate, mostly because it was the first one I came across and it's been around the longest. Since it's an unofficially maintained library, feature-wise it's several versions behind the official Playdate SDK.
 
 >> **💡 Note:** The code in this game works with Playdate SDK v2.6.2. It will probably also work with the [latest SDK v2.7](https://sdk.play.date/changelog/#_2_7_0), but I've not tested that yet!
 
