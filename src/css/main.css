@@ -405,6 +405,18 @@ a.back-link:hover:before {
   padding-top: 0.2em;
 }
 
+section ul {
+  list-style: disc;
+}
+
+section ol {
+  list-style: decimal;
+}
+
+section ol li {
+  margin: 10px 0;
+}
+
 p code {
   border: 2px dotted #eebcde;
   padding-left: 1px;
@@ -419,6 +431,12 @@ blockquote {
   font-feature-settings: 'ss03';
 }
 
+/* Nested blockquote... should probably replace this with a proper info box */
+blockquote blockquote {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 blockquote p {
 	font-size: 2.1rem;
   font-weight: 500;
@@ -431,6 +449,11 @@ blockquote p {
   font-style: italic;
 }
 
+blockquote blockquote p {
+	font-size: 1.1rem;
+  font-weight: 400;
+}
+
 blockquote p:before,
 blockquote p:after {
 	position: absolute;
@@ -441,16 +464,35 @@ blockquote p:after {
 	height: 4rem;
 }
 
+blockquote blockquote p:before,
+blockquote blockquote p:after {
+	font-size: 1rem;
+  width: 1rem;
+	height: 1rem;
+}
+
 blockquote p:before {
 	content: '“';
 	top: -2rem;
 	left: -2.6rem;
 }
 
+blockquote blockquote p:before {
+	content: '';
+	top: 0;
+	left: 0;
+}
+
 blockquote p:after {
 	content: '”';
 	bottom: -3rem;
 	right: -2.6rem;
+}
+
+blockquote blockquote p:after {
+	content: '';
+	bottom: 0;
+	right: 0;
 }
 
 .next-previous-container {
