@@ -42,6 +42,7 @@ This probably doesn't count as "tradition" per se, but my favorite Nigerian dish
 </section>
 
 <section class="page-content">
+<a name="say-hi"></a>
 
 *Have a question you'd like to see answered here? Shoot me an e-mail at hello @ &lt;this domain&gt;!*
 </section>
