@@ -90,17 +90,20 @@ export default async function(eleventyConfig) {
   );
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    formats: ["webp", "svg", "auto"],
+    formats: ["webp", "jpeg", "jpeg", "svg", "png"],
     failOnError: false,
+    widths: ["auto"],
     htmlOptions: {
       imgAttributes: {
         loading: "lazy",
         decoding: "async",
       },
+      fallback: "smallest"
     },
     sharpOptions: {
       animated: true,
     },
+    transformOnRequest: true
   });
 
   eleventyConfig.addPlugin(pluginFilters);
