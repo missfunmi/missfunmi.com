@@ -2,7 +2,7 @@
 title: Race Report - 2025 Alpha Win Hudson Valley Sprint Triathlon
 description: A recap and some lessons from my first triathlon in 2 years.
 date: 2025-07-30
-tags: [triathlon, race reports, sprint triathlons]
+tags: [triathlon, race reports, sprint distance]
 ---
 
 Although the [Olympic distance triathlon](https://supertri.com/latest/triathlon-distances/) is and will likely always be my favorite distance to race, I absolutely love that a sprint is over in about an hour and a half, maybe 2 hours at the most. I know I can do anything for 2 hours, right? Right?
@@ -69,7 +69,7 @@ Overall, a relatively uneventful ride: I passed and was passed by lots of people
 
 ## The Run 🏃🏾‍♀️
 
-The run was entirely in the woods and along a mostly shaded section of the [Empire State Trail](https://empiretrail.ny.gov/). I'd forgotten how much I love running in the woods — why don't I do this all the time again?!
+The run was along a mostly shaded section of the [Empire State Trail](https://empiretrail.ny.gov/). I'd forgotten how much I love running in the woods... why don't I do this all the time again?!
 
 I never bother wearing socks in anything shorter than an Olympic distance race, but I'd forgotten to swap in my elastic quick laces, so I had to fully untie and retie both shoes in transition to get my wet feet in. Rookie mistake, but a good one to re-learn now versus in a more competitive race.
 
@@ -89,6 +89,6 @@ I finished in 1:37:08, a 6:33 PR over my previous showing at this race and a 3rd
 
 ## What's Next? 🤔
 
-My big race this year is [Ironman 70.3 Washington Tri-Cities](https://www.ironman.com/races/im703-washington-tri-cities) on September 21st. It'll be my fifth time racing that distance, and I'm especially stoked for this race as it already seems really popular, despite this only being its second year. It's also an excuse for me to finally visit the Seattle area for the first time, and I can't wait.
+My big race this year is [Ironman 70.3 Washington Tri-Cities](https://www.ironman.com/races/im703-washington-tri-cities) on September 21st. It'll be my fifth time racing that distance, and I'm especially stoked for this race as it already seems really popular, despite this only being its second year. It's also an excuse for me to finally visit the Seattle area for the first time, and I can't wait!
 
-I'd hoped to be able to race an Olympic tri this summer to refine my race routine and nutrition and get more race-specific open water swimming practice. Unfortunately, it looks unlikely I'll be able to squeeze one in before my 70.3, so I'll just have to be diligent about my brick workouts and get in a few more open water swims between now and September.
+I'd hoped to be able to race an Olympic tri this summer to refine my race routine and nutrition and get more race-specific open water swimming practice. Unfortunately, it looks unlikely I'll be able to squeeze one in, so I'll just have to be diligent about my brick workouts and get in a few more open water swims between now and September.
