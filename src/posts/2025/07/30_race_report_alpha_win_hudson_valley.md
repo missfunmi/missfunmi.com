@@ -7,7 +7,7 @@ tags: [triathlon, race reports, sprint triathlons]
 
 Although the [Olympic distance triathlon](https://supertri.com/latest/triathlon-distances/) is and will likely always be my favorite distance to race, I absolutely love that a sprint is over in about an hour and a half, maybe 2 hours at the most. I know I can do anything for 2 hours, right? Right?
 
-This was the one thing I kept repeating to myself as I went into last month's [Alpha Win Hudson Valley Sprint Triathlon](https://alpha.win/event/hudson-valley-ny/). A few days before the race, I gave a [talk on triathlons](https://missfunmi.com/talks/2025-06-25-triathlon/) to some folks at the [Recurse Center](https://www.recurse.com/scout/click?t=c7bc9ba4cb3e6725e05e413f16f8c5a3), which is how I came to realize I had raced 21 triathlons (now 22). So by all indications, I should have been totally "experienced" and not at all nervous or worried about a lil ol' sprint, right?
+I kept repeating this to myself as I went into last month's [Alpha Win Hudson Valley Sprint Triathlon](https://alpha.win/event/hudson-valley-ny/). A few days before the race, I gave a [talk on triathlons](https://missfunmi.com/talks/2025-06-25-triathlon/) at the [Recurse Center](https://www.recurse.com/scout/click?t=c7bc9ba4cb3e6725e05e413f16f8c5a3), which is how I came to realize I'd raced 21 triathlons (now 22). So by all indications, I should have been totally "experienced" and not at all nervous or worried about a lil ol' sprint, right?
 
 Right??
 
@@ -15,15 +15,17 @@ Right??
 
 ### Fears 😵‍💫
 
-I didn't learn to swim until I was 28, so I feel like I still have to mentally prepare every time I get in water where I can't touch the bottom. This one was no different, especially after nearly 2 years since my last open water swim, which resulted in a major panic thanks to [Tropical Storm Ophelia](https://longisland.news12.com/tracking-ophelia-tropical-storm-pummels-south-shore-with-rough-rip-currents) (I still finished, though).
+I didn't learn to swim until I was 28, so I still have to mentally prepare every time I get in water where I can't touch the bottom. This one was no different, especially after a 2‑year hiatus from open water swims, my last ending in a full‑blown panic attack thanks to [Tropical Storm Ophelia](https://longisland.news12.com/tracking-ophelia-tropical-storm-pummels-south-shore-with-rough-rip-currents) (I still finished, though).
 
-I was also worried about how my legs would fare. This would be my first triathlon after tearing my PCL in November 2023. While it's since presumably "healed", it's not and likely will never be back at 100%, and I've been trying to manage my expectations when doing any sort of speedwork. I also developed shin splints in the months leading up to the race, and my orthopedist flat‑out told me two days before the race to skip it (although I think we both knew I was going to run anyway, lol).
+I was also worried about how my legs would hold up. This was my first triathlon since tearing my PCL in November 2023, and while it's "healed," I know it's probably never going to be 100%, so I've been trying to manage my expectations with speedwork. Then, in the months leading up to the race, I developed shin splints, and a couple days before the race my orthopedist flat‑out told me to skip it (like that was ever going to happen, lol).
 
 —
 
 ### Getting There 🚗
 
- I really like this race because it's extremely well organized, easy to get to, and in a beautiful and scenic little corner of upstate New York. When I last did this race in 2022, I drove up the morning of the race, leaving Brooklyn at 4 am to make the ~8 am start time. This time around, I decided to spend the night and split a car rental and 1-night hotel stay with a friend from my [tri club](https://brooklyntri.org/). We "splurged" on an SUV (only $9 more than a sedan, baller!) so that we could toss our bikes in the back without fiddling with rack mounts, and left Brooklyn at 6 pm for a 9 pm arrival in Kingston. Unfortunately, our hotel was overbooked and sent us to a sister property down the road, so we didn't get to bed until 11 pm.
+ I really like this race because it's extremely well organized, easy to get to, and set in a beautiful little corner of upstate New York. When I last raced it in 2022, I drove up the morning of, leaving Brooklyn at 4 am to make the ~8 am start. Seemed reasonable at the time, slightly insane in hindsight.
+
+ This time around, I decided to spend the night and split a car rental and 1-night hotel stay with a friend from my [tri club](https://brooklyntri.org/). We "splurged" on an SUV (only $9 more than a sedan, baller!) so we could toss our bikes in the back without fiddling with rack mounts, and left Brooklyn at 6 pm on Friday for a 9 pm arrival in Kingston. Unfortunately, our hotel was overbooked and sent us to a sister property down the road, so we didn't get to bed until 11 pm.
 
 —
 
