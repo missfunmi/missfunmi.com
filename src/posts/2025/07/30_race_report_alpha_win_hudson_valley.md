@@ -51,7 +51,7 @@ My mind raced and my thoughts were all over the place. For a split second, the t
 
 After maybe 15 seconds on my back, the fear of being alone in the water forced me to roll over and keep swimming. Soon I started passing other swimmers, even a few men from the earlier wave 5 minutes ahead, which reassured me that I was doing okay despite every fiber of my being insisting I was not. I kept my rhythm, breathing only to my right on a 2-stroke count (stroke, breathe), turning left at each buoy and continuing on until I could touch the soil at the swim exit. Ecstatic, I got to my feet and ran up the trail to transition, happy to leave the water behind.
 
-**Swim Time**: 00:19:49 (2:38 min/100m) - 32/73 Female, 6/73 Age Group
+**Swim Time**: 00:19:49 (2:38 min/100m) - 32/73 Female, 6/12 Age Group
 
 —
 
