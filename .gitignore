@@ -3,5 +3,5 @@ _site/
 package-lock.json
 .cache
 .env
-.notes.md
+_old/
 .idea
