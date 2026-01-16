@@ -24,9 +24,7 @@
     {{ "css/_inter.css" | readFile | safe }}
   </style>
 
-  <!-- Load the rest of CSS async -->
-  <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
+  <link rel="stylesheet" href="/css/main.css">
 
   {% set js %}
     {% include "js/main.js" %}
