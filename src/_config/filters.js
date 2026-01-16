@@ -1,4 +1,9 @@
 import { DateTime } from "luxon";
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default function (eleventyConfig) {
   // https://moment.github.io/luxon/#/formatting?id=table-of-tokens
@@ -58,5 +63,11 @@ export default function (eleventyConfig) {
       excerpt+=("...");
     }
     return excerpt;
+  });
+
+  // Filter to read files
+  eleventyConfig.addFilter("readFile", function(filePath) {
+    const fullPath = path.join(__dirname, '..', filePath);
+    return fs.readFileSync(fullPath, 'utf8');
   });
 }

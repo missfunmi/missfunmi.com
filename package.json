@@ -4,13 +4,14 @@
   "description": "Personal website of Funmi Oludaiye.",
   "type": "module",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve --quiet",
-    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-    "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve",
-    "clean": "rm -r node_modules & rm -r _site & rm package-lock.json",
+    "build": "eleventy && npm run minify:css",
+    "minify:css": "cleancss -o _site/css/main.css _site/css/main.css",
+    "start": "eleventy --serve --quiet",
+    "debug": "cross-env DEBUG=Eleventy* eleventy",
+    "debugstart": "cross-env DEBUG=Eleventy* eleventy --serve",
+    "clean": "rm -r node_modules & rm -rf _site & rm package-lock.json",
     "cleanstart": "npm run clean & npm install && npm run start",
-    "cleansite": "rm -r _site",
+    "cleansite": "rm -rf _site",
     "cleansitestart": "npm run cleansite & npm run start"
   },
   "repository": {
@@ -27,8 +28,11 @@
     "@11ty/eleventy-navigation": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "clean-css-cli": "^5.6.3",
     "cross-env": "^7.0.3",
     "eleventy-plugin-reading-time": "^0.0.1",
+    "glyphhanger": "^5.0.0",
+    "netlify-plugin-cache": "^1.0.3",
     "prismjs": "^1.30.0",
     "zod": "^3.23.8",
     "zod-validation-error": "^3.3.1"
@@ -36,7 +40,6 @@
   "dependencies": {
     "@11ty/eleventy-img": "^6.0.1",
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
-    "@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
     "@netlify/plugin-lighthouse": "^6.0.1",
     "dotenv": "^16.4.7",
     "html-minifier-terser": "^7.2.0",

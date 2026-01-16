@@ -5,7 +5,6 @@ import eleventySyntaxHighlightPlugin from "@11ty/eleventy-plugin-syntaxhighlight
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import dirOutputPlugin from "@11ty/eleventy-plugin-directory-output";
-import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import { minify } from "terser";
 import htmlmin from "html-minifier-terser";
 import readingTimePlugin from "eleventy-plugin-reading-time";
@@ -38,6 +37,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   eleventyConfig.addPassthroughCopy("./src/feed/atom.xsl");
   eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
+  eleventyConfig.addPassthroughCopy("./src/css");
 
   eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpg,jpeg,gif}");
 
@@ -74,7 +74,6 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(lightningCSS);
 
   eleventyConfig.addNunjucksAsyncFilter(
     "jsmin",
