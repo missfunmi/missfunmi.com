@@ -7,7 +7,7 @@
 [[plugins]]
   package = "netlify-plugin-cache"
   [plugins.inputs]
-    paths = ["node_modules", ".cache", ".eleventy-cache"]
+    paths = [".cache"]
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
   [plugins.inputs]
