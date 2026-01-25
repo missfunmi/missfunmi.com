@@ -107,6 +107,17 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(readingTimePlugin);
   eleventyConfig.addPlugin(IdAttributePlugin, {});
 
+  // Wrap code blocks with container, language label, and copy button
+  eleventyConfig.addTransform("codeBlockWrapper", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      return content.replace(
+        /<pre class="language-(\w+)"([^>]*)>([\s\S]*?)<\/pre>/g,
+        '<div class="code-block"><span class="code-language">$1</span><button class="copy-button" aria-label="Copy code"></button><pre class="language-$1"$2>$3</pre></div>'
+      );
+    }
+    return content;
+  });
+
   eleventyConfig.addTransform("htmlmin", function (content) {
 		if ((this.page.outputPath || "").endsWith(".html")) {
 			let minified = htmlmin.minify(content, {

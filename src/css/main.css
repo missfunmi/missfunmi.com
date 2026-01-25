@@ -19,6 +19,7 @@
   --active-link-color: #dd72bb;
   --hover-link-color: #6fa2ef;
   --border-color: #6fa2ef;
+  --code-border-color: #eebcde;
 
   color: var(--font-color-default);
   background-color: var(--bg-color);
@@ -32,6 +33,7 @@
     --external-link-icon: var(--external-link-icon-lighter);
     --font-color-default: #efefec;
     --font-color-lighter: #eaeaea;
+    --code-border-color: #6a5a6a;
   }
 
   :root:has(#toggle-theme:checked) {
@@ -40,6 +42,7 @@
     --external-link-icon: var(--external-link-icon-darker);
     --font-color-default: #3e3e3e;
     --font-color-lighter: #757575;
+    --code-border-color: #eebcde;
   }
 
   #toggle-theme-label::before {
@@ -66,6 +69,7 @@
     --external-link-icon: var(--external-link-icon-lighter);
     --font-color-default: #efefec;
     --font-color-lighter: #eaeaea;
+    --code-border-color: #6a5a6a;
   }
 
   #toggle-theme-label::before {
@@ -408,12 +412,6 @@ section ol {
 
 section ol li {
   margin: 10px 0;
-}
-
-p code {
-  border: 2px dotted #eebcde;
-  padding-left: 1px;
-  padding-right: 1px;
 }
 
 blockquote {

@@ -6,12 +6,21 @@
  * Based on dabblet (http://dabblet.com)
  * @author Lea Verou
  */
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/JetBrainsMonoSubset.woff2") format("woff2");
+}
+
 code,
 pre {
   color: black;
   background: none;
   text-shadow: 0 1px white;
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-family: "JetBrains Mono",SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
   /* font-size: 1em; */ /* 2. default font size - no likeyy, too big -- added 3.31.2025 */
   font-size: 0.9em; /* 3. slightly smaller font size than default -- added 3.31.2025 */
   overflow-x: auto; /* 4. allow scrolling when text overflows -- added 3.31.2025 */
@@ -55,6 +64,12 @@ code ::selection {
   pre {
     text-shadow: none;
   }
+}
+
+p code {
+  border: 2px dotted var(--code-border-color);
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 /* Code blocks */
@@ -147,4 +162,239 @@ pre {
 
 .token.entity {
   cursor: help;
+}
+
+/* Code block wrapper with copy button and language label */
+.code-block {
+  position: relative;
+}
+
+/* Language label - top left */
+.code-language {
+  position: absolute;
+  top: 0.5em;
+  left: 0.75em;
+  font-size: 0.7em;
+  color: var(--font-color-metadata);
+  text-transform: lowercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Add padding to pre inside code-block to make room for language label */
+.code-block pre {
+  padding-top: 2em;
+}
+
+/* Copy button - top right, icon only */
+.copy-button {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background-color: transparent;
+  background-image: var(--copy-icon);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.code-block:hover .copy-button {
+  opacity: 0.6;
+}
+
+.copy-button:hover {
+  opacity: 1 !important;
+}
+
+.copy-button.copied {
+  background-image: var(--copy-icon-success);
+  opacity: 1;
+}
+
+/* Dark mode for code blocks */
+@media (prefers-color-scheme: dark) {
+  :root:not(:has(#toggle-theme:checked)) code,
+  :root:not(:has(#toggle-theme:checked)) pre {
+    color: #d4d4d4;
+    background: #1e1e1e;
+    text-shadow: none;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) :not(pre) > code,
+  :root:not(:has(#toggle-theme:checked)) pre {
+    background: #1e1e1e;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .copy-button {
+    background-image: var(--copy-icon-light);
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .copy-button.copied {
+    background-image: var(--copy-icon-success);
+  }
+
+  /* Dark mode Prism token colors (VS Code inspired) */
+  :root:not(:has(#toggle-theme:checked)) .token.comment,
+  :root:not(:has(#toggle-theme:checked)) .token.prolog,
+  :root:not(:has(#toggle-theme:checked)) .token.doctype,
+  :root:not(:has(#toggle-theme:checked)) .token.cdata {
+    color: #6a9955;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .token.punctuation {
+    color: #d4d4d4;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .token.property,
+  :root:not(:has(#toggle-theme:checked)) .token.tag,
+  :root:not(:has(#toggle-theme:checked)) .token.boolean,
+  :root:not(:has(#toggle-theme:checked)) .token.number,
+  :root:not(:has(#toggle-theme:checked)) .token.constant,
+  :root:not(:has(#toggle-theme:checked)) .token.symbol,
+  :root:not(:has(#toggle-theme:checked)) .token.deleted {
+    color: #b5cea8;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .token.selector,
+  :root:not(:has(#toggle-theme:checked)) .token.attr-name,
+  :root:not(:has(#toggle-theme:checked)) .token.string,
+  :root:not(:has(#toggle-theme:checked)) .token.char,
+  :root:not(:has(#toggle-theme:checked)) .token.builtin,
+  :root:not(:has(#toggle-theme:checked)) .token.inserted {
+    color: #ce9178;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .token.operator,
+  :root:not(:has(#toggle-theme:checked)) .token.entity,
+  :root:not(:has(#toggle-theme:checked)) .token.url,
+  :root:not(:has(#toggle-theme:checked)) .language-css .token.string,
+  :root:not(:has(#toggle-theme:checked)) .style .token.string {
+    color: #d4d4d4;
+    background: transparent;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .token.atrule,
+  :root:not(:has(#toggle-theme:checked)) .token.attr-value,
+  :root:not(:has(#toggle-theme:checked)) .token.keyword {
+    color: #569cd6;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .token.function,
+  :root:not(:has(#toggle-theme:checked)) .token.class-name {
+    color: #dcdcaa;
+  }
+
+  :root:not(:has(#toggle-theme:checked)) .token.regex,
+  :root:not(:has(#toggle-theme:checked)) .token.important,
+  :root:not(:has(#toggle-theme:checked)) .token.variable {
+    color: #d16969;
+  }
+}
+
+/* Light mode when user has dark preference but toggles to light */
+@media (prefers-color-scheme: dark) {
+  :root:has(#toggle-theme:checked) code,
+  :root:has(#toggle-theme:checked) pre {
+    color: black;
+    background: #f5f2f0;
+    text-shadow: 0 1px white;
+  }
+
+  :root:has(#toggle-theme:checked) :not(pre) > code,
+  :root:has(#toggle-theme:checked) pre {
+    background: #f5f2f0;
+  }
+
+  :root:has(#toggle-theme:checked) .copy-button {
+    background-image: var(--copy-icon);
+  }
+}
+
+/* Dark mode when user has light preference but toggles to dark */
+@media (prefers-color-scheme: light) {
+  :root:has(#toggle-theme:checked) code,
+  :root:has(#toggle-theme:checked) pre {
+    color: #d4d4d4;
+    background: #1e1e1e;
+    text-shadow: none;
+  }
+
+  :root:has(#toggle-theme:checked) :not(pre) > code,
+  :root:has(#toggle-theme:checked) pre {
+    background: #1e1e1e;
+  }
+
+  :root:has(#toggle-theme:checked) .copy-button {
+    background-image: var(--copy-icon-light);
+  }
+
+  :root:has(#toggle-theme:checked) .copy-button.copied {
+    background-image: var(--copy-icon-success);
+  }
+
+  /* Dark mode Prism token colors */
+  :root:has(#toggle-theme:checked) .token.comment,
+  :root:has(#toggle-theme:checked) .token.prolog,
+  :root:has(#toggle-theme:checked) .token.doctype,
+  :root:has(#toggle-theme:checked) .token.cdata {
+    color: #6a9955;
+  }
+
+  :root:has(#toggle-theme:checked) .token.punctuation {
+    color: #d4d4d4;
+  }
+
+  :root:has(#toggle-theme:checked) .token.property,
+  :root:has(#toggle-theme:checked) .token.tag,
+  :root:has(#toggle-theme:checked) .token.boolean,
+  :root:has(#toggle-theme:checked) .token.number,
+  :root:has(#toggle-theme:checked) .token.constant,
+  :root:has(#toggle-theme:checked) .token.symbol,
+  :root:has(#toggle-theme:checked) .token.deleted {
+    color: #b5cea8;
+  }
+
+  :root:has(#toggle-theme:checked) .token.selector,
+  :root:has(#toggle-theme:checked) .token.attr-name,
+  :root:has(#toggle-theme:checked) .token.string,
+  :root:has(#toggle-theme:checked) .token.char,
+  :root:has(#toggle-theme:checked) .token.builtin,
+  :root:has(#toggle-theme:checked) .token.inserted {
+    color: #ce9178;
+  }
+
+  :root:has(#toggle-theme:checked) .token.operator,
+  :root:has(#toggle-theme:checked) .token.entity,
+  :root:has(#toggle-theme:checked) .token.url,
+  :root:has(#toggle-theme:checked) .language-css .token.string,
+  :root:has(#toggle-theme:checked) .style .token.string {
+    color: #d4d4d4;
+    background: transparent;
+  }
+
+  :root:has(#toggle-theme:checked) .token.atrule,
+  :root:has(#toggle-theme:checked) .token.attr-value,
+  :root:has(#toggle-theme:checked) .token.keyword {
+    color: #569cd6;
+  }
+
+  :root:has(#toggle-theme:checked) .token.function,
+  :root:has(#toggle-theme:checked) .token.class-name {
+    color: #dcdcaa;
+  }
+
+  :root:has(#toggle-theme:checked) .token.regex,
+  :root:has(#toggle-theme:checked) .token.important,
+  :root:has(#toggle-theme:checked) .token.variable {
+    color: #d16969;
+  }
 }
