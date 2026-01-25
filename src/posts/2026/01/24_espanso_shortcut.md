@@ -17,6 +17,7 @@ Here's how I implemented this text replacement in espanso using a bash script on
 
 ## The Shortcut
 
+{% raw %}
 ```yaml
 # This goes in $CONFIG/match/base.yml file.
 # Be sure to follow proper YAML indentation: https://yaml.org/spec/1.2.2/#61-indentation-spaces
@@ -33,6 +34,7 @@ matches:
             mm=$(echo $month | tr '[:upper:]' '[:lower:]' | sed 's/jan/1/;s/feb/2/;s/mar/3/;s/apr/4/;s/may/5/;s/jun/6/;s/jul/7/;s/aug/8/;s/sep/9/;s/oct/10/;s/nov/11/;s/dec/12/');
             date -jf "%m %d %Y" "$mm $day $year" "+%a %b %-d, %Y"
 ```
+{% endraw %}
 
 There are 3 key parts to this that I'll cover below:
 1. The regex, which identifies and extracts parts of the date trigger,
@@ -61,12 +63,14 @@ This regex matches patterns like `:jan31:` or `:mar8_2027:`. It extracts three p
 
 ## 2. The Bash Script
 
+{% raw %}
 ```bash
 month="{{month}}"; day="{{day}}"; year="{{year}}";
 [ -z "$year" ] && year=$(date +%Y);
 mm=$(echo $month | sed 's/jan/1/;s/feb/2/;s/mar/3/;s/apr/4/;s/may/5/;s/jun/6/;s/jul/7/;s/aug/8/;s/sep/9/;s/oct/10/;s/nov/11/;s/dec/12/');
 date -jf "%m %d %Y" "$mm $day $year" "+%a %b %-d, %Y"
 ```
+{% endraw %}
 
 This (simpler than it looks) bash script turns the regex captures into a properly formatted date string including the weekday and fills in the current year if missing.
 
@@ -110,10 +114,12 @@ vars:
 
 espanso's `vars` lets you dynamically compute replacement text using shell logic (or other types, like clipboard, input, etc.). In this case, the shell script reads the regex captures and outputs a formatted date string.
 
+{% raw %}
 **How it works:**
 - **`name: out`** → the variable that espanso will replace in `replace: "{{out}}"`.
 - **`type: shell`** → tells espanso to execute a shell command to compute the value of this variable.
 - **`params: cmd`** → the actual shell command to run. This command can reference the named regex captures using `{{month}}`, `{{day}}`, and `{{year}}`. The output of the command is then returned back as the replacement for the matched text.
+{% endraw %}
 
 ---
 
