@@ -83,7 +83,7 @@ month="{{month}}"; day="{{day}}"; year="{{year}}";
 
 3. Map the abbreviated months to their numeric equivalents using [`sed`'s substitution command](https://www.gnu.org/software/sed/manual/sed.html#The-_0022s_0022-Command), so `jan` → `1`, `feb` → `2`, …, `dec` → `12`. There's probably a more elegant way to do this, but this works and I can read it six months from now. You can add as many substitutions as you like — `s` is pretty fast! Also, notice I don't bother doing input validation since I'm the one writing the shortcut on my computer anyway 😄
 ```bash
-mm=$(echo $month | sed 's/jan/1/;s/feb/2/;s/mar/3/;…/');
+mm=$(echo $month | sed 's/jan/1/;s/feb/2/;s/mar/3/;…/'); # I've trimmed the rest for brevity, see full line above
 ```
 
 4. Finally, format the date to the desired output using the `date` function:
