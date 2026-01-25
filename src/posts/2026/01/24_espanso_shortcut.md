@@ -5,7 +5,7 @@ date: 2026-01-24
 tags: software tips
 ---
 
-For some reason, I find myself having to type out dates a lot — in race reports, meeting notes, emails, blogposts, TODO lists. I usually like to include the weekday so I don't have to look it up later, but that then means I have to first look it up in my calendar in order to type out a date like `Sun Jun 14, 2026` on my computer. Annoying. This seemed to me like a problem text replacement could solve, but how? I wasn't quite sure.
+For some reason, I find myself having to type out dates a lot — in race reports, meeting notes, emails, blogposts, TODO lists. I usually like to include the weekday so I don't have to look it up later, but that then means I have to first look it up in my calendar in order to type out a date like `Sun Jun 14, 2026` on my computer. Annoying. This seemed to me like a problem text replacement could solve, but how?
 
 The solution sort of found me while I was looking for something else. I needed to use the ⌘ in a piece of text, and for what felt like the millionth time, I found myself Googling "Apple command symbol" just to copy and paste the character from the search results. While commiserating with fellow internet users about the somewhat annoying process involved in doing this, I stumbled across a mention of [espanso](https://espanso.org/), an open source text-replacement app. With espanso installed, typing `:cmd` gets replaced with ⌘, `:lol` becomes 😂, and so on anywhere that accepts text on your computer (you can [exclude](https://espanso.org/docs/configuration/app-specific-configurations/) any apps from espanso use).
 
