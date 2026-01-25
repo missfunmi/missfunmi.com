@@ -76,9 +76,11 @@ This (simpler than it looks) bash script turns the regex captures into a properl
 
 How it works:
 1. Assign the captured regex variables to shell variables:
+{% raw %}
 ```bash
 month="{{month}}"; day="{{day}}"; year="{{year}}";
 ```
+{% endraw %}
 
 2. Default the year to system year if empty (using [macOS's `date` function](https://ss64.com/mac/date.html)):
 ```bash
