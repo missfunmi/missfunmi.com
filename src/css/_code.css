@@ -67,7 +67,6 @@ code ::selection {
 }
 
 p code {
-  border: 2px dotted var(--code-border-color);
   padding-left: 1px;
   padding-right: 1px;
 }
@@ -86,7 +85,7 @@ pre {
 
 /* Inline code */
 :not(pre) > code {
-  padding: 0.1em;
+  border: 2px dotted var(--code-border-color);
   border-radius: 0.3em;
   white-space: normal;
 }
@@ -229,7 +228,12 @@ pre {
     text-shadow: none;
   }
 
-  :root:not(:has(#toggle-theme:checked)) :not(pre) > code,
+  :root:not(:has(#toggle-theme:checked)) :not(pre) > code {
+    background: #1e1e1e;
+    border: 2px dotted var(--code-border-color);
+    border-radius: 0.3em;
+  }
+
   :root:not(:has(#toggle-theme:checked)) pre {
     background: #1e1e1e;
   }
@@ -309,7 +313,12 @@ pre {
     text-shadow: 0 1px white;
   }
 
-  :root:has(#toggle-theme:checked) :not(pre) > code,
+  :root:has(#toggle-theme:checked) :not(pre) > code {
+    background: #f5f2f0;
+    border: 2px dotted var(--code-border-color);
+    border-radius: 0.3em;
+  }
+
   :root:has(#toggle-theme:checked) pre {
     background: #f5f2f0;
   }
@@ -328,7 +337,12 @@ pre {
     text-shadow: none;
   }
 
-  :root:has(#toggle-theme:checked) :not(pre) > code,
+  :root:has(#toggle-theme:checked) :not(pre) > code {
+    background: #1e1e1e;
+    border: 2px dotted var(--code-border-color);
+    border-radius: 0.3em;
+  }
+
   :root:has(#toggle-theme:checked) pre {
     background: #1e1e1e;
   }

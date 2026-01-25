@@ -116,12 +116,11 @@ vars:
 
 espanso's `vars` lets you dynamically compute replacement text using shell logic (or other types, like clipboard, input, etc.). In this case, the shell script reads the regex captures and outputs a formatted date string.
 
-{% raw %}
+
 **How it works:**
-- **`name: out`** → the variable that espanso will replace in `replace: "{{out}}"`.
-- **`type: shell`** → tells espanso to execute a shell command to compute the value of this variable.
-- **`params: cmd`** → the actual shell command to run. This command can reference the named regex captures using `{{month}}`, `{{day}}`, and `{{year}}`. The output of the command is then returned back as the replacement for the matched text.
-{% endraw %}
+- `name: out` → the variable that espanso will replace in {% raw %}`replace: "{{out}}"`{% endraw %}.
+- `type: shell` → tells espanso to execute a shell command to compute the value of this variable.
+- `params: cmd` → the actual shell command to run. This command can reference the named regex captures using {% raw %}`{{month}}`{% endraw %}, {% raw %}`{{day}}`{% endraw %}, and {% raw %}`{{year}}`{% endraw %}. The output of the command is then returned back as the replacement for the matched text.
 
 ---
 
