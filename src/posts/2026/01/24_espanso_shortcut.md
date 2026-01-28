@@ -2,7 +2,7 @@
 title: "Custom Date Shortcuts in Espanso"
 description: "A handy text replacement shortcut that turns :jan31: into 'Sat Jan 31, 2026' using regex and bash."
 date: 2026-01-24
-tags: software tips
+tags: [software tips, 26 for 2026]
 ---
 
 For some reason, I find myself having to type out dates a lot — in race reports, meeting notes, emails, blogposts, TODO lists. I usually like to include the weekday so I don't have to look it up later, but that means I first have to look it up in my calendar to type out a date like `Sun Jun 14, 2026`. Annoying 😒. This seemed to me like a problem text replacement could solve, but how?
