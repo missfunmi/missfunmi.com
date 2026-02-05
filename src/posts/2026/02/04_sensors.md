@@ -19,11 +19,11 @@ He notices her and hurries over. "There you are! How long have you been waiting?
 
 He reaches his arms out toward her. They hug warmly. He smells vaguely of almonds.
 
-"No sweat." She's cheerful this time. "I needed an excuse to leave my apartment. It's not as cold out as I thought."
+"No sweat," she's cheerful this time. "I needed an excuse to leave my apartment. It's not as cold out as I thought."
 
-"Yeah, it's so nice today, isn't it? Kind of surprising for February." He flashes a bright smile. She smiles back at him.
+"It's so nice today, isn't it? Kind of surprising for February." He flashes a bright smile. She smiles back at him.
 
-"Yeah. Honestly, I hope it stays this way. So where are we going? You said you needed some hardware sensors or something like that?"
+"I really hope it stays this way. So where are we going? You said you needed some hardware sensors or something like that?"
 
 "Yes!" he exclaims, as if he'd forgotten the purpose of their meeting. "It's for this electronics workshop I'm hosting next week." He looks around, trying to get his bearings. "The store is just… this way I think. No, it's this way. Yes, that's right."
 
@@ -83,7 +83,7 @@ He laughs and tries to shrug off his delight. "Haha, I'm not all good looks!"
 
 "Apparently not!" She grins and nudges him again with her left elbow. He nudges her back. "How did you even manage to graduate? That must have been intense!"
 
-"Wait, didn't we all stay up all night through college? Was that just me?"
+"Wait. Didn't we all stay up all night through college? Was that just me?"
 
 "No, you're right, that was definitely a rite of passage for every eighteen to twenty one year old in America."
 
@@ -97,11 +97,11 @@ He laughs and tries to shrug off his delight. "Haha, I'm not all good looks!"
 
 "Yes! Exactly. See, I knew you'd have some good ideas."
 
-"Oh my god, I need that!" she exclaims. "That sounds really fun."
+"Oh my god, I need that!" she chirps. "That sounds really fun."
 
 "I hope so," he replies. They stop to let a cyclist go by. "I'd have invited you actually... but you mentioned you had that networking event or something?"
 
-"What networking event?" she asks. "Oh. Next Thursday? Yeah. Ugh, I really don't want to go, but I do need a new job ASAP."
+"What networking event?" she asks. "Oh — next Thursday? Ugh, I really don't want to go. But I do need a new job ASAP."
 
 "Your boss still causing you problems?"
 
@@ -115,9 +115,9 @@ He laughs and tries to shrug off his delight. "Haha, I'm not all good looks!"
 
 "That's a shame. I'd have loved to join."
 
-They stop at a crosswalk. She turns to look at him: "Are you sure we're going the right way?"
+They stop at a crosswalk. She turns to look at him. "Are you sure we're going the right way?"
 
-"I'm pretty sure. Wait, maybe not… let me check my phone again. Okay, yeah it's just across the street. Here we are! Told you I was right."
+"I'm pretty sure. Wait, maybe not… let me check my phone again. Okay, it's just across the street. Here we are! Told you I was right."
 
 "I didn't doubt you for a second," she laughs.
 
@@ -135,7 +135,7 @@ She steps into the aisle next to him and reads the names on the packaging out lo
 
 He laughs. "Honestly, I doubt you'd have enjoyed it. But hmm, I think I'm going to stick with the motion sensors. And maybe the touch sensor. These should be easy to get started with."
 
-"Cool, cool," she repeats. A teenaged girl sporting a black puffer jacket approaches them. She steps back to let her cut between them. "Are you all set?" she says to him. "Should we pay and go?"
+"Cool, cool," she repeats. She steps back to let a teenaged girl sporting a black puffer jacket cut between them. "Are you all set?" she says to her companion. "Should we pay and go?"
 
 "Almost! Let me just make sure I get the right amount. Okay, got it. Where's the register? This store is like a maze."
 
@@ -145,7 +145,7 @@ He laughs. "Honestly, I doubt you'd have enjoyed it. But hmm, I think I'm going 
 
 "I think we were only there for like 5 minutes? You found what you wanted for your halloween costume right away."
 
-"Hehe, yeah," he responds. "Why go shopping alone when you can go with company, you know?"
+"Hehe," he responds. "Why go shopping alone when you can go with company, you know?"
 
 "I keep trying, but these thrift stores keep letting me down. It's like they've all ganged up against me!" She turns around to see if he gets her joke. He is focused on balancing the sensors in his arms instead. They arrive at the first register, which surprisingly has no line. He tumbles his purchases onto the belt. The cashier begins to scan the items.
 
@@ -165,6 +165,6 @@ The cashier finishes scanning the items and waits silently for him to pay. He ta
 
 "Oh," he says. "I can't."
 
-"Oh," she responds. She looks up at him, the bright lights of the store now a halo behind his head.
+"Oh," she echoes. She looks up at him, the bright lights of the store now a halo behind his head.
 
 "Yeah."
