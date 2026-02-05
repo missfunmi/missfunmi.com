@@ -29,11 +29,11 @@ He reaches his arms out toward her. They hug warmly. He smells vaguely of almond
 
 "Ok, I'll let you lead," she says.
 
-He starts to cross the street. She walks quickly to keep pace with him.
-
 "No need to fear! I won't lead you astray!"
 
 "Haha," she returns his smile. "Okay then."
+
+He starts to cross the street. She walks quickly to keep pace with him.
 
 "So were you planning to just stay in all day?" he asks as they continue down the sidewalk. They step around a black poodle in a blue bowtie leashed to a signpost across from a cafe. It sits at attention on its hind legs, peering intently into the shop.
 
