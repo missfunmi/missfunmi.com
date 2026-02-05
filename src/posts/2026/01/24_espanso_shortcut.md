@@ -1,5 +1,5 @@
 ---
-title: "Custom Date Shortcuts in Espanso"
+title: Custom Date Shortcuts in Espanso
 description: "A handy text replacement shortcut that turns :jan31: into 'Sat Jan 31, 2026' using regex and bash."
 date: 2026-01-24
 tags: [software tips, 26 for 2026]
