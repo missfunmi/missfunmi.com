@@ -123,7 +123,7 @@ They stop at a crosswalk. She turns to look at him: "Are you sure we're going th
 
 "You definitely did!" he laughs back.
 
-They enter the brightly lit store. Rows and rows of electronics spread out in front of them, as if they have suddenly teleported onto the set of a science fiction movie. The store is brimming with activity, with patrons of all ages weaving between the aisles. She walks up to where he's standing, staring at a large screen on the wall, his finger trailing down what looks like a directory list.
+They enter the brightly lit store, and he makes a beeline for a column on the far right. Rows and rows of electronics spread out in front of them, as if they have suddenly teleported onto the set of a science fiction movie. The store is brimming with activity, patrons of all ages weaving between the aisles. She walks up to where he's standing staring at a large screen on the wall, his finger trailing down what looks like a directory list.
 
 "I'm trying to find where they keep their sensors... Got it! Where's Aisle 16? Looks like that's in the back this way." He turns left and heads deeper into the store as she trails behind him. "Twelve... thirteen... where's thirteen? There's no thirteen. Fourteen... and sixteen is... right here. Sensors! Here they are! Jeez, there's so many to choose from. Look at these!"
 
