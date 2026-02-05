@@ -5,7 +5,7 @@ date: 2026-02-04
 tags: [fiction, short story, 26 for 2026]
 ---
 
-She is standing under a streetlight close to the station entrance. The evening is cool and crisp. A beige cashmere scarf wraps her neck, and she is wearing her favorite coat, an oversized wool piece she inherited from her mother. Her cellphone lights up. She looks at the time, then looks back up. A young man wearing headphones walks past without making eye contact, briefly casting a shadow as he turns into the station. People exit an office building across the street and fan out in all directions. She shifts her weight from one foot to the other, then the other.
+She is standing under a streetlight close to the station entrance. The evening is cool and crisp. A beige cashmere scarf wraps her neck, and she is wearing her favorite coat, an oversized wool piece she inherited from her mother. Her cellphone lights up. She looks at the time, then looks back up at her surrounding. A young man wearing headphones walks past without making eye contact, briefly casting a shadow as he turns into the station. People exit an office building across the street and fan out in all directions. She shifts her weight from one foot to the other, then the other.
 
 A familiar red beanie peeks out of the station.
 
