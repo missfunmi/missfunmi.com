@@ -97,13 +97,13 @@ He laughs and tries to shrug off his delight. "Haha, I'm not all good looks!"
 
 "Yes! Exactly. See, I knew you'd have some good ideas."
 
-"Oh my god, I need that!" she chirps. "That sounds really fun."
+"Oh my god, I need that!" she exclaims. "That sounds really fun."
 
 "I hope so," he replies. They stop to let a cyclist go by. "I'd have invited you actually... but you mentioned you had that networking event or something?"
 
 "What networking event?" she asks. "Oh. Next Thursday? Yeah. Ugh, I really don't want to go, but I do need a new job ASAP."
 
-"Yeah, that. Your boss still causing you problems?"
+"Your boss still causing you problems?"
 
 "She's really the worst," she groans. "I feel like she must get out of bed each day just looking for a fight with everyone."
 
