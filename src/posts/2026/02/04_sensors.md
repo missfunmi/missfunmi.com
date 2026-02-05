@@ -37,7 +37,7 @@ He starts to cross the street. She walks quickly to keep pace with him.
 
 "So were you planning to just stay in all day?" he asks as they continue down the sidewalk. They step around a black poodle in a blue bowtie leashed to a signpost across from a cafe. It sits at attention on its hind legs, peering intently into the shop.
 
-"Yeah… I guess so," she says to him. "I didn't really have a plan, to be honest. I think I'd probably have ended up watching a TV show at some point."
+"I guess so," she says to him. "I didn't really have a plan... I'd probably have ended up watching a TV show at some point."
 
 "What are you watching these days?"
 
@@ -87,7 +87,7 @@ He laughs and tries to shrug off his delight. "Haha, I'm not all good looks!"
 
 "No, you're right, that was definitely a rite of passage for every eighteen to twenty one year old in America."
 
-"It wasn't too bad, to be honest," he says. "Time flies when you're having fun. Or whatever they say."
+"It wasn't too bad," he says. "Time flies when you're having fun. Or whatever they say."
 
 "For sure," she responds. "So what's this workshop about then?"
 
@@ -99,7 +99,7 @@ He laughs and tries to shrug off his delight. "Haha, I'm not all good looks!"
 
 "Oh my god, I need that!" she chirps. "That sounds really fun."
 
-"Yeah, I hope so," he replies. They stop to let a cyclist go by. "I'd have invited you actually... but I think you mentioned you had that networking event or something?"
+"I hope so," he replies. They stop to let a cyclist go by. "I'd have invited you actually... but you mentioned you had that networking event or something?"
 
 "What networking event?" she asks. "Oh. Next Thursday? Yeah. Ugh, I really don't want to go, but I do need a new job ASAP."
 
@@ -107,7 +107,7 @@ He laughs and tries to shrug off his delight. "Haha, I'm not all good looks!"
 
 "She's really the worst," she groans. "I feel like she must get out of bed each day just looking for a fight with everyone."
 
-"Yeah, she sounds awful. I do not miss those days!"
+"She sounds awful. I do not miss those days!"
 
 "You're so lucky to be doing your own thing now. I wish I could just quit. Anyway, shame that your workshop is the same day."
 
@@ -125,7 +125,7 @@ They stop at a crosswalk. She turns to look at him: "Are you sure we're going th
 
 They enter the brightly lit store. Rows and rows of electronics spread out in front of them, as if they have suddenly teleported onto the set of a science fiction movie. The store is brimming with activity, with patrons of all ages weaving between the aisles. She walks up to where he's standing, staring at a large screen on the wall, his finger trailing down what looks like a directory list.
 
-"I'm trying to find where they keep their sensors... Got it! Where's Aisle 16? I think that's in the back this way." He turns left and heads deeper into the store as she trails behind him. "Twelve... thirteen... where's thirteen? There's no thirteen. Fourteen... and sixteen is... right here. Sensors! Here they are! Jeez, there's so many to choose from. Look at these!"
+"I'm trying to find where they keep their sensors... Got it! Where's Aisle 16? Looks like that's in the back this way." He turns left and heads deeper into the store as she trails behind him. "Twelve... thirteen... where's thirteen? There's no thirteen. Fourteen... and sixteen is... right here. Sensors! Here they are! Jeez, there's so many to choose from. Look at these!"
 
 She steps into the aisle next to him and reads the names on the packaging out loud: "These are fun! Temperature Humidity Moisture Sensor. Motion Sensor. Capacitive Touch Sensor. Air Quality Sensor. Wow, you could probably automate your entire home off this stuff. Ooh, look at this one: Proximity and Light Sensor. Now *what* would I need that one for? For when someone tries to break in to my apartment?"
 
@@ -133,9 +133,9 @@ She steps into the aisle next to him and reads the names on the packaging out lo
 
 "Ooooh," she says, drawing out the 'O's. "That seems cool. Definitely get this one for your workshop. That you didn't invite me to."
 
-He laughs. "Honestly, I doubt you'd have enjoyed it. But hmm, I think I'm going to stick with the motion sensors. And maybe the touch sensor. I think those will be easy to get started with."
+He laughs. "Honestly, I doubt you'd have enjoyed it. But hmm, I think I'm going to stick with the motion sensors. And maybe the touch sensor. These should be easy to get started with."
 
-"Cool, cool," she repeats. A teenaged girl sporting a black puffer jacket approaches them. She steps back to let her cut between them. "Are you all set?" she says to her companion. "Should we pay and go?"
+"Cool, cool," she repeats. A teenaged girl sporting a black puffer jacket approaches them. She steps back to let her cut between them. "Are you all set?" she says to him. "Should we pay and go?"
 
 "Almost! Let me just make sure I get the right amount. Okay, got it. Where's the register? This store is like a maze."
 
