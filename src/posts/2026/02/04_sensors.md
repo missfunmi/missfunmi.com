@@ -11,7 +11,7 @@ A familiar red beanie peeks out of the station.
 
 "Hey," she yells, waving a gloved hand to get his attention.
 
-He notices her and hurries over. "Oh, there you are. How long have you been waiting?" He sounds out of breath, as if he's just run up the stairs.
+He notices her and hurries over. "There you are! How long have you been waiting?" He sounds out of breath, as if he's just run up the stairs.
 
 "Not long," she says, trying to sound nonchalant. "Like a couple minutes?"
 
@@ -147,7 +147,7 @@ He laughs. "Honestly, I doubt you'd have enjoyed it. But hmm, I think I'm going 
 
 "Hehe, yeah," he responds. "Why go shopping alone when you can go with company, you know?"
 
-"I keep trying, but these thrift stores keep letting me down. It's like they're all colluding against me." She turns around to see if he gets her joke. He is focused on balancing the sensors in his arms instead. They arrive at the first register, which surprisingly has no line. He tumbles his purchases onto the belt. The cashier begins to scan the items.
+"I keep trying, but these thrift stores keep letting me down. It's like they've all ganged up against me!" She turns around to see if he gets her joke. He is focused on balancing the sensors in his arms instead. They arrive at the first register, which surprisingly has no line. He tumbles his purchases onto the belt. The cashier begins to scan the items.
 
 "That one had some really great vintage band t-shirts," he says.
 
