@@ -486,6 +486,12 @@ blockquote blockquote p:after {
 	right: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* optional, avoids inline spacing issues */
+}
+
 .next-previous-container {
   display: flex;
   justify-content: space-between;

@@ -3,7 +3,6 @@ import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventySyntaxHighlightPlugin from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import dirOutputPlugin from "@11ty/eleventy-plugin-directory-output";
 import { minify } from "terser";
 import htmlmin from "html-minifier-terser";
@@ -38,8 +37,6 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/feed/atom.xsl");
   eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
   eleventyConfig.addPassthroughCopy("./src/css");
-
-  eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpg,jpeg,gif}");
 
   let markdownItOptions = {
     html: true,
@@ -88,19 +85,26 @@ export default async function(eleventyConfig) {
     }
   );
 
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    formats: ["webp", "jpeg", "svg", "png", "auto"],
-    failOnError: false,
-    htmlOptions: {
-      imgAttributes: {
-        loading: "lazy",
-        decoding: "async",
-      },
-      fallback: "smallest"
-    },
-    sharpOptions: {
-      animated: true,
-    },
+  // Other than the site logo, all other images are hosted in Cloudinary
+  // Use in markdown as follows; last param is optional and will override the maxWidth default of 800
+  // {% cldImage "image.png", "alt text", 680 %}
+  eleventyConfig.addShortcode("cldImage", function (src, alt, maxWidth = 800) {
+    const cloudName = "missfunmi";
+    const base = `https://res.cloudinary.com/${cloudName}/image/upload`;
+    const sizes = [400, maxWidth, 1200];
+
+    const srcset = sizes
+      .map(w => `${base}/f_auto,q_auto,w_${w}/${src} ${w}w`)
+      .join(", ");
+
+    return `<img
+      src="${base}/f_auto,q_auto,w_${maxWidth}/${src}"
+      srcset="${srcset}"
+      sizes="(max-width: ${maxWidth}px) 100vw, ${maxWidth}px"
+      alt="${alt}"
+      loading="lazy"
+      decoding="async"
+    >`;
   });
 
   eleventyConfig.addPlugin(pluginFilters);

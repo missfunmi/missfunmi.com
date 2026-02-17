@@ -9,7 +9,7 @@ _I recently built a [Playdate game in Rust](https://github.com/missfunmi/tictact
 
 [Playdate](https://play.date) is a handheld gaming console that launched in 2019. Its most recognizable feature is a fun little crank that many (but not all) games incorporate into their gameplay in really creative and sometimes funny ways.
 
-![playdate](playdate.gif)
+{% cldImage "building-a-playdate-game-in-rust/playdate.gif", "playdate", 480 %}
 
 I've personally never really been a big gamer, but I love the peppy, bright yellow colorway of the Playdate and its quirky form factor. Separately, I recently became interested in learning Rust, and I wanted to do so by building something practical in addition to going through the Rust book.
 
@@ -21,7 +21,7 @@ While Rust is not officially supported by Playdate, there are unofficial librari
 
 For this exercise, we're going to build a game that has a player that can be moved around the screen via the keypad. Pressing the `A` button on the Playdate will put a dot on the screen at the player's current location, and pressing the `B` button will clear the screen of all dots. A very simplistic drawing "game", if you will. You can view the complete source code here: https://github.com/missfunmi/hello-world-playdate
 
-![screenshot of the game](game.png)
+{% cldImage "building-a-playdate-game-in-rust/game.png", "screenshot of the game", 480 %}
 
 ## Pre-requisites
 
@@ -459,6 +459,6 @@ Re-run `crank run --release` to see your fully functioning game on the simulator
 
 And that's it!
 
----
+--
 
 Naturally, this only covers a very small fraction of what's actually possible with Playdate and the crankstart crate. Our game doesn't even use the crank or do anything with music, so feel free to play around and expand it as you like. You're also welcome to contribute enhancements to the crankstart library to enable other Rust developers to build Playdate games. If you do, feel free to [drop me a note](/about#say-hi) to let me know!
