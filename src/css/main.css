@@ -10,7 +10,7 @@
 
   --font-color-default: #3e3e3e;
   --font-color-lighter: #757575;
-  --font-color-metadata: #b3b3b3;
+  --font-color-metadata: #8e8e8e;
 
   --bg-color: #fff;
   --grid-line-color: #ffe8e8 ;
@@ -33,6 +33,7 @@
     --external-link-icon: var(--external-link-icon-lighter);
     --font-color-default: #efefec;
     --font-color-lighter: #eaeaea;
+    --font-color-metadata: #bebebe;
     --code-border-color: #6a5a6a;
   }
 
@@ -42,6 +43,7 @@
     --external-link-icon: var(--external-link-icon-darker);
     --font-color-default: #3e3e3e;
     --font-color-lighter: #757575;
+    --font-color-metadata: #8e8e8e;
     --code-border-color: #eebcde;
   }
 
@@ -61,6 +63,7 @@
     --external-link-icon: var(--external-link-icon-darker);
     --font-color-default: #3e3e3e;
     --font-color-lighter: #757575;
+    --font-color-metadata: #8e8e8e;
   }
 
   :root:has(#toggle-theme:checked) {
@@ -69,6 +72,7 @@
     --external-link-icon: var(--external-link-icon-lighter);
     --font-color-default: #efefec;
     --font-color-lighter: #eaeaea;
+    --font-color-metadata: #bebebe;
     --code-border-color: #6a5a6a;
   }
 
@@ -327,7 +331,8 @@ a.back-link:hover:before {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 100px);
-  grid-gap: 10px;
+  row-gap: 24px;
+  column-gap: 8px;
   list-style: none;
 }
 
