@@ -53,7 +53,7 @@ She hands you a paper bag with the delicate pastry. You pull it out and immediat
 
 "How come?" she asks. "They're here every weekend." She grabs an apple on the table to inspect it.
 
-"We used to get cronuts from that stall literally every weekend."
+"We used to get cronuts from that stall literally every Sunday."
 
 "Who?" she asks.
 
