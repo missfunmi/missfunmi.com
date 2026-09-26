@@ -1,5 +1,6 @@
 @import url("_icons.css");
 @import url("_code.css");
+@import url("_stats.css");
 
 :root {
   font-family: InterVariable, sans-serif;
@@ -13,8 +14,14 @@
   --font-color-metadata: #8e8e8e;
 
   --bg-color: #fff;
-  --grid-line-color: #ffe8e8 ;
-  --header-footer-bg: linear-gradient(var(--grid-line-color) 0.05em, transparent 0.03em), linear-gradient(90deg, var(--grid-line-color) 0.05em, var(--bg-color) 0.08em);
+  --grid-line-color: #ffe8e8;
+  --header-footer-bg:
+    linear-gradient(var(--grid-line-color) 0.05em, transparent 0.03em),
+    linear-gradient(
+      90deg,
+      var(--grid-line-color) 0.05em,
+      var(--bg-color) 0.08em
+    );
 
   --active-link-color: #dd72bb;
   --hover-link-color: #6fa2ef;
@@ -27,6 +34,7 @@
 
 /* Start theme color toggles -- keep these two blocks in sync */
 @media (prefers-color-scheme: dark) {
+  /* site is in dark mode */
   :root {
     --bg-color: #2b282b;
     --grid-line-color: #433;
@@ -35,16 +43,29 @@
     --font-color-lighter: #eaeaea;
     --font-color-metadata: #bebebe;
     --code-border-color: #6a5a6a;
+    --stats-background: #3a373a;
+    --stats-border: rgba(239, 239, 236, 0.15);
+    --stats-border-strong: rgba(239, 239, 236, 0.3);
+    --stats-bar-color: #c9829a;
+    --stats-spark-stroke: #c9829a;
+    --stats-spark-fill: rgba(201, 130, 154, 0.08);
   }
 
+  /* site is in light mode */
   :root:has(#toggle-theme:checked) {
     --bg-color: #fff;
-    --grid-line-color: #ffe8e8 ;
+    --grid-line-color: #ffe8e8;
     --external-link-icon: var(--external-link-icon-darker);
     --font-color-default: #3e3e3e;
     --font-color-lighter: #757575;
     --font-color-metadata: #8e8e8e;
     --code-border-color: #eebcde;
+    --stats-background: #f0f0f0;
+    --stats-border: rgba(62, 62, 62, 0.15);
+    --stats-border-strong: rgba(62, 62, 62, 0.3);
+    --stats-bar-color: #0b0b0b;
+    --stats-spark-stroke: #737373;
+    --stats-spark-fill: rgba(11, 11, 11, 0.06);
   }
 
   #toggle-theme-label::before {
@@ -57,15 +78,23 @@
 }
 
 @media (prefers-color-scheme: light) {
+  /* site is in light mode */
   :root {
     --bg-color: #fff;
-    --grid-line-color: #ffe8e8 ;
+    --grid-line-color: #ffe8e8;
     --external-link-icon: var(--external-link-icon-darker);
     --font-color-default: #3e3e3e;
     --font-color-lighter: #757575;
     --font-color-metadata: #8e8e8e;
+    --stats-background: #f0f0f0;
+    --stats-border: rgba(62, 62, 62, 0.15);
+    --stats-border-strong: rgba(62, 62, 62, 0.3);
+    --stats-bar-color: #0b0b0b;
+    --stats-spark-stroke: #737373;
+    --stats-spark-fill: rgba(11, 11, 11, 0.06);
   }
 
+  /* site is in dark mode */
   :root:has(#toggle-theme:checked) {
     --bg-color: #2b282b;
     --grid-line-color: #433;
@@ -74,6 +103,12 @@
     --font-color-lighter: #eaeaea;
     --font-color-metadata: #bebebe;
     --code-border-color: #6a5a6a;
+    --stats-background: #3a373a;
+    --stats-border: rgba(239, 239, 236, 0.15);
+    --stats-border-strong: rgba(239, 239, 236, 0.3);
+    --stats-bar-color: #c9829a;
+    --stats-spark-stroke: #c9829a;
+    --stats-spark-fill: rgba(201, 130, 154, 0.08);
   }
 
   #toggle-theme-label::before {
@@ -240,6 +275,33 @@ footer a[href]:visited {
 
 footer a[href]:hover {
   color: var(--hover-link-color);
+}
+
+hr {
+  margin: 2em;
+  border: 0;
+  background-color: var(--border-color);
+  color: var(--border-color);
+  height: 1px;
+}
+
+.blank-divider {
+  margin: 2.5em;
+}
+
+h2 .header-anchor,
+h3 .header-anchor {
+  opacity: 0;
+  text-decoration: none;
+  margin-right: 0.5em;
+  color: var(--font-color-metadata);
+  font-weight: 400;
+}
+
+h3:hover,
+h3:hover .header-anchor {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .toggle-theme-container {
@@ -421,10 +483,10 @@ section ol li {
 
 blockquote {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-feature-settings: 'ss03';
+  font-feature-settings: "ss03";
 }
 
 /* Nested blockquote... should probably replace this with a proper info box */
@@ -434,67 +496,130 @@ blockquote blockquote {
 }
 
 blockquote p {
-	font-size: 2.1rem;
+  font-size: 2.1rem;
   font-weight: 500;
   max-width: 600px;
   width: 100%;
-	line-height: 1.1;
+  line-height: 1.1;
   position: relative;
-	margin: 0;
+  margin: 0;
   position: relative;
   font-style: italic;
 }
 
 blockquote blockquote p {
-	font-size: 1.1rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
 blockquote p:before,
 blockquote p:after {
-	position: absolute;
-	color: #eebcde;
-	font-size: 4rem;
+  position: absolute;
+  color: #eebcde;
+  font-size: 4rem;
   font-style: normal;
-	width: 4rem;
-	height: 4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 blockquote blockquote p:before,
 blockquote blockquote p:after {
-	font-size: 1rem;
+  font-size: 1rem;
   width: 1rem;
-	height: 1rem;
+  height: 1rem;
 }
 
 blockquote p:before {
-	content: '“';
-	top: -2rem;
-	left: -2.6rem;
+  content: "“";
+  top: -2rem;
+  left: -2.6rem;
 }
 
 blockquote blockquote p:before {
-	content: '';
-	top: 0;
-	left: 0;
+  content: "";
+  top: 0;
+  left: 0;
 }
 
 blockquote p:after {
-	content: '”';
-	bottom: -3rem;
-	right: -2.6rem;
+  content: "”";
+  bottom: -3rem;
+  right: -2.6rem;
 }
 
 blockquote blockquote p:after {
-	content: '';
-	bottom: 0;
-	right: 0;
+  content: "";
+  bottom: 0;
+  right: 0;
 }
 
 img {
   max-width: 100%;
   height: auto;
   display: block; /* optional, avoids inline spacing issues */
+}
+
+.photo-row {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+
+.photo-row img {
+  min-width: 0;
+  object-fit: contain;
+  background-color: var(--bg-color);
+}
+
+/* 3 portrait pics */
+.photo-row-triple img {
+  flex: 1;
+  height: 30vw;
+}
+
+/* 2 portrait pics */
+.photo-row-double {
+  max-width: 66%;
+  gap: 16px;
+}
+.photo-row-double img {
+  flex: 1;
+  height: 30vw;
+  object-fit: cover;
+}
+
+/* 1 portrait + 1 landscape (or vice versa) */
+.photo-row-double-mixed {
+  gap: 16px;
+}
+.photo-row-double-mixed img {
+  height: 30vw;
+  object-fit: contain;
+}
+.photo-row-double-mixed img:nth-child(1) {
+  flex: 0.7;
+  object-fit: cover;
+}
+.photo-row-double-mixed img:nth-child(2) {
+  flex: 1;
+  object-fit: contain;
+  object-position: right;
+}
+
+@media screen and (max-width: 600px) {
+  .photo-row {
+    flex-direction: column;
+  }
+  .photo-row-double {
+    max-width: 100%;
+  }
+  .photo-row img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    flex: none;
+  }
 }
 
 .next-previous-container {

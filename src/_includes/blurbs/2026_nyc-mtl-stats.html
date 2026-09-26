@@ -1,0 +1,363 @@
+<div
+  class="sb"
+  aria-label="Trip statistics for my NYC to Montréal bicyle touring trip in October 2025"
+>
+  <div class="sb-totals">
+    <div>
+      <div class="num">460 mi</div>
+      <div class="lbl">total distance</div>
+    </div>
+    <div>
+      <div class="num">13,051 ft</div>
+      <div class="lbl">elevation gain</div>
+    </div>
+    <div>
+      <div class="num">7 days</div>
+      <div class="lbl">of riding</div>
+    </div>
+    <div>
+      <div class="num">34h 38m</div>
+      <div class="lbl">moving time</div>
+    </div>
+    <div>
+      <div class="num">13.3 mph</div>
+      <div class="lbl">average speed</div>
+    </div>
+    <div>
+      <div class="num">9.7%</div>
+      <div class="lbl">steepest climb</div>
+    </div>
+  </div>
+
+  <div class="sb-col-heads">
+    <span></span>
+    <span>distance</span>
+    <span class="ch-mi"></span>
+    <span class="ch-el">elev. gain</span>
+    <span class="ch-pro">profile</span>
+  </div>
+  <div class="sb-chart" id="sb-chart"></div>
+
+  <hr class="sb-divider" />
+
+  <div class="sb-range-mid">
+    <div style="position: relative">
+      <canvas id="sb-tempbar" height="16"></canvas>
+      <div
+        id="sb-temp-annotations"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          pointer-events: none;
+        "
+      ></div>
+    </div>
+    <div id="sb-temp-days" style="position: relative; height: 16px"></div>
+    <div class="sb-range-cap">temperature across all 7 days of riding</div>
+  </div>
+
+  <hr class="sb-divider" />
+
+  <div class="sb-ticker">
+    <div class="sb-ticker-item"><strong>4</strong> animal species 🦮🐿️🐄🫏</div>
+    <div class="sb-ticker-item">
+      <strong>0</strong> mishaps or mechanicals 🥳
+    </div>
+    <div class="sb-ticker-item"><strong>15,970</strong> calories burned 😰</div>
+    <div class="sb-ticker-item">
+      <strong>countless</strong> Halloween decorations 🎃👻
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const days = [
+      {
+        num: "Day 1",
+        date: "Sun Oct 5",
+        route: "Bronx → Poughkeepsie",
+        link: "#day-1%3A-bronx-%E2%86%92-poughkeepsie",
+        mi: 86.9,
+        elev: 2142,
+        profile: [
+          30.8, 24.9, 30.8, 53.1, 114.2, 165.4, 214.6, 170.6, 103.0, 106.3,
+          111.5, 116.1, 131.9, 145.0, 154.9, 163.4, 154.2, 189.0, 217.2, 236.2,
+          225.1, 254.6, 267.7, 227.7, 229.0, 257.2, 267.1, 297.2, 318.2, 320.9,
+          330.1, 272.3, 204.1, 232.9, 296.6, 363.5, 408.8, 415.4, 404.2, 401.6,
+          450.8, 502.0, 476.4, 540.7, 605.0, 655.5, 653.5, 662.7, 624.0, 597.1,
+          498.0, 481.6, 506.6, 526.9, 432.4, 381.9, 425.2, 445.5, 457.3, 435.0,
+          472.4, 475.1, 477.0, 460.6, 458.7, 481.6, 512.5, 564.3, 614.2, 669.3,
+          710.0, 736.2, 765.1, 729.7, 726.4, 704.1, 648.3, 589.9, 525.6, 467.2,
+          408.1, 364.2, 368.8, 345.8, 308.4, 305.8, 315.6, 323.5, 332.7, 306.4,
+          297.9, 280.2, 284.8, 258.5, 244.8, 259.2, 244.1, 263.1, 280.2, 251.3,
+          230.3,
+        ],
+      },
+      {
+        num: "Day 2",
+        date: "Mon Oct 6",
+        route: "Poughkeepsie → Hudson",
+        link: "#day-2%3A-poughkeepsie-%E2%86%92-hudson",
+        mi: 41.9,
+        elev: 1535,
+        profile: [
+          146.3, 179.1, 215.9, 239.5, 252.0, 253.9, 285.4, 312.3, 316.9, 330.1,
+          349.7, 364.2, 366.8, 378.6, 385.2, 384.5, 386.5, 381.2, 378.6, 390.4,
+          418.0, 391.1, 333.3, 295.9, 232.3, 224.4, 227.7, 228.3, 234.3, 234.3,
+          232.3, 235.6, 232.3, 239.5, 257.2, 260.5, 244.1, 240.8, 238.8, 250.7,
+          269.7, 317.6, 303.1, 307.7, 281.5, 265.1, 249.3, 261.2, 255.9, 270.3,
+          289.4, 305.8, 295.3, 295.3, 341.2, 250.0, 252.6, 267.1, 274.9, 285.4,
+          253.3, 272.3, 303.8, 305.8, 297.2, 286.1, 256.6, 259.2, 263.8, 245.4,
+          225.7, 272.3, 347.8, 328.1, 274.3, 287.4, 274.9, 288.7, 282.2, 303.1,
+          283.5, 299.2, 264.4, 249.3, 309.1, 341.2, 319.6, 320.9, 322.2, 319.6,
+          318.2, 317.6, 311.7, 316.3, 361.5, 374.0, 399.6, 389.8, 223.1, 182.4,
+          250.7,
+        ],
+      },
+      {
+        num: "Day 3",
+        date: "Tue Oct 7",
+        route: "Hudson → Waterford",
+        link: "#day-3%3A-hudson-%E2%86%92-waterford",
+        mi: 52.2,
+        elev: 1634,
+        profile: [
+          80.1, 45.9, 24.3, 65.6, 141.7, 185.0, 215.2, 178.5, 160.1, 171.3,
+          165.4, 137.8, 158.8, 108.9, 68.2, 52.5, 69.6, 77.4, 105.6, 145.7,
+          175.9, 208.7, 224.4, 242.1, 252.6, 264.4, 279.5, 290.0, 292.7, 231.6,
+          242.8, 261.8, 294.0, 310.4, 313.6, 322.2, 362.9, 364.8, 370.1, 358.9,
+          368.8, 390.4, 399.6, 412.1, 407.5, 421.3, 419.3, 433.7, 453.4, 448.8,
+          460.6, 475.1, 481.6, 521.7, 580.1, 541.3, 509.8, 495.4, 538.7, 553.8,
+          521.7, 474.4, 484.3, 447.5, 483.6, 442.3, 372.7, 347.8, 384.5, 353.7,
+          319.6, 307.1, 302.5, 208.7, 122.7, 169.3, 153.5, 124.0, 144.4, 160.1,
+          172.6, 137.8, 142.4, 135.2, 139.8, 139.8, 134.5, 139.8, 139.8, 149.6,
+          147.6, 150.3, 153.5, 154.9, 163.4, 164.7, 164.0, 173.9, 166.0, 164.7,
+          179.8,
+        ],
+      },
+      {
+        num: "Day 4",
+        date: "Wed Oct 8",
+        route: "Waterford → Glens Falls",
+        link: "#day-4%3A-waterford-%E2%86%92-glens-falls",
+        mi: 43.4,
+        elev: 1089,
+        profile: [
+          7.2, 51.8, 58.4, 61.0, 63.6, 60.4, 56.4, 59.1, 50.5, 63.0, 57.7, 79.4,
+          53.1, 56.4, 53.1, 51.8, 65.0, 65.0, 66.3, 67.6, 88.6, 72.8, 86.6,
+          88.6, 85.3, 106.3, 103.0, 94.5, 92.5, 107.0, 97.1, 108.9, 82.7, 87.9,
+          95.1, 76.8, 81.4, 79.4, 85.3, 76.8, 82.7, 78.1, 78.7, 82.7, 81.4,
+          84.0, 101.7, 87.3, 103.0, 135.2, 90.6, 87.3, 89.9, 101.0, 92.5, 107.6,
+          79.4, 93.2, 79.4, 87.9, 84.6, 82.0, 89.9, 86.0, 92.5, 101.0, 101.7,
+          102.4, 101.0, 112.9, 101.7, 107.6, 107.0, 119.4, 123.4, 110.9, 108.9,
+          143.0, 127.3, 135.8, 107.0, 106.3, 124.7, 171.3, 225.1, 230.3, 236.2,
+          245.4, 256.6, 261.8, 250.0, 252.0, 253.3, 259.8, 251.3, 287.4, 299.2,
+          298.6, 318.2, 307.7, 308.4,
+        ],
+      },
+      {
+        num: "Day 5",
+        date: "Thu Oct 9",
+        route: "Glens Falls → Ticonderoga",
+        link: "#day-5%3A-glens-falls-%E2%86%92-ticonderoga",
+        mi: 48.7,
+        elev: 2530,
+        profile: [
+          350.4, 339.2, 306.4, 283.5, 282.2, 280.8, 288.1, 280.8, 286.1, 284.1,
+          237.5, 259.2, 293.3, 289.4, 288.7, 280.8, 292.0, 269.0, 231.0, 198.2,
+          171.9, 140.4, 144.4, 132.5, 139.8, 107.0, 105.6, 131.2, 150.9, 150.3,
+          110.9, 116.8, 151.6, 163.4, 112.9, 114.2, 137.1, 112.2, 101.7, 113.5,
+          95.1, 102.4, 112.9, 117.5, 100.4, 108.9, 85.3, 74.8, 106.3, 147.0,
+          80.1, 82.0, 145.7, 231.6, 283.5, 258.5, 197.5, 269.7, 339.9, 379.9,
+          313.6, 351.0, 395.0, 400.3, 401.6, 309.7, 324.1, 92.5, 150.9, 109.6,
+          181.1, 286.1, 391.7, 486.9, 545.3, 405.5, 366.1, 285.4, 302.5, 291.3,
+          351.7, 408.1, 412.7, 459.3, 489.5, 433.1, 412.1, 461.3, 503.9, 312.3,
+          303.8, 345.1, 364.2, 175.9, 110.9, 101.0, 134.5, 151.6, 104.3, 139.1,
+          210.0,
+        ],
+      },
+      {
+        num: "Day 6",
+        date: "Fri Oct 10",
+        route: "Ticonderoga → Burlington",
+        link: "#day-6%3A-ticonderoga-%E2%86%92-burlington",
+        mi: 59.4,
+        elev: 3189,
+        profile: [
+          261.8, 135.2, 154.9, 249.3, 105.0, 102.4, 182.4, 253.9, 99.1, 140.4,
+          208.0, 288.1, 335.3, 364.2, 282.2, 284.1, 355.6, 390.4, 265.7, 150.3,
+          164.7, 163.4, 211.3, 190.3, 206.0, 242.1, 177.2, 219.2, 227.7, 264.4,
+          185.7, 183.7, 183.7, 185.0, 190.9, 187.7, 179.1, 177.2, 235.6, 244.1,
+          232.9, 228.3, 270.3, 222.4, 248.0, 253.9, 265.7, 307.1, 255.9, 265.1,
+          326.1, 286.7, 235.6, 223.1, 236.2, 257.2, 276.9, 278.2, 293.3, 306.4,
+          314.3, 384.5, 343.2, 315.6, 306.4, 366.8, 362.2, 313.0, 280.8, 257.9,
+          318.2, 290.0, 287.4, 352.4, 389.1, 415.4, 425.2, 410.8, 448.8, 380.6,
+          409.4, 357.6, 406.2, 399.6, 432.4, 404.9, 353.0, 328.7, 392.4, 428.5,
+          538.7, 582.0, 538.1, 566.3, 590.6, 592.5, 593.8, 605.0, 528.2, 540.7,
+          572.2,
+        ],
+      },
+      {
+        num: "Day 7",
+        date: "Sat Oct 11",
+        route: "Burlington → Montréal",
+        link: "#day-7%3A-burlington-%E2%86%92-montr%C3%A9al",
+        mi: 109.6,
+        elev: 2510,
+        profile: [
+          378.0, 332.7, 336.6, 330.1, 173.9, 215.9, 120.7, 194.9, 196.9, 184.4,
+          132.5, 199.5, 98.4, 156.8, 207.3, 182.4, 118.8, 141.7, 80.1, 84.0,
+          87.3, 137.8, 160.1, 179.8, 76.1, 155.5, 82.7, 113.5, 109.6, 109.6,
+          95.8, 112.2, 130.6, 133.9, 98.4, 105.0, 105.0, 120.1, 91.9, 89.2,
+          88.6, 100.4, 95.8, 91.2, 107.0, 129.9, 90.6, 96.5, 91.2, 95.1, 113.5,
+          146.3, 120.1, 148.3, 145.0, 114.2, 122.0, 160.8, 136.5, 123.4, 122.0,
+          114.8, 126.6, 118.8, 117.5, 118.8, 120.1, 115.5, 122.0, 126.6, 139.1,
+          119.4, 121.4, 121.4, 120.1, 121.4, 119.4, 116.8, 115.5, 116.8, 117.5,
+          115.5, 78.7, 68.9, 66.3, 70.2, 77.4, 96.5, 102.4, 113.5, 96.5, 96.5,
+          107.0, 110.9, 105.6, 86.6, 133.2, 168.0, 101.0, 152.2, 164.7,
+        ],
+      },
+    ];
+
+    const allTemps = [
+      71.6, 66.2, 66.2, 66.2, 71.6, 73.4, 78.8, 75.2, 82.4, 80.6, 80.6, 84.2,
+      84.2, 84.2, 84.2, 84.2, 84.2, 84.2, 82.4, 84.2, 78.8, 69.8, 66.2, 64.4,
+      68.0, 69.8, 73.4, 69.8, 69.8, 69.8, 75.2, 78.8, 84.2, 82.4, 80.6, 82.4,
+      82.4, 82.4, 80.6, 80.6, 75.2, 75.2, 77.0, 73.4, 75.2, 77.0, 82.4, 75.2,
+      78.8, 84.2, 80.6, 80.6, 80.6, 78.8, 78.8, 78.8, 78.8, 80.6, 78.8, 80.6,
+      64.4, 53.6, 53.6, 55.4, 55.4, 55.4, 59.0, 57.2, 57.2, 57.2, 62.6, 64.4,
+      64.4, 64.4, 62.6, 64.4, 64.4, 64.4, 69.8, 62.6, 69.8, 48.2, 44.6, 48.2,
+      50.0, 53.6, 51.8, 51.8, 53.6, 48.2, 57.2, 53.6, 60.8, 59.0, 55.4, 57.2,
+      50.0, 57.2, 53.6, 53.6, 44.6, 33.8, 32.0, 39.2, 39.2, 42.8, 44.6, 48.2,
+      59.0, 55.4, 57.2, 59.0, 62.6, 59.0, 57.2, 57.2, 59.0, 64.4, 62.6, 60.8,
+      66.2, 46.4, 44.6, 50.0, 50.0, 55.4, 57.2, 59.0, 62.6, 62.6, 80.6, 64.4,
+      62.6, 66.2, 68.0, 66.2, 68.0, 66.2, 59.0, 60.8,
+    ];
+
+    const maxMi = Math.max(...days.map((d) => d.mi));
+
+    function sparkline(pts, w, h) {
+      const mn = Math.min(...pts),
+        mx = Math.max(...pts),
+        range = mx - mn || 1,
+        pad = 2;
+      const xs = pts.map(
+        (_, i) => pad + (i / (pts.length - 1)) * (w - pad * 2),
+      );
+      const ys = pts.map((v) => h - pad - ((v - mn) / range) * (h - pad * 2));
+      const coords = xs
+        .map((x, i) => `${x.toFixed(1)},${ys[i].toFixed(1)}`)
+        .join(" ");
+      const area =
+        `M${xs[0].toFixed(1)},${h} ` +
+        xs.map((x, i) => `L${x.toFixed(1)},${ys[i].toFixed(1)}`).join(" ") +
+        ` L${xs[xs.length - 1].toFixed(1)},${h} Z`;
+      return `<svg class="sb-spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">
+  <path d="${area}"/>
+  <polyline points="${coords}" fill="none" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>`;
+    }
+
+    function tempToRGB(t) {
+      const pct = Math.max(0, Math.min(1, (t - 32) / (89.6 - 32)));
+      if (pct < 0.5) {
+        const p = pct / 0.5;
+        return [
+          Math.round(91 + 89 * p),
+          Math.round(155 + 25 * p),
+          Math.round(213 - 33 * p),
+        ];
+      } else {
+        const p = (pct - 0.5) / 0.5;
+        return [
+          Math.round(180 + 37 * p),
+          Math.round(180 - 66 * p),
+          Math.round(180 - 98 * p),
+        ];
+      }
+    }
+
+    // day rows
+    const chart = document.getElementById("sb-chart");
+    days.forEach((d) => {
+      const pct = ((d.mi / maxMi) * 100).toFixed(1);
+      const row = document.createElement("div");
+      row.className = "sb-row";
+      row.innerHTML = `
+      <div class="sb-day-info">
+        <span class="sb-day-num">${d.num} · ${d.date}</span>
+        <a href="${d.link}" class="sb-day-route">${d.route}</a>
+      </div>
+      <div class="sb-bar-wrap">
+        <div class="sb-bar-track">
+          <div class="sb-bar-fill" style="width:${pct}%;"></div>
+        </div>
+      </div>
+      <span class="sb-mi">${d.mi} mi</span>
+      <span class="sb-el">${d.elev.toLocaleString()} ft</span>
+      <div class="sb-spark-wrap">${sparkline(d.profile, 72, 28)}</div>
+    `;
+      chart.appendChild(row);
+    });
+
+    // temperature bar
+    const canvas = document.getElementById("sb-tempbar");
+    const tempContainer = canvas.parentElement;
+    const w = tempContainer.offsetWidth || 300;
+    canvas.width = w;
+    canvas.height = 16;
+    canvas.style.width = w + "px";
+    canvas.style.height = "8px";
+    const ctx = canvas.getContext("2d");
+    const sw = w / allTemps.length;
+    allTemps.forEach((t, i) => {
+      const [r, g, b] = tempToRGB(t);
+      ctx.fillStyle = `rgb(${r},${g},${b})`;
+      ctx.fillRect(Math.floor(i * sw), 0, Math.ceil(sw) + 1, 16);
+    });
+
+    // day boundary markers, 20 readings per day
+    const tickContainer = document.getElementById("sb-temp-days");
+    tickContainer.style.width = w + "px";
+    const dayDates = [
+      "Oct 5",
+      "Oct 6",
+      "Oct 7",
+      "Oct 8",
+      "Oct 9",
+      "Oct 10",
+      "Oct 11",
+    ];
+    const dayBoundaries = [0, 20, 40, 60, 80, 100, 120];
+    dayBoundaries.forEach((idx, i) => {
+      const pct = idx / allTemps.length;
+      const tick = document.createElement("div");
+      tick.className = "sb-temp-tick";
+      tick.style.left = pct * w + "px";
+      tick.innerHTML = `<div class="sb-temp-tick-line"></div><div class="sb-temp-tick-label">${dayDates[i]}</div>`;
+      tickContainer.appendChild(tick);
+    });
+
+    const annotationContainer = document.getElementById("sb-temp-annotations");
+    annotationContainer.style.position = "relative";
+    const annotations = [
+      { idx: 28, label: "89.6°F", type: "high" },
+      { idx: 102, label: "32°F", type: "low" },
+    ];
+    annotations.forEach(({ idx, label, type }) => {
+      const pct = idx / allTemps.length;
+      const ann = document.createElement("div");
+      ann.className = `sb-temp-annotation ${type}`;
+      ann.style.left = pct * w + "px";
+      ann.style.position = "absolute";
+      ann.innerHTML =
+        type === "low"
+          ? `<span>${label}</span><div class="sb-temp-caret-up"></div>`
+          : `<span>${label}</span><div class="sb-temp-caret-down"></div>`;
+      annotationContainer.appendChild(ann);
+    });
+  })();
+</script>
