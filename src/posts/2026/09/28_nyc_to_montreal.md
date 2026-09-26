@@ -2,7 +2,6 @@
 title: I rode my bike from NYC to Montréal (Part 1)
 date: 2026-09-28
 description: A photo essay recapping my trip from New York City to Montréal on two wheels.
-draft: true
 tags: [trip report, bikepacking, outdoor adventures, 26 for 2026]
 ---
 
