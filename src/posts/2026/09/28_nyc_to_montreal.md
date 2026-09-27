@@ -443,4 +443,4 @@ And look at that. It wasn't even that bad after all. All of the anxiety I felt a
 
 ## Up next...
 
-In Part 2, I'll share more details about how I prepared for this trip and some recommendations for planning one like it yourself.
+In Part 2, I'll share more details about how I prepared for this trip and some suggestions to help you plan one like it yourself.
