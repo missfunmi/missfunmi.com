@@ -22,6 +22,9 @@ layout: layouts/base.njk
     • Last Updated <span>{{ modified | readableDate }}</span>
     {% endif %}
   </div>
+  {% if audience %}
+  <div class="post-audience"><span class="post-audience-label">Assumed audience:</span> {{ audience }}</div>
+  {% endif %}
 </section>
 
 <section class="page-content">

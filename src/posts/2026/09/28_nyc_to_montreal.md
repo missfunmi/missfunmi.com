@@ -1,13 +1,17 @@
 ---
 title: I rode my bike from NYC to Montréal (Part 1)
 date: 2026-09-28
-description: A photo essay recapping my trip from New York City to Montréal on two wheels.
-tags: [trip report, bikepacking, outdoor adventures, 26 for 2026]
+description: A photo essay recapping my journey from New York City to Montréal on two wheels.
+audience: People who are curious about what it's like to do a solo multi-day cycling trip for the first time, with or without plans to do something similar themselves.
+tags: [personal essay, trip report, bikepacking, outdoor adventures, 26 for 2026]
 ---
 
-About a year ago, in October 2025, I rode my bike from New York City all the way to Montréal, Canada. It was my first ever multi-day cycling trip, and I completed the trip almost entirely solo.
+About a year ago, in October 2025, I rode my bike from New York City all the way to Montréal, Canada. It took me 7 days. It was my first ever multi-day cycling trip, and I completed the trip almost entirely solo.
 
-This post is split into two parts. The first part below covers my experience and the routes I used to navigate my trip.
+This essay is organized in two parts:
+
+- The first part, below, covers my experience and the routes I used to navigate my trip.
+- The second part, coming in the next post, will cover how I prepared for this trip and some suggestions to help you plan one like it yourself.
 
 ---
 
@@ -18,8 +22,6 @@ This post is split into two parts. The first part below covers my experience and
 ---
 
 ## An idea is born 💭
-
-I've always felt myself drawn to *challenging-on-paper-but-not-totally-impossible-sounding* things. It's how I learned to swim in the first place: I signed up for a triathlon first, then I found a coach who taught me from scratch.
 
 Sometime in 2024 or so, I came across [a post on Reddit](https://www.reddit.com/r/NYCbike/comments/14z7kxh/bronx_to_Montréal_empire_state_trail/) about a ride from NYC to Montréal via the [Empire State Trail](https://empiretrail.ny.gov/). Even though I'd never done a multi-day cycling trip before and didn't personally know anyone who had, this stranger's experience somehow resonated strongly with me, and I bookmarked the post for future reference. I was familiar with a portion of the trail, having ridden [sections](https://empiretrail.ny.gov/new-york-city-poughkeepsie/battery-inwood-hill) [of](https://empiretrail.ny.gov/new-york-city-poughkeepsie/van-cortlandt-park-elmsford) [it](https://empiretrail.ny.gov/new-york-city-poughkeepsie/elmsford-new-castle) at various points over the years, but I'll admit I wasn't fully aware of the length and breadth of what the trail had to offer.
 
@@ -82,7 +84,7 @@ The ride up to Poughkeepsie was very pleasant, and it was a warm and lovely day 
 
 I stopped first around 11:30 at [Trailside Cafe](https://maps.app.goo.gl/8r8qmZ3A8MAnyhmn7) in Yorktown Heights for lunch and a bathroom break, then a couple hours later at a gas station in Brewster for more water. The day had warmed considerably, and I was going through my two bottles faster than I usually did. I got to Hopewell Junction around 3.30 pm. The [former rail depot-turned-outdoor museum](https://www.hopewelldepotmuseum.org/) is only open Saturdays, but I'd hoped to find a running tap to refill my water bottles. No luck there. Google Maps found me [a bar around the corner](https://maps.app.goo.gl/Pz3gk2S2czoJWTXL7), so I went in to ask for some water. Everyone turned around to stare at me as I walked in, clomp-clomp-clomp in my full cycling kit, cleats and helmet included. The older gentlemen were impressed to hear I was riding alone and had come from Brooklyn. Little did they know I had much further to go!
 
-{% cldImage "IMG_1429.jpeg", "Hopewell Inn was Halloween-ready!", 360 %}
+{% cldImage "IMG_1429.jpeg", "Hopewell Inn was Halloween-ready!", 1280 %}
 
 I arrived at my hotel an hour and a half later, checked in easily, and took my bike upstairs with me to get settled in and wash the day's clothes. After I showered, I walked up the street to have a burger at [Zeus](https://maps.app.goo.gl/PuTminJJ4rAH1fyX7) before having a very early night.
 
@@ -134,7 +136,7 @@ Did I really want to do this? Did I really *need* to do this?!
 
 It also didn't help that for the first time since I'd had the idea for this trip, my brain conveniently chose then to inform me that we (i.e. me & said brain) did not have a plan for what we'd do if we ran into any bears on the trip. That was a fun thing to spend several hours frantically Googling while my friend slept soundly next to me. In case you're wondering, yes, there are bears all along the [Adirondacks](https://visitadirondacks.com/about/adirondack-animals/black-bears) and [parts of Vermont](https://www.vtfishandwildlife.com/press-releases/bear-activity-south-burlington-raises-concerns-developed-areas), and yes, they are very much [still active in October](https://bearwise.org/what-bears-do-in-october/). While my internet research informed me that my chances of running into them on my bike was *likely* next to zero, nothing I found could assure me that the risk was *definitely* zero, so naturally my brain latched onto that minuscule probability and turned it into a cause for **✨ major stress ✨**.
 
-I found myself once again questioning my decision to go on this trip. What the hell was I doing? Why was I in Hudson, planning to ride another 300+ miles to Canada? What was I trying to prove and to whom? And most importantly, if I \**gasp*\* ditched the trip entirely and just made my way back to NYC with Tahnee, would anyone other than me even understand or care?
+I found myself once again questioning my decision to go on this trip. Why was I in Hudson at all, planning to ride 300 miles to Canada? What was I trying to prove and to whom? And most importantly, if I \**gasp*\* ditched the trip entirely and just made my way back to NYC with Tahnee, would anyone other than me even understand or care?
 
 I didn't find any answers that felt satisfactory enough before the melatonin tablet I'd popped earlier kicked in and I finally fell asleep.
 
@@ -164,7 +166,7 @@ The trip to Waterford was fairly chill (spoiler: I didn't run into any bears!) T
 
 I found the trail to be in great condition, too. There was one small section that was closed for construction and not marked as such on the EST's [Trail Closures](https://empiretrail.ny.gov/trail-closures) page, but I was able to reroute easily via suburban streets and reconnect back onto the trail after a few blocks.
 
-<div class="photo-row photo-row-double">
+<div class="photo-row photo-row-triple">
 {% cldImage "IMG_1630.jpeg", "Trail Closed sign on a section of the trail", 360 %}
 {% cldImage "IMG_1632.jpeg", "Construction work on the closed section of the trail", 360 %}
 </div>
@@ -324,7 +326,7 @@ It worked out great in the end! Once I got past my disappointment in missing out
 
 <div class="photo-row photo-row-triple">
 {% cldImage "IMG_1782.jpeg", "A brown horse behind a fence", 360 %}
-{% cldImage "IMG_1862.jpeg", "A differnt brown horse draped in a plaid blanket", 360 %}
+{% cldImage "IMG_1862.jpeg", "A different brown horse draped in a plaid blanket", 360 %}
 </div>
 
 <div class="photo-row photo-row-triple">
@@ -438,9 +440,3 @@ And look at that. It wasn't even that bad after all. All of the anxiety I felt a
 > I go to nature to be soothed and healed, and to have my senses put in order.
 
 {% cldImage "IMG_1723.jpeg", "My bicycle positioned in front of some trees, somewhere along my journey", 360 %}
-
----
-
-## Up next...
-
-In Part 2, I'll share more details about how I prepared for this trip and some suggestions to help you plan one like it yourself.
