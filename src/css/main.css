@@ -202,6 +202,7 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .nav {
@@ -289,6 +290,12 @@ hr {
   margin: 2.5em;
 }
 
+h2,
+h3 {
+  /* scroll-margin-top: 4rem; */
+  scroll-margin-top: 165px !important;
+}
+
 h2 .header-anchor,
 h3 .header-anchor {
   opacity: 0;
@@ -340,6 +347,16 @@ h3:hover .header-anchor {
   font-weight: 500;
   line-height: 1;
   margin-left: -0.05em;
+}
+
+.hero-title a,
+.hero-title a:link,
+.hero-title a:visited,
+.hero-title a:hover,
+.hero-title a:active {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
 }
 
 .hero-subtitle {
@@ -422,7 +439,8 @@ a.back-link:hover:before {
   padding: 2px 0;
 }
 
-.post-toc a:hover {
+.post-toc a:hover,
+.post-toc a:active {
   color: var(--active-link-color);
 }
 
@@ -714,7 +732,7 @@ figcaption {
   .hero,
   .post-hero,
   .page-content {
-    max-width: 80vw;
+    max-width: 90vw;
   }
 
   .post-toc {
@@ -722,7 +740,7 @@ figcaption {
   }
 
   .footer-grid {
-    width: 80vw;
+    width: 90vw;
   }
 }
 

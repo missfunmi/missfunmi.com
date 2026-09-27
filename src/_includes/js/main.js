@@ -4,6 +4,14 @@ function persistThemeSelection() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Position headings at the top of the page
+  // const headerHeight = document.querySelector("header").offsetHeight;
+  // document.querySelectorAll("h2, h3").forEach((h) => {
+  //   h.style.scrollMarginTop = headerHeight + 16 + "px";
+  // });
+
+  console.log(document.querySelector("h2").style.scrollMarginTop);
+
   // Copy button for code blocks
   document.querySelectorAll(".copy-button").forEach((button) => {
     button.addEventListener("click", async () => {

@@ -15,7 +15,7 @@ layout: layouts/base.njk
           {%- endfor %}
         </span> • {{ content | readingTime({raw:true}) }} minute read
       </div>
-      <div class="hero-title">{{ title }}</div>
+      <div class="hero-title"><a href="{{ url }}">{{ title }}</a></div>
       <div class="hero-subtitle">{{ description }}</div>
       <div class="post-publication-date">
         <time datetime="{{ date | isoDate }}">

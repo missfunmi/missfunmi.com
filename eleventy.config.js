@@ -66,6 +66,10 @@ export default async function (eleventyConfig) {
     mdLib
       .use(mila, milaOptions)
       .use(markdownItAnchor, {
+        slugify: (s) => s.toLowerCase()
+            .replace(/[^\w\s-]/g, "")
+            .replace(/[\s_-]+/g, "-")
+            .replace(/^-+|-+$/g, ""),
         permalink: markdownItAnchor.permalink.linkInsideHeader({
           symbol: "#",
           placement: "after",
@@ -121,7 +125,7 @@ export default async function (eleventyConfig) {
           loading="lazy"
           decoding="async"
         >
-        ${caption ? `<figcaption>${caption}</figcaption>` : ''}
+        ${caption ? `<figcaption>${caption}</figcaption>` : ""}
       </figure>`;
     },
   );
