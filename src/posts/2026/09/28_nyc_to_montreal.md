@@ -23,18 +23,18 @@ This essay is organized in two parts:
 
 ## An idea is born 💭
 
-Sometime in 2024 or so, I came across [a post on Reddit](https://www.reddit.com/r/NYCbike/comments/14z7kxh/bronx_to_Montréal_empire_state_trail/) about a ride from NYC to Montréal via the [Empire State Trail](https://empiretrail.ny.gov/). I was familiar with a portion of the trail, having ridden [sections](https://empiretrail.ny.gov/new-york-city-poughkeepsie/battery-inwood-hill) [of](https://empiretrail.ny.gov/new-york-city-poughkeepsie/van-cortlandt-park-elmsford) [it](https://empiretrail.ny.gov/new-york-city-poughkeepsie/elmsford-new-castle) at various points over the years, but I wasn't familiar with all it had to offer. I bookmarked the post and promptly forgot about it.
+Sometime in 2024 or so, I came across [a post on Reddit](https://www.reddit.com/r/NYCbike/comments/14z7kxh/bronx_to_Montréal_empire_state_trail/) about a ride from NYC to Montréal via the [Empire State Trail](https://empiretrail.ny.gov/). I'd ridden [sections](https://empiretrail.ny.gov/new-york-city-poughkeepsie/battery-inwood-hill) [of](https://empiretrail.ny.gov/new-york-city-poughkeepsie/van-cortlandt-park-elmsford) [the trail](https://empiretrail.ny.gov/new-york-city-poughkeepsie/elmsford-new-castle) at various points over the years, but I wasn't familiar with the full breadth of it. I bookmarked the post and promptly forgot about it.
 
 Then in 2025 right before I quit my job, I thought about all the things I'd want to do during my year off and remembered the post about the ride to Montréal. I didn't yet know how I'd go about completing something like this, but I wanted to try a mix of whimsical and adventurous things during my sabbatical, and this ride seemed like a great candidate for that second bucket.
 
 ## But when?
 
-I didn't give it another thought until it was warm enough to ride outside again. I initially thought I might head out in May: the mild spring temperatures and long daylight hours offer compelling riding conditions. But when I struggled through [my first outdoor ride of the season](https://www.strava.com/activities/14223139607) in mid-April, I determined that completing 35 times that distance only a month later would probably (*definitely!*) be too much of a stretch. I had some races and travel coming up over the summer, so my next available window to complete the ride before it got too cold would be in October. October also happens to be my birthday month, and I liked the idea of celebrating both my accomplishment and my birthday by eating my way through Montréal.
+I didn't give it another thought until it was warm enough to ride outside again. I initially thought I might head out in May: the mild spring temperatures and long daylight hours make it a great time of year for long rides. But when I struggled through [my first outdoor ride of the season](https://www.strava.com/activities/14223139607) in mid-April, I determined that attempting to complete 35 times that distance a month later would probably (*definitely!*) be a stretch. I had some races and travel coming up over the summer, so my next available window before it got too cold would be in October. October also happens to be my birthday month, and I liked the idea of celebrating both an accomplishment like this as well as my birthday by eating my way through Montréal.
 
-In other words: picking early-mid October for my trip was entirely a logistics and fitness-driven decision, but in hindsight, I couldn't recommend a better time of year to complete this particular ride. October is *the* perfect month for many reasons, some of which you can see from my pictures:
+In other words: picking early October for my trip was entirely driven by logistics and fitness, but in hindsight, I think it's the best time of the year for this particular ride. October is *the* perfect month for many reasons, some of which you can see from my pictures:
 
-- It's likely to be [peak fall foliage](https://www.explorefall.com/fall-foliage-map) in the northern hemisphere, and the trails and trees around upper New York and Vermont are bursting with vibrant colors of the rainbow.
-- If you're lucky and don't have to ride through rain, the temperatures are likely to be moderate: sunny but crisp with far lower humidity than even a month earlier. It's extremely suitable for prolonged riding outdoors, even on those slightly colder days.
+- It's likely to be [peak fall foliage](https://www.explorefall.com/fall-foliage-map) in the northern hemisphere, and the trails and trees around upper New York and Vermont are bursting with various hues of red, orange, and yellow.
+- If you're lucky and don't have to ride through rain, the temperatures are likely to be moderate: sunny but crisp with far lower humidity than even a month earlier. It's ideal for long days in the saddle, even on those slightly colder days.
 - You'll encounter lots of whimsical, funny, and creative Halloween decorations once you get off the wooded sections of the trail and start riding through the small towns of upstate New York and Vermont.
 
 <!-- -->
@@ -49,7 +49,7 @@ In other words: picking early-mid October for my trip was entirely a logistics a
 
 ## Part 1: The Trip
 
-<iframe src="https://ridewithgps.com/embeds?type=trip&id=346835958&title=NYC%20to%20Montr%C3%A9al%20-%20Complete%20Ride&sampleGraph=true&distanceMarkers=true&privacyCode=VtbaCXZCONrrOpMdLdo3hciBTVgIQWjX" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
+<iframe src="https://ridewithgps.com/embeds?type=trip&id=346835958&sampleGraph=true&privacyCode=VtbaCXZCONrrOpMdLdo3hciBTVgIQWjX" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
 
 ---
 
@@ -63,7 +63,7 @@ Well, that's not entirely true. I did book my hotel for the first night a few da
 
 This would turn out to be one of the best decisions I'd make on the trip.
 
-I slept surprisingly okay the night before, got up very early Sunday morning, and sort of went through the motions of getting dressed and eating my breakfast. I turned off all my lights and appliances, took a selfie in my building's lobby, and rode my bike to the subway to catch the train to my starting point, [Van Cortlandt Park - 242 St subway station](https://maps.app.goo.gl/LwQTiNSUUVhKdpw96) in the Bronx.
+I slept surprisingly okay the night before, got up very early Sunday morning, and sort of went through the motions of getting dressed and eating breakfast. Then I turned off all my lights and appliances in my apartment and headed out to catch the train to my starting point, [Van Cortlandt Park - 242 St subway station](https://maps.app.goo.gl/LwQTiNSUUVhKdpw96) in the Bronx.
 
 {% cldImage "IMG_1330.jpeg", "Pre-departure selfie in my apartment building's lobby", 360 %}
 
@@ -73,19 +73,24 @@ Unsatisfied with my pep talk, I walked my bike back to the park entrance, snappe
 
 {% cldImage "IMG_1333.jpeg", "Pre-departure picture of my bike before I headed out", 360 %}
 
-The ride up to Poughkeepsie was very pleasant, and it was a warm and lovely day for it. If you haven't done it before, I highly encourage it. It's almost entirely on sheltered, leafy trails surrounded by abandoned rail tracks and various bodies of water, with the only non-trail sections being very short crossings of the residential streets that connect these trails. The weather as I stated was near perfect: warm enough for short sleeves, yet never exceeding high 70s at any point. I encountered lots of other cyclists, runners, walkers, and dogs all along the trail in both directions. And squirrels. So many squirrels, many of them assuredly with a death wish of some kind, if their frequent dashes across the trail without any sense of urgency or safety were any indication.
+It was a warm, lovely morning, and the ride up to Poughkeepsie was very pleasant. If you haven't taken it before, I highly encourage it. The ride is almost entirely on sheltered, leafy trails surrounded by abandoned rail tracks and various bodies of water, with the only non-trail sections being very short crossings of residential streets that connect these trails. There are plenty of [Metro North train stations](https://www.mta.info/schedules/metro-north/hudson) close to the trail, so it's easy to ride however short or long you like and take the train back to NYC. I encountered lots of other cyclists, runners, walkers, and dogs all along the trail in both directions. And squirrels. So many squirrels, many of them assuredly with a death wish of some kind, if their frequent dashes across the trail without any sense of urgency or safety were any indication.
+
+<div class="photo-row photo-row-double">
+{% cldImage "IMG_1376.jpeg", "The Empire State Trail near NYC", 360 %}
+{% cldImage "IMG_1413.jpeg", "Cycling on the trail next to the Hudson River", 360 %}
+</div>
 
 <div class="photo-row photo-row-triple">
 {% cldImage "IMG_1353.jpeg", "The Empire State Trail near NYC", 360 %}
 {% cldImage "IMG_1368.jpeg", "A bridge on the Kitchawan Preserve", 360 %}
-{% cldImage "IMG_1373.jpeg", "Overlooking the New Croton Reservoir", 360 %}
+{% cldImage "IMG_1373.jpeg", "My bike on a bridge overlooking the New Croton Reservoir", 360 %}
 </div>
 
-I stopped first around 11:30 at [Trailside Cafe](https://maps.app.goo.gl/8r8qmZ3A8MAnyhmn7) in Yorktown Heights for lunch and a bathroom break, then a couple hours later at a gas station in Brewster for more water. The day had warmed considerably, and I was going through my two bottles faster than I usually did. I got to Hopewell Junction around 3.30 pm. The [former rail depot-turned-outdoor museum](https://www.hopewelldepotmuseum.org/) is only open Saturdays, but I'd hoped to find a running tap to refill my water bottles. No luck there. Google Maps found me [a bar around the corner](https://maps.app.goo.gl/Pz3gk2S2czoJWTXL7), so I went in to ask for some water. Everyone turned around to stare at me as I walked in, clomp-clomp-clomp in my full cycling kit, cleats and helmet included. The older gentlemen were impressed to hear I was riding alone and had come from Brooklyn. Little did they know I had much further to go!
+I stopped first around 11:30 am at [Trailside Cafe](https://maps.app.goo.gl/8r8qmZ3A8MAnyhmn7) in Yorktown Heights for lunch and a bathroom break, then a couple hours later at a [gas station](https://maps.app.goo.gl/Q17LRjP5p1MtLsfN7) in Brewster for more water. The day had warmed considerably, and I was going through my two bottles faster than usual. I got to Hopewell Junction around 3.30 pm. The [former rail depot-turned-outdoor museum](https://www.hopewelldepotmuseum.org/) is only open Saturdays, but I'd hoped to find a running tap outside to refill my water bottles. No luck there. Google Maps found me [a bar around the corner](https://maps.app.goo.gl/Pz3gk2S2czoJWTXL7), so I went in to ask for some water. Everyone turned around to stare as I walked in, clomp-clomp-clomp in my full cycling kit, cleats and helmet included. The older gentlemen were impressed to hear I was riding alone and had come from Brooklyn. Little did they know I had much further to go!
 
 {% cldImage "IMG_1429.jpeg", "Hopewell Inn was Halloween-ready!", 1280 %}
 
-I arrived at my hotel an hour and a half later, checked in easily, and took my bike upstairs with me to get settled in and wash the day's clothes. After I showered, I walked up the street to have a burger at [Zeus](https://maps.app.goo.gl/PuTminJJ4rAH1fyX7) before having a very early night.
+I arrived at my hotel an hour and a half later, checked in easily, and took my bike upstairs with me to get settled in and wash the day's clothes. After showering, I walked up the street to grab a bite at [Zeus](https://maps.app.goo.gl/PuTminJJ4rAH1fyX7) before having a very early night.
 
 ---
 
@@ -93,12 +98,14 @@ I arrived at my hotel an hour and a half later, checked in easily, and took my b
 
 [Strava](https://www.strava.com/activities/16056471238) · [Route](https://ridewithgps.com/routes/52584435)
 
-The next morning, my friend Tahnee met me at my hotel with her bike; she'd taken an early Metro North train up from Grand Central. I tried my best to fill up with some carbs at the complimentary breakfast before we set out.
+The next morning, my friend Tahnee met me at my hotel with her bike; she'd taken an early train up from Grand Central. I tried my best to fill up with some carbs at the complimentary breakfast before we set out.
+
+{% cldImage "IMG_1450.jpeg", "Our bikes before we set out on day 2", 360 %}
 
 The first part of the ride was rather lowkey. We set out from Poughkeepsie on our bikes, stopping briefly on the [Walkway over the Hudson](https://walkway.org/) to take in the panoramic views of the Hudson and upstate New York before immediately dropping into the [Hudson Valley River Trail](https://empiretrail.ny.gov/poughkeepsie-albany/lloyd-new-paltz) all the way to New Paltz. The woods were serene, with the sounds of nearby creeks and chirping birds providing a soothing background melody as we pedaled along. It felt almost otherworldly, as if we were in a movie set in New England (which... close enough).
 
 <div class="photo-row photo-row-triple">
-{% cldImage "IMG_1459.jpeg", "A wooded trail in New Paltz on day 2", 360 %}
+{% cldImage "IMG_1459.jpeg", "A wooded trail in New Paltz", 360 %}
 {% cldImage "IMG_1493.jpeg", "A sign pointing to the EST in New Paltz", 360 %}
 {% cldImage "IMG_1506.jpeg", "Pumpkins for sale at a farm in Rhinebeck", 360 %}
 </div>
@@ -192,15 +199,14 @@ The clouds gathering overhead forewarned of upcoming rain. I rode quickly throug
 
 I woke up on Day 4 to a chilly, overcast morning. It rained heavily the night before, apparently ushering in the beginning of New York's twelfth season, [Actual Fall](https://12seasons.nyc). The weather app informed me the temperature outside was 54 degrees, a full 20 degrees cooler than that just 12 hours earlier. I looked outside at the grey, misty sky and decided to put on all of the layers I'd packed. I was also glad to have the neoprene overshoes and foldable fenders on my bike to ward off the wet dirt from the puddles in the streets.
 
-<div class="photo-row photo-row-triple">
-{% cldImage "IMG_1655.jpeg", "Wet streets in Waterford", 360 %}
+<div class="photo-row photo-row-double">
 {% cldImage "IMG_1656.jpeg", "Wet streets in Waterford", 360 %}
 {% cldImage "IMG_1677.jpeg", "A selfie as I rode along in Waterford", 360 %}
 </div>
 
 Even though I intended for this to be my shortest and easiest day, I still decided to hit the road as soon as possible so I could be further along in case it rained again, so I was checked out of my Airbnb and on my way before 9 am. The streets were surprisingly empty for a Wednesday morning, a glimpse into what it might be like to live in the sleepy town. The first half of the ride was mostly flat terrain along US-4 and past [Saratoga National Park](https://www.nps.gov/sara/index.htm). By 11 am, the sun was out again, but I chose to keep my jacket on as it felt breathable and I figured the bright color and reflective panels would made me more visible to oncoming vehicles.
 
-<div class="photo-row photo-row-triple">
+<div class="photo-row photo-row-double">
 {% cldImage "IMG_1659.jpeg", "Halloween decorations in Stillwater", 360 %}
 {% cldImage "IMG_1670.jpeg", "More halloween decorations in Schuylerville", 360 %}
 </div>
@@ -375,7 +381,7 @@ My original plan had been to catch the [Local Motion Island Line Bike Ferry](htt
 
 There wasn't much life out on the streets that early on a chilly autumn Saturday. I made my first rest stop an hour and a half later at a [convenience store on Chimney Corner](https://maps.app.goo.gl/2MirnAeUpt89WbWn9) to refill on water and ice. I then turned onto U.S. Highway 2, which has a very wide, generous shoulder that provided me ample protection from the speeding car traffic. Riding here was a miles better experience than riding on the on-road sections of the EST. The highway connects the Vermont mainland via the [Sand Bar Causeway](https://maps.app.goo.gl/WKGxGrt2yQLXaYbT6) (with beautiful views of the lake, including a viewpoint at the [Samuel de Champlain Historic Landmark](https://maps.app.goo.gl/ELNhEPb7EJHnJzk27)) to Vermont's South Hero island.
 
-<div class="photo-row photo-row-triple">
+<div class="photo-row photo-row-double">
 {% cldImage "IMG_1886.jpeg", "A skeleton dressed like a man in someone's driveway", 360 %}
 {% cldImage "IMG_1911.jpeg", "A skeleton caught in a large spider web tree decoration", 360 %}
 </div>
@@ -406,7 +412,7 @@ After entering Canada, I continued along Rte 225 (where [VT 225](https://en.wiki
 
 <div class="photo-row photo-row-triple">
 {% cldImage "IMG_1937.jpeg", "A sign informing me I was now riding on Quebec's Route Verte cycling network", 360 %}
-{% cldImage "IMG_1952.jpg", "A home flanked by some trees with green, yellow, and orange leaves", 360 %}
+{% cldImage "IMG_1951.jpeg", "A home flanked by some trees with green, yellow, and orange leaves", 360 %}
 {% cldImage "IMG_1939.jpeg", "A cross-section of the road with trees of various colors", 360 %}
 </div>
 
@@ -416,7 +422,12 @@ I continued my ride and made it to Saint-Jean-sur-Richelieu well ahead of schedu
 
 {% cldImage "IMG_1948.jpeg", "Me holding a gelato cup with my bicycle in the background", 360 %}
 
-I hopped on the [Chambly Canal Path](https://parks.canada.ca/lhn-nhs/qc/chambly/activ/piste-path) at Saint-Jean-ur-Richelieu and followed it north. This is a truly impressive, well-maintained [20 km long multi-use path](https://www.google.com/maps/d/viewer?hl=fr&mid=1TITaIhjZ1DPoIpBJi222ipP7es-UpZE5&ll=45.342722990596044%2C-73.2475654195979&z=13) that hugs the Chambly Canal and offers a broad variety of scenery, from views of stately homes across the water, to leafy shaded sections in the woods. It was really nice to once again share the path with runners, walkers, and fellow cyclists. After traveling for the better part of a week by myself, riding through Chambly made me feel less alone and as if I had just re-entered society from exile and was now living and doing the same things that everyone else was.
+I hopped on the [Chambly Canal Path](https://parks.canada.ca/lhn-nhs/qc/chambly/activ/piste-path) at Saint-Jean-ur-Richelieu and followed it north. This is a truly impressive, well-maintained [20 km long multi-use path](https://www.google.com/maps/d/viewer?hl=fr&mid=1TITaIhjZ1DPoIpBJi222ipP7es-UpZE5&ll=45.342722990596044%2C-73.2475654195979&z=13) that hugs the Chambly Canal and offers a broad variety of scenery, from views of stately homes across the water, to leafy shaded sections in the woods. It was really nice to once again share the path with runners, walkers, and fellow cyclists. After traveling for the better part of a week by myself, riding through Chambly made me feel less alone and as if I had just re-entered society from an exile of sorts.
+
+<div class="photo-row photo-row-triple">
+{% cldImage "IMG_1950.jpeg", "A sign in Saint-Jean-sur-Richelieu along the Chambly Canal", 360 %}
+{% cldImage "IMG_1957.jpeg", "A cycling path in Saint-Hubert on the way to Montréal", 360 %}
+</div>
 
 {% cldImage "IMG_1954.jpeg", "a view of homes across the Chambly canal", 1280 %}
 
