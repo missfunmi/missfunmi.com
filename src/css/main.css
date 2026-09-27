@@ -278,7 +278,7 @@ footer a[href]:hover {
 }
 
 hr {
-  margin: 1em;
+  margin: 1em 0.5em;
   border: 0;
   background-color: var(--border-color);
   color: var(--border-color);
@@ -647,22 +647,6 @@ figcaption {
   object-position: right;
 }
 
-@media screen and (max-width: 600px) {
-  .photo-row {
-    flex-direction: column;
-  }
-  .photo-row-double {
-    max-width: 100%;
-  }
-  .photo-row img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    object-position: center;
-    flex: none;
-  }
-}
-
 .next-previous-container {
   display: flex;
   justify-content: space-between;
@@ -714,6 +698,22 @@ figcaption {
     font-size: 3em;
   }
 
+  .photo-row {
+    flex-direction: column;
+  }
+
+  .photo-row-double {
+    max-width: 100%;
+  }
+
+  .photo-row img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    flex: none;
+  }
+
   .posts-list {
     display: grid;
     grid-template-columns: none;
@@ -752,5 +752,14 @@ figcaption {
 
   footer .copyright {
     display: inline;
+  }
+
+  section ul,
+  section ol {
+    padding-inline-start: 15px;
+  }
+
+  hr {
+    margin: 1em 0;
   }
 }
