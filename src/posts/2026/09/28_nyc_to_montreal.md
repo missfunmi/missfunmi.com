@@ -3,7 +3,7 @@ title: I rode my bike from NYC to Montréal (Part 1)
 date: 2026-09-28
 description: A photo essay recapping my journey from New York City to Montréal on two wheels.
 audience: People who are curious about what it's like to do a solo multi-day cycling trip for the first time, with or without plans to do something similar themselves.
-tags: [personal essay, trip report, bikepacking, outdoor adventures, 26 for 2026]
+tags: [personal essay, photo essay, trip report, bikepacking, outdoor adventures, 26 for 2026]
 ---
 
 About a year ago, in October 2025, I rode my bike from New York City all the way to Montréal, Canada. It took me 7 days. It was my first ever multi-day cycling trip, and I completed the trip almost entirely solo.
@@ -23,22 +23,21 @@ This essay is organized in two parts:
 
 ## An idea is born 💭
 
-Sometime in 2024 or so, I came across [a post on Reddit](https://www.reddit.com/r/NYCbike/comments/14z7kxh/bronx_to_Montréal_empire_state_trail/) about a ride from NYC to Montréal via the [Empire State Trail](https://empiretrail.ny.gov/). Even though I'd never done a multi-day cycling trip before and didn't personally know anyone who had, this stranger's experience somehow resonated strongly with me, and I bookmarked the post for future reference. I was familiar with a portion of the trail, having ridden [sections](https://empiretrail.ny.gov/new-york-city-poughkeepsie/battery-inwood-hill) [of](https://empiretrail.ny.gov/new-york-city-poughkeepsie/van-cortlandt-park-elmsford) [it](https://empiretrail.ny.gov/new-york-city-poughkeepsie/elmsford-new-castle) at various points over the years, but I'll admit I wasn't fully aware of the length and breadth of what the trail had to offer.
+Sometime in 2024 or so, I came across [a post on Reddit](https://www.reddit.com/r/NYCbike/comments/14z7kxh/bronx_to_Montréal_empire_state_trail/) about a ride from NYC to Montréal via the [Empire State Trail](https://empiretrail.ny.gov/). I was familiar with a portion of the trail, having ridden [sections](https://empiretrail.ny.gov/new-york-city-poughkeepsie/battery-inwood-hill) [of](https://empiretrail.ny.gov/new-york-city-poughkeepsie/van-cortlandt-park-elmsford) [it](https://empiretrail.ny.gov/new-york-city-poughkeepsie/elmsford-new-castle) at various points over the years, but I wasn't familiar with all it had to offer. I bookmarked the post and promptly forgot about it.
 
-Then, at the beginning of 2025 right before I quit my job, I thought about all the things I'd want to do during my year off and remembered the post about the ride to Montréal. At the time, I didn't really know how I'd go about completing something like this; I just knew for my sabbatical, I wanted a healthy mix of whimsical and ambitious things, and this ride seemed like a great candidate for that second bucket.
+Then in 2025 right before I quit my job, I thought about all the things I'd want to do during my year off and remembered the post about the ride to Montréal. I didn't yet know how I'd go about completing something like this, but I wanted to try a mix of whimsical and adventurous things during my sabbatical, and this ride seemed like a great candidate for that second bucket.
 
 ## But when?
 
-I didn't give it another thought until the spring when it was warm enough to ride outside again. I initially thought I could head out in May: the mild spring temperatures, relatively low humidity, and plenty of daylight hours presented an appealing trifecta of riding conditions. But when I struggled through [my first outdoor ride of the season](https://www.strava.com/activities/14223139607) in mid-April, I determined that completing 35 times that distance in a 1-week window only a month later would probably (*definitely!*) be too much of a stretch. I had some races and travel planned over the summer, so it seemed my next available window to complete the ride before it got too cold would be in October. October also happens to be my birthday month, and I liked the idea of celebrating both my accomplishment and birthday by eating my way through Montréal.
+I didn't give it another thought until it was warm enough to ride outside again. I initially thought I might head out in May: the mild spring temperatures and long daylight hours offer compelling riding conditions. But when I struggled through [my first outdoor ride of the season](https://www.strava.com/activities/14223139607) in mid-April, I determined that completing 35 times that distance only a month later would probably (*definitely!*) be too much of a stretch. I had some races and travel coming up over the summer, so my next available window to complete the ride before it got too cold would be in October. October also happens to be my birthday month, and I liked the idea of celebrating both my accomplishment and my birthday by eating my way through Montréal.
 
 In other words: picking early-mid October for my trip was entirely a logistics and fitness-driven decision, but in hindsight, I couldn't recommend a better time of year to complete this particular ride. October is *the* perfect month for many reasons, some of which you can see from my pictures:
 
 - It's likely to be [peak fall foliage](https://www.explorefall.com/fall-foliage-map) in the northern hemisphere, and the trails and trees around upper New York and Vermont are bursting with vibrant colors of the rainbow.
-- If you're lucky and don't have to ride through the rain, the temperatures are likely to be moderate: sunny but crisp with far lower humidity than even a month earlier. It's extremely suitable for prolonged riding outdoors, even on those slightly colder days.
+- If you're lucky and don't have to ride through rain, the temperatures are likely to be moderate: sunny but crisp with far lower humidity than even a month earlier. It's extremely suitable for prolonged riding outdoors, even on those slightly colder days.
 - You'll encounter lots of whimsical, funny, and creative Halloween decorations once you get off the wooded sections of the trail and start riding through the small towns of upstate New York and Vermont.
 
-
-<div class="blank-divider"></div>
+<!-- -->
 
 <div class="photo-row photo-row-triple">
 {% cldImage "IMG_1358.jpeg", "A tree with bright orange colors", 360 %}
@@ -50,7 +49,7 @@ In other words: picking early-mid October for my trip was entirely a logistics a
 
 ## Part 1: The Trip
 
-<iframe src="https://ridewithgps.com/embeds?type=trip&id=346835958&title=NYC%20to%20Montr%C3%A9al%20-%20Complete%20Ride%20(Oct.%202025)&sampleGraph=true&distanceMarkers=true&privacyCode=VtbaCXZCONrrOpMdLdo3hciBTVgIQWjX" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
+<iframe src="https://ridewithgps.com/embeds?type=trip&id=346835958&title=NYC%20to%20Montr%C3%A9al%20-%20Complete%20Ride&sampleGraph=true&distanceMarkers=true&privacyCode=VtbaCXZCONrrOpMdLdo3hciBTVgIQWjX" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
 
 ---
 
@@ -60,15 +59,15 @@ In other words: picking early-mid October for my trip was entirely a logistics a
 
 Up until the day I left, I didn't really think I'd actually go through with it.
 
-Well, that's not entirely true. I did book my hotel for the first night ahead of time, so I knew I'd at least make it to Poughkeepsie on the first day one way or the other, but I chose not to pre-book all of my hotels ahead of time despite having all of my routes planned. Even though I'd known for months and had told anyone who would listen about the trip, for some reason, I didn't actually want to pre-commit to anything. *Just in case something comes up and I have to turn around*, I told myself. Subconsciously, I suspected I wouldn't actually give up as it's not really my style, but something still kept me from making any non-refundable bookings upfront.
+Well, that's not entirely true. I did book my hotel for the first night a few days earlier, so I knew I'd at least make it to Poughkeepsie, but I chose not to make my remaining reservations ahead of time. Even though I'd known for months I was doing the trip and had pre-planned all of my daily routes, I still hesitated to commit to anything nonrefundable. *Just in case something comes up and I have to turn around*, I told myself.
 
-This would actually turn out to be one of the best decisions I'd make on the trip.
+This would turn out to be one of the best decisions I'd make on the trip.
 
-I slept surprisingly okay the night before, got up very early Sunday morning, and sort of went through the motions of getting dressed and eating my breakfast. I loaded up my bike, turned off all my lights and appliances, took a selfie in my building's lobby, rode to the subway, and took the train all the way up to my starting point, the [Van Cortlandt Park - 242 St subway station](https://maps.app.goo.gl/LwQTiNSUUVhKdpw96) in the Bronx.
+I slept surprisingly okay the night before, got up very early Sunday morning, and sort of went through the motions of getting dressed and eating my breakfast. I turned off all my lights and appliances, took a selfie in my building's lobby, and rode my bike to the subway to catch the train to my starting point, [Van Cortlandt Park - 242 St subway station](https://maps.app.goo.gl/LwQTiNSUUVhKdpw96) in the Bronx.
 
 {% cldImage "IMG_1330.jpeg", "Pre-departure selfie in my apartment building's lobby", 360 %}
 
-The entire train ride up, I sort of tuned out and didn't think about anything in particular. It felt almost as if this ride was happening to someone else and I was sitting across from them on the train, passively observing them on their way to this adventure. I got to Van Cortlandt Park around 8:45 am and headed straight to the [restroom](https://maps.app.goo.gl/bHaqp51N8oe1xJj79) next to the station's exit and park entrance. It was mostly empty, so I took my bike into the spacious entryway with me (couldn't risk anything happening to it before my trip had even begun!) and tried to rally myself and calm my nerves. *You are funemployed. It's not like you have anything better to do!*, I told myself in the mirror. *You can do hard and scary things. What's there to be afraid of? Plenty of people have done this ride before. It's totally fine. If you get tired or too scared out there alone, you can just find the nearest train and hop on it. This is so not a big deal. You're fine. This is fine!*
+The entire train ride up, I sort of tuned out and didn't think about anything in particular. It felt almost as if this ride was happening to someone else and I was sitting across from them on the train, passively observing them on their way to this adventure. I got to Van Cortlandt Park around 8:45 am and headed straight to the [restroom](https://maps.app.goo.gl/bHaqp51N8oe1xJj79) next to the station's exit and park entrance. It was mostly empty, so I took my bike into the spacious entryway with me (couldn't risk anything happening to it before my trip had even begun!) and tried to rally myself and calm my nerves. *You are funemployed. It's not like you have anything better to do!* I told myself in the mirror. *You can do hard and scary things. What's there to be afraid of? Plenty of people have done this ride before. It's totally fine. If you get tired or too scared out there alone, you can just find the nearest train and hop on it. This is so not a big deal. You're fine. This is fine!*
 
 Unsatisfied with my pep talk, I walked my bike back to the park entrance, snapped a commemorative pic next to the sign, and set out on my journey.
 
@@ -433,9 +432,11 @@ I made it.
 
 Wow. Surreal.
 
-My first thought was: *I'm so glad to be off this bike and I'm never riding a bike ever again!* I was that exhausted. My second thought was: *Well hmm, I wonder what the trail to Toronto looks like?* But my overwhelming feeling after all of that was of gratitude to the universe and slight disbelief in myself. What had once seemed a potentially senseless trip when I could easily have taken a flight, a pointlessly dangerous journey through highways and forests alone, an aspiration so out of reach until it wasn't... had just happened.
+My first thought was: *I'm so glad to be off this bike and I'm never riding a bike ever again!* I was exhausted and slightly over-caffeinated. My second thought was: *Well hmm, I wonder what the trail to Toronto looks like?* But my overwhelming feeling after all of that was of gratitude to the universe and slight disbelief in myself. What had once seemed a potentially senseless trip when I could easily have taken a flight, a pointlessly dangerous journey through highways and forests alone, an aspiration so out of reach until it wasn't... had just happened.
 
-And look at that. It wasn't even that bad after all. All of the anxiety I felt at the beginning now seemed rather silly in hindsight. It appeared the week I'd just spent in nature, confronting and embracing my fears and leaning in to the discomfort might have soothed and healed me, after all. Only a week before, I didn't fully trust that I could do this, but now, on the other side of it, I'd just done it. and I knew I could do another like it. In fact, I knew that this would neither be my last bicycle trip, nor my last solo one.
+And look at that. It wasn't even that bad after all. All of the anxiety I felt at the beginning now seemed rather silly in hindsight. It felt as though the week I'd just spent in nature, confronting and embracing my fears and leaning in to the discomfort had soothed and healed me, after all. Only a week before, I didn't fully believe that I could do this.
+
+But now, on the other side of it, I'd done it. And I knew I could do another like it. In fact, I knew that this would neither be my last bicycle trip, nor my last solo one.
 
 > I go to nature to be soothed and healed, and to have my senses put in order.
 
