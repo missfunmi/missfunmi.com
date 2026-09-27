@@ -98,11 +98,12 @@ export default async function (eleventyConfig) {
   );
 
   // Other than the site logo, all other images are hosted in Cloudinary
-  // Use in markdown as follows; last param is optional and will override the maxWidth default of 800px
-  // {% cldImage "image.png", "alt text", 680 %}
+  // `maxWidth` is optional and will override the maxWidth default of 800px; `caption` is also optional and can be left out entirely. Both of these are valid:
+  // {% cldImage "image.png", "alt text", 680, "caption" %}
+  // {% cldImage "image.png", "alt text" %}
   eleventyConfig.addShortcode(
     "cldImage",
-    function (src, description, maxWidth = 800) {
+    function (src, description, maxWidth = 800, caption = null) {
       const cloudName = "missfunmi";
       const base = `https://res.cloudinary.com/${cloudName}/image/upload`;
       const sizes = [400, maxWidth, 1200];
@@ -111,15 +112,17 @@ export default async function (eleventyConfig) {
         .map((w) => `${base}/f_auto,q_auto,w_${w}/${src} ${w}w`)
         .join(", ");
 
-      return `<img
-      src="${base}/f_auto,q_auto,w_${maxWidth}/${src}"
-      srcset="${srcset}"
-      sizes="(max-width: ${maxWidth}px) 100vw, ${maxWidth}px"
-      alt="${description}"
-      title="${description}"
-      loading="lazy"
-      decoding="async"
-    >`;
+      return `<figure>
+        <img
+          src="${base}/f_auto,q_auto,w_${maxWidth}/${src}"
+          srcset="${srcset}"
+          sizes="(max-width: ${maxWidth}px) 100vw, ${maxWidth}px"
+          alt="${description}"
+          loading="lazy"
+          decoding="async"
+        >
+        ${caption ? `<figcaption>${caption}</figcaption>` : ''}
+      </figure>`;
     },
   );
 
@@ -134,6 +137,14 @@ export default async function (eleventyConfig) {
         /<pre class="language-(\w+)"([^>]*)>([\s\S]*?)<\/pre>/g,
         '<div class="code-block"><span class="code-language">$1</span><button class="copy-button" aria-label="Copy code"></button><pre class="language-$1"$2>$3</pre></div>',
       );
+    }
+    return content;
+  });
+
+  // Strip empty <p> tags that appear inside .photo-row divs:
+  eleventyConfig.addTransform("cleanEmptyParagraphs", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      return content.replace(/<p>\s*<\/p>/g, "");
     }
     return content;
   });

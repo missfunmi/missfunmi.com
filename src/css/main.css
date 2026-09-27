@@ -574,7 +574,36 @@ img {
 .photo-row {
   display: flex;
   gap: 8px;
-  padding-bottom: 8px;
+}
+
+figure {
+  margin: 0;
+}
+
+.photo-row,
+p:has(> figure) {
+  margin-bottom: 1em;
+}
+
+figure,
+.photo-row figure {
+  flex: 1;
+  min-width: 0;
+}
+
+.photo-row figure img {
+  width: 100%;
+}
+
+figure:not(.photo-row figure) {
+  margin-bottom: 1em;
+}
+
+figcaption {
+  font-size: 11px;
+  color: var(--font-color-metadata);
+  text-align: center;
+  padding-top: 4px;
 }
 
 .photo-row img {
