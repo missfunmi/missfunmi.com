@@ -13,6 +13,8 @@ Right??
 
 —
 
+## Before The Race
+
 ### Fears 😵‍💫
 
 I didn't learn to swim until I was 28, so I still have to mentally prepare every time I get in water where I can't touch the bottom. This one was no different, especially after a 2‑year hiatus from open water swims, my last one resulting in a full‑blown panic attack thanks to [Tropical Storm Ophelia](https://longisland.news12.com/tracking-ophelia-tropical-storm-pummels-south-shore-with-rough-rip-currents) (I still finished that race, though).
@@ -35,7 +37,9 @@ We got up at 5 am, quickly showered, re-packed our bags, then went downstairs to
 
 Our goal was to make it to the main parking lot before it closed at 7 to avoid the overflow lot a bit further away, and we just about hit that, getting there around 6:50 am. We got in line to pick up our race packets and then went to set up our bikes in transition. It felt really good to be in the race environment again and especially around people I knew from my tri club. I made the standard pre-race restroom stop, by which time the first 70.3 swimmer had blazed out of the water.
 
-—
+---
+
+## The Race
 
 ### The Swim 🏊🏾‍♀️
 
@@ -55,7 +59,7 @@ After what felt like an eternity, the fear of being alone in the water forced me
 
 —
 
-## The Bike 🚴🏾‍♀️
+### The Bike 🚴🏾‍♀️
 
 I decided to use my road bike since I haven't ridden my TT bike outside in nearly 2 years. I didn't have much of a strategy for the bike leg other than to absolutely *send it* (as best as I could). I didn't know if I'd be able to run at all and didn't want to regret holding back on the bike if that turned out to be the case. The 12.5 mile out-and-back bike loop was gorgeous and serene, with rolling hills on mostly empty roads. The roads were not closed for the race, but there were cops managing traffic through the lone busy intersection that cut through the bike course.
 
@@ -67,7 +71,7 @@ Overall, a relatively uneventful ride: I passed and was passed by lots of people
 
 —
 
-## The Run 🏃🏾‍♀️
+### The Run 🏃🏾‍♀️
 
 The run was along a mostly shaded section of the [Empire State Trail](https://empiretrail.ny.gov/). I'd forgotten how much I love running in the woods... why don't I do this all the time again?!
 
@@ -77,9 +81,9 @@ I set out at a perky 8:39 min/mile, faster than anything I've run recently. I fe
 
 **Run Time:** 00:27:13 (8:45 min/mi) - 20/73 Female, 4/12 Age Group
 
-—
+---
 
-## Overall 🥳🎖️🥉
+### Overall 🥳🎖️🥉
 
 I finished in 1:37:08, a 6:33 PR over my previous showing at this race and a 3rd place finish in my age group! I couldn't be more thrilled, especially after agonizing so much about the swim and run. I'm so happy I trusted my gut regarding the wetsuit and bike pacing and that I was able to overcome my irrational fears and panic during the swim.
 
@@ -87,7 +91,7 @@ I finished in 1:37:08, a 6:33 PR over my previous showing at this race and a 3rd
 
 —
 
-## What's Next? 🤔
+## What's Next?
 
 My big race this year is [Ironman 70.3 Washington Tri-Cities](https://www.ironman.com/races/im703-washington-tri-cities) on September 21st. It'll be my fifth time racing that distance, and I'm especially stoked for this race as it already seems really popular, despite this only being its second year. It's also an excuse for me to finally visit the Seattle area for the first time, and I can't wait!
 

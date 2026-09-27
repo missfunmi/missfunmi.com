@@ -122,6 +122,8 @@ export default async function (eleventyConfig) {
           srcset="${srcset}"
           sizes="(max-width: ${maxWidth}px) 100vw, ${maxWidth}px"
           alt="${description}"
+          width="${maxWidth}"
+          height="${Math.round(maxWidth * 1.333)}"
           loading="lazy"
           decoding="async"
         >

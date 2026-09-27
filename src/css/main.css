@@ -200,7 +200,7 @@ footer {
 
 header {
   align-items: center;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 10;
 }
@@ -290,25 +290,22 @@ hr {
   margin: 2.5em;
 }
 
-h2,
-h3 {
-  /* scroll-margin-top: 4rem; */
-  scroll-margin-top: 165px !important;
-}
-
 h2 .header-anchor,
-h3 .header-anchor {
-  opacity: 0;
+h2 .header-anchor:visited,
+h3 .header-anchor,
+h3 .header-anchor:visited {
+  opacity: 0.3;
   text-decoration: none;
   margin-right: 0.5em;
   color: var(--font-color-metadata);
-  font-weight: 400;
+  font-weight: 300;
 }
 
-h3:hover,
-h3:hover .header-anchor {
+h2 .header-anchor:hover,
+h3 .header-anchor:hover {
   opacity: 1;
   cursor: pointer;
+  color: var(--hover-link-color);
 }
 
 .toggle-theme-container {

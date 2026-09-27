@@ -48,6 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
     a.style.paddingLeft = h.tagName === "H3" ? "0.75rem" : "0";
     nav.appendChild(a);
   });
+
+  const topLink = document.createElement('a');
+  topLink.href = '#';
+  topLink.textContent = '↑';
+  topLink.title = 'back to top';
+  topLink.style.paddingLeft = '0';
+  topLink.style.marginTop = '8px';
+  topLink.style.display = 'block';
+  nav.appendChild(topLink);
+
   toc.appendChild(nav);
 
   const links = nav.querySelectorAll("a");
