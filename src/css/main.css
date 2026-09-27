@@ -388,6 +388,50 @@ a.back-link:hover:before {
   margin-left: -0.02em; /* hack to slightly offset hero text */
 }
 
+.post-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.post-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.post-toc {
+  position: sticky;
+  top: 580px;
+  width: 200px;
+  flex-shrink: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.post-toc nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.post-toc a,
+.post-toc a:visited {
+  color: var(--font-color-metadata);
+  text-decoration: none;
+  display: block;
+  padding: 2px 0;
+}
+
+.post-toc a:hover {
+  color: var(--active-link-color);
+}
+
+.post-toc-label {
+  font-size: larger;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
 .posts-list {
   padding-top: 2rem;
   display: grid;
@@ -671,6 +715,10 @@ figcaption {
   .post-hero,
   .page-content {
     max-width: 80vw;
+  }
+
+  .post-toc {
+    display: none;
   }
 
   .footer-grid {

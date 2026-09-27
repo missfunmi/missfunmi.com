@@ -3,14 +3,14 @@ title: I rode my bike from NYC to Montréal (Part 1)
 date: 2026-09-28
 description: A photo essay recapping my journey from New York City to Montréal on two wheels.
 audience: People who are curious about what it's like to do a solo multi-day cycling trip for the first time, with or without plans to do something similar themselves.
-tags: [personal essay, photo essay, trip report, bikepacking, outdoor adventures, 26 for 2026]
+tags: [personal essay, photo essay, trip report, bikepacking, outdoor adventures, solo trips, 26 for 2026]
 ---
 
 About a year ago, in October 2025, I rode my bike from New York City all the way to Montréal, Canada. It took me 7 days. It was my first ever multi-day cycling trip, and I completed the trip almost entirely solo.
 
 This essay is organized in two parts:
 
-- The first part, below, covers my experience and the routes I used to navigate my trip.
+- The first part, below, covers my experience and the routes I used to navigate my trip. This is a picture-heavy post.
 - The second part, coming in the next post, will cover how I prepared for this trip and some suggestions to help you plan one like it yourself.
 
 ---
