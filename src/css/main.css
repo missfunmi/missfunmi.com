@@ -416,7 +416,8 @@ a.back-link:hover:before {
 
 .post-toc {
   position: sticky;
-  top: 580px;
+  top: 2.16rem;
+  align-self: flex-start;
   width: 200px;
   flex-shrink: 0;
   font-size: 12px;
@@ -446,6 +447,7 @@ a.back-link:hover:before {
   font-size: larger;
   font-weight: 600;
   margin: 0 0 8px 0;
+  padding-top: 16px;
 }
 
 .posts-list {

@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let closest = null;
     headings.forEach(h => {
       const top = h.getBoundingClientRect().top;
-      console.log('heading: ', h.id, top);
       if (top <= 50) {
         if (closest === null || top > closest.getBoundingClientRect().top) {
           closest = h;
@@ -75,4 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
       links.forEach(l => l.classList.remove("active"));
     }
   }, { passive: true });
+
+  const postLayout = document.querySelector('.post-layout');
+  const pageContent = document.querySelector('.page-content');
+  if (postLayout && pageContent && toc) {
+    const contentStyles = getComputedStyle(pageContent);
+    const paddingTop = parseFloat(contentStyles.paddingTop);
+    const offset = pageContent.getBoundingClientRect().top - postLayout.getBoundingClientRect().top + paddingTop + 32;
+    toc.style.marginTop = offset + 'px';
+  }
 });
