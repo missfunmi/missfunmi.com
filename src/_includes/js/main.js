@@ -53,18 +53,26 @@ document.addEventListener("DOMContentLoaded", () => {
   toc.appendChild(nav);
 
   const links = nav.querySelectorAll("a");
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          links.forEach((l) => l.classList.remove("active"));
-          const active = nav.querySelector(`a[href="#${entry.target.id}"]`);
-          if (active) active.classList.add("active");
+  let activeLink = null;
+  window.addEventListener('scroll', () => {
+    let closest = null;
+    headings.forEach(h => {
+      const top = h.getBoundingClientRect().top;
+      console.log('heading: ', h.id, top);
+      if (top <= 50) {
+        if (closest === null || top > closest.getBoundingClientRect().top) {
+          closest = h;
         }
-      });
-    },
-    { rootMargin: "0px 0px -80% 0px" },
-  );
-
-  headings.forEach((h) => observer.observe(h));
+      }
+    });
+    if (closest && closest !== activeLink) {
+      activeLink = closest;
+      links.forEach(l => l.classList.remove("active"));
+      const active = nav.querySelector(`a[href="#${closest.id}"]`);
+      if (active) active.classList.add("active");
+    } else if (!closest && activeLink) {
+      activeLink = null;
+      links.forEach(l => l.classList.remove("active"));
+    }
+  }, { passive: true });
 });
