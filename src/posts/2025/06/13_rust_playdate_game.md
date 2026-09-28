@@ -3,6 +3,7 @@ title: Building a Playdate Game in Rust
 description: A step-by-step guide to writing your first Playdate game in Rust using the crankstart crate.
 date: 2025-06-13
 tags: [playdate, rust, tutorials]
+audience: Software developers interested in building Playdate games using Rust.
 ---
 
 _I recently built a [Playdate game in Rust](https://github.com/missfunmi/tictactoe-playdate/). I thought I'd share the process for anyone else considering doing the same thing._
@@ -34,7 +35,7 @@ For this exercise, we're going to build a game that has a player that can be mov
 3. [**crank**](https://github.com/pd-rs/crank) → This is the command line tool that will build your game into a Playdate binary.
    - Install according to the instructions on [GitHub](https://github.com/pd-rs/crank). If you've already installed Rust and the Playdate SDK, you'll only need to run the following command additionally: `cargo install --git=https://github.com/pd-rs/crank`
 
-## Setting up your project
+### Setting up your project
 
 In your project directory, run:
 
@@ -97,7 +98,7 @@ Let's cover some of the changes we've made here:
 5. `crankstart` and `crankstart-sys`: These are the core libraries that let you build your Playdate game in Rust. We pin them to a [specific commit](https://github.com/pd-rs/crankstart/commit/2d2e99c89326d16b3ee6b465bdfea39c1a25d8ce) that includes important fixes not yet published to crates.io.
 6. `anyhow` and `euclid`: These are optional helper crates we'll use in our game. We disable default features because we'll be building in a `no_std` environment which does not support them (more on `no_std` below).
 
-## Setting up your game template
+### Setting up your game template
 
 Create a `Crank.toml` file at the same level as your auto-generated `Cargo.toml` containing the following configuration:
 

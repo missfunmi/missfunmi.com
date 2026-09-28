@@ -1,51 +1,59 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="post-hero">
-  <div class="action-link-container"><a href="pages/posts.njk" class="back-link">All Posts</a></div>
-  <div class="post-metadata">
-    Filed under: <span class="tags-container">
-      {%- for tag in tags | filterTagList %}
-      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-      <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
-      {%- if not loop.last %}, {% endif %}
-      {%- endfor %}
-    </span> • {{ content | readingTime({raw:true}) }} minute read
+<div class="post-layout">
+  <div class="post-main">
+
+    <section class="post-hero">
+      <div class="action-link-container"><a href="pages/posts.njk" class="back-link">All Posts</a></div>
+      <div class="post-metadata">
+        Filed under: <span class="tags-container">
+          {%- for tag in tags | filterTagList %}
+          {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+          <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+          {%- if not loop.last %}, {% endif %}
+          {%- endfor %}
+        </span> • {{ content | readingTime({raw:true}) }} minute read
+      </div>
+      <div class="hero-title"><a href="{{ url }}">{{ title }}</a></div>
+      <div class="hero-subtitle">{{ description }}</div>
+      <div class="post-publication-date">
+        <time datetime="{{ date | isoDate }}">
+          {% if modified %}First {% endif %}Published {{ date | readableDate }}
+        </time>
+        {% if modified %}
+        • Last Updated <span>{{ modified | readableDate }}</span>
+        {% endif %}
+      </div>
+      {% if audience %}
+      <div class="post-audience"><span class="post-audience-label">Assumed audience:</span> {{ audience }}</div>
+      {% endif %}
+    </section>
+    <section class="page-content">
+      {{ content | safe }}
+
+      <!-- Previous and Next Post links -->
+      {%- if collections.posts %}
+      {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+      {%- set nextPost = collections.posts | getNextCollectionItem %}
+
+      {%- if nextPost or previousPost %}
+      <ul class="next-previous-container">
+        {%- if previousPost %}
+        <li class="previous-post-container">
+          <a href="{{ previousPost.url }}" class="back-link">{{ previousPost.data.title }}</a>
+        </li>
+        {%- endif %}
+
+        {%- if nextPost %}
+        <li class="next-post-container">
+          <a href="{{ nextPost.url }}" class="action-link">{{ nextPost.data.title }}</a>
+        </li>
+        {%- endif %}
+      </ul>
+      {%- endif %}
+      {%- endif %}
+    </section>
   </div>
-  <div class="hero-title">{{ title }}</div>
-  <div class="hero-subtitle">{{ description }}</div>
-  <div class="post-publication-date">
-    <time datetime="{{ date | isoDate }}">
-      {% if modified %}First {% endif %}Published {{ date | readableDate }}
-    </time>
-    {% if modified %}
-    • Last Updated <span>{{ modified | readableDate }}</span>
-    {% endif %}
-  </div>
-</section>
-
-<section class="page-content">
-  {{ content | safe }}
-
-  <!-- Previous and Next Post links -->
-  {%- if collections.posts %}
-  {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-  {%- set nextPost = collections.posts | getNextCollectionItem %}
-
-  {%- if nextPost or previousPost %}
-  <ul class="next-previous-container">
-    {%- if previousPost %}
-    <li class="previous-post-container">
-      <a href="{{ previousPost.url }}" class="back-link">{{ previousPost.data.title }}</a>
-    </li>
-    {%- endif %}
-
-    {%- if nextPost %}
-    <li class="next-post-container">
-      <a href="{{ nextPost.url }}" class="action-link">{{ nextPost.data.title }}</a>
-    </li>
-    {%- endif %}
-  </ul>
-  {%- endif %}
-  {%- endif %}
-</section>
+  <aside class="post-toc" id="post-toc" aria-label="Table of contents"></aside>
+</div>

@@ -200,8 +200,8 @@ footer {
 
 header {
   align-items: center;
-  position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .nav {
@@ -278,7 +278,7 @@ footer a[href]:hover {
 }
 
 hr {
-  margin: 2em;
+  margin: 1em 0.5em;
   border: 0;
   background-color: var(--border-color);
   color: var(--border-color);
@@ -290,18 +290,23 @@ hr {
 }
 
 h2 .header-anchor,
-h3 .header-anchor {
-  opacity: 0;
+h2 .header-anchor:visited,
+h3 .header-anchor,
+h3 .header-anchor:visited {
+  opacity: 0.3;
   text-decoration: none;
   margin-right: 0.5em;
   color: var(--font-color-metadata);
-  font-weight: 400;
+  font-weight: 300;
+  font-size: smaller;
 }
 
-h3:hover,
-h3:hover .header-anchor {
+h2 .header-anchor:hover,
+h3 .header-anchor:hover {
   opacity: 1;
   cursor: pointer;
+  color: var(--hover-link-color);
+  font-weight: 400;
 }
 
 .toggle-theme-container {
@@ -340,6 +345,16 @@ h3:hover .header-anchor {
   font-weight: 500;
   line-height: 1;
   margin-left: -0.05em;
+}
+
+.hero-title a,
+.hero-title a:link,
+.hero-title a:visited,
+.hero-title a:hover,
+.hero-title a:active {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
 }
 
 .hero-subtitle {
@@ -386,6 +401,53 @@ a.back-link:hover:before {
   font-weight: 500;
   line-height: 1;
   margin-left: -0.02em; /* hack to slightly offset hero text */
+}
+
+.post-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.post-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.post-toc {
+  position: sticky;
+  top: 2.16rem;
+  align-self: flex-start;
+  width: 200px;
+  flex-shrink: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.post-toc nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.post-toc a,
+.post-toc a:visited {
+  color: var(--font-color-metadata);
+  text-decoration: none;
+  display: block;
+  padding: 2px 0;
+}
+
+.post-toc a:hover,
+.post-toc a.active {
+  color: var(--active-link-color);
+}
+
+.post-toc-label {
+  font-size: larger;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  padding-top: 16px;
 }
 
 .posts-list {
@@ -467,6 +529,18 @@ a.back-link:hover:before {
 
 .post-hero .post-publication-date {
   padding-top: 0.2em;
+}
+
+.post-hero .post-audience {
+  color: var(--font-color-lighter);
+  font-size: smaller;
+  font-weight: 300;
+  border-left: 2px solid var(--border-color);
+  padding-left: 0.75em;
+  margin-top: 0.4em;
+}
+.post-hero .post-audience .post-audience-label {
+  font-weight: 500;
 }
 
 section ul {
@@ -562,7 +636,36 @@ img {
 .photo-row {
   display: flex;
   gap: 8px;
-  padding-bottom: 8px;
+}
+
+figure {
+  margin: 0;
+}
+
+.photo-row,
+p:has(> figure) {
+  margin-bottom: 1em;
+}
+
+figure,
+.photo-row figure {
+  flex: 1;
+  min-width: 0;
+}
+
+.photo-row figure img {
+  width: 100%;
+}
+
+figure:not(.photo-row figure) {
+  margin-bottom: 1em;
+}
+
+figcaption {
+  font-size: 11px;
+  color: var(--font-color-metadata);
+  text-align: center;
+  padding-top: 4px;
 }
 
 .photo-row img {
@@ -606,20 +709,19 @@ img {
   object-position: right;
 }
 
-@media screen and (max-width: 600px) {
-  .photo-row {
-    flex-direction: column;
-  }
-  .photo-row-double {
-    max-width: 100%;
-  }
-  .photo-row img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    object-position: center;
-    flex: none;
-  }
+/* centered photos in a double row */
+.photo-row-centered {
+  justify-content: center;
+  max-width: 100%;
+  gap: 48px;
+}
+.photo-row-centered figure {
+  flex: 0 0 auto;
+  width: fit-content;
+}
+.photo-row-centered img {
+  flex: 0 1 auto;
+  width: auto;
 }
 
 .next-previous-container {
@@ -645,11 +747,15 @@ img {
   .hero,
   .post-hero,
   .page-content {
-    max-width: 80vw;
+    max-width: 90vw;
+  }
+
+  .post-toc {
+    display: none;
   }
 
   .footer-grid {
-    width: 80vw;
+    width: 90vw;
   }
 }
 
@@ -671,6 +777,27 @@ img {
 
   .post-hero .hero-title {
     font-size: 3em;
+  }
+
+  .photo-row {
+    flex-direction: column;
+  }
+
+  .photo-row-double {
+    max-width: 100%;
+  }
+
+  .photo-row-triple,
+  .photo-row-centered {
+    gap: 14px;
+  }
+
+  .photo-row img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    flex: none;
   }
 
   .posts-list {
@@ -711,5 +838,14 @@ img {
 
   footer .copyright {
     display: inline;
+  }
+
+  section ul,
+  section ol {
+    padding-inline-start: 15px;
+  }
+
+  hr {
+    margin: 1em 0;
   }
 }

@@ -11,7 +11,7 @@ hr.sb-divider {
 
 .sb-totals {
   display: flex;
-  gap: 0.5rem 3rem;
+  gap: 0.5rem 2.5rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
 }
@@ -78,6 +78,7 @@ hr.sb-divider {
 .sb-bar-wrap {
   position: relative;
   height: 28px;
+  z-index: 0;
 }
 .sb-bar-track {
   position: absolute;
@@ -147,10 +148,11 @@ svg.sb-spark polyline {
   margin-top: 6px;
   text-align: center;
 }
+
 #sb-tempbar {
-  display: block;
-  border-radius: 4px;
+  width: 100%;
   height: 8px;
+  border-radius: 4px;
 }
 .sb-temp-tick {
   position: absolute;
@@ -161,32 +163,30 @@ svg.sb-spark polyline {
   gap: 2px;
 }
 .sb-temp-tick-line {
-  width: 0.5px;
-  height: 5px;
+  width: 1px;
+  height: 6px;
   background: var(--font-color-lighter);
-  opacity: 0.4;
+  opacity: 0.6;
 }
 .sb-temp-tick-label {
   font-size: 10px;
-  color: var(--font-color-lighter);
   white-space: nowrap;
-  transform: translateX(-50%);
 }
 
 #sb-temp-annotations {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
   overflow: visible;
 }
 .sb-temp-annotation.high {
   flex-direction: column;
-  top: -30px;
+  top: -20px;
 }
 .sb-temp-annotation.low {
   flex-direction: column-reverse;
-  top: 8px;
+  top: 9px;
   bottom: auto;
 }
 .sb-temp-annotation {
@@ -196,7 +196,6 @@ svg.sb-spark polyline {
   transform: translateX(-50%);
   white-space: nowrap;
   font-size: 9px;
-  color: var(--font-color-lighter);
 }
 .sb-range-mid {
   flex: 1;
@@ -225,7 +224,10 @@ svg.sb-spark polyline {
   opacity: 0.5;
 }
 #sb-temp-days {
-  margin-top: 28px;
+  position: relative;
+  width: 100%;
+  height: 16px;
+  margin-top: 12px;
 }
 
 .sb-ticker {
@@ -250,8 +252,27 @@ svg.sb-spark polyline {
   margin-right: 4px;
 }
 
+/* for tablet viewports */
+@media screen and (max-width: 1200px) {
+  .sb-totals {
+    gap: 0.5rem 2rem;
+  }
+  .sb-ticker {
+    font-size: 11px;
+  }
+}
+
 /* for mobile viewports */
 @media screen and (max-width: 600px) {
+  .sb {
+    padding: 0.5rem 0;
+  }
+  .sb-totals {
+    gap: 1rem 1.5rem;
+  }
+  .sb-totals .num {
+    font-size: 1.6rem;
+  }
   .sb-col-heads {
     display: none;
   }
@@ -282,11 +303,13 @@ svg.sb-spark polyline {
   svg.sb-spark {
     width: 48px;
   }
-  .sb-mi {
-    font-size: 12px;
-  }
+  .sb-mi,
   .sb-el {
     font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .sb-spark-wrap {
+    margin-bottom: 6px;
   }
   .sb-ticker {
     flex-direction: column;

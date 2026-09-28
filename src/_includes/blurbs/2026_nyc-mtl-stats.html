@@ -42,7 +42,7 @@
 
   <div class="sb-range-mid">
     <div style="position: relative">
-      <canvas id="sb-tempbar" height="16"></canvas>
+      <div id="sb-tempbar"></div>
       <div
         id="sb-temp-annotations"
         style="
@@ -79,7 +79,7 @@
         num: "Day 1",
         date: "Sun Oct 5",
         route: "Bronx → Poughkeepsie",
-        link: "#day-1%3A-bronx-%E2%86%92-poughkeepsie",
+        link: "#day-1-bronx-poughkeepsie",
         mi: 86.9,
         elev: 2142,
         profile: [
@@ -100,7 +100,7 @@
         num: "Day 2",
         date: "Mon Oct 6",
         route: "Poughkeepsie → Hudson",
-        link: "#day-2%3A-poughkeepsie-%E2%86%92-hudson",
+        link: "#day-2-poughkeepsie-hudson",
         mi: 41.9,
         elev: 1535,
         profile: [
@@ -121,7 +121,7 @@
         num: "Day 3",
         date: "Tue Oct 7",
         route: "Hudson → Waterford",
-        link: "#day-3%3A-hudson-%E2%86%92-waterford",
+        link: "#day-3-hudson-waterford",
         mi: 52.2,
         elev: 1634,
         profile: [
@@ -142,7 +142,7 @@
         num: "Day 4",
         date: "Wed Oct 8",
         route: "Waterford → Glens Falls",
-        link: "#day-4%3A-waterford-%E2%86%92-glens-falls",
+        link: "#day-4-waterford-glens-falls",
         mi: 43.4,
         elev: 1089,
         profile: [
@@ -162,7 +162,7 @@
         num: "Day 5",
         date: "Thu Oct 9",
         route: "Glens Falls → Ticonderoga",
-        link: "#day-5%3A-glens-falls-%E2%86%92-ticonderoga",
+        link: "#day-5-glens-falls-ticonderoga",
         mi: 48.7,
         elev: 2530,
         profile: [
@@ -183,7 +183,7 @@
         num: "Day 6",
         date: "Fri Oct 10",
         route: "Ticonderoga → Burlington",
-        link: "#day-6%3A-ticonderoga-%E2%86%92-burlington",
+        link: "#day-6-ticonderoga-burlington",
         mi: 59.4,
         elev: 3189,
         profile: [
@@ -204,7 +204,7 @@
         num: "Day 7",
         date: "Sat Oct 11",
         route: "Burlington → Montréal",
-        link: "#day-7%3A-burlington-%E2%86%92-montr%C3%A9al",
+        link: "#day-7-burlington-montral",
         mi: 109.6,
         elev: 2510,
         profile: [
@@ -256,9 +256,9 @@
         xs.map((x, i) => `L${x.toFixed(1)},${ys[i].toFixed(1)}`).join(" ") +
         ` L${xs[xs.length - 1].toFixed(1)},${h} Z`;
       return `<svg class="sb-spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">
-  <path d="${area}"/>
-  <polyline points="${coords}" fill="none" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
-</svg>`;
+    <path d="${area}"/>
+    <polyline points="${coords}" fill="none" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </svg>`;
     }
 
     function tempToRGB(t) {
@@ -287,77 +287,66 @@
       const row = document.createElement("div");
       row.className = "sb-row";
       row.innerHTML = `
-      <div class="sb-day-info">
-        <span class="sb-day-num">${d.num} · ${d.date}</span>
-        <a href="${d.link}" class="sb-day-route">${d.route}</a>
-      </div>
-      <div class="sb-bar-wrap">
-        <div class="sb-bar-track">
-          <div class="sb-bar-fill" style="width:${pct}%;"></div>
+        <div class="sb-day-info">
+          <span class="sb-day-num">${d.num} · ${d.date}</span>
+          <a href="${d.link}" class="sb-day-route">${d.route}</a>
         </div>
-      </div>
-      <span class="sb-mi">${d.mi} mi</span>
-      <span class="sb-el">${d.elev.toLocaleString()} ft</span>
-      <div class="sb-spark-wrap">${sparkline(d.profile, 72, 28)}</div>
-    `;
+        <div class="sb-bar-wrap">
+          <div class="sb-bar-track">
+            <div class="sb-bar-fill" style="width:${pct}%;"></div>
+          </div>
+        </div>
+        <span class="sb-mi">${d.mi} mi</span>
+        <span class="sb-el">${d.elev.toLocaleString()} ft</span>
+        <div class="sb-spark-wrap">${sparkline(d.profile, 72, 28)}</div>
+      `;
       chart.appendChild(row);
     });
 
     // temperature bar
-    const canvas = document.getElementById("sb-tempbar");
-    const tempContainer = canvas.parentElement;
-    const w = tempContainer.offsetWidth || 300;
-    canvas.width = w;
-    canvas.height = 16;
-    canvas.style.width = w + "px";
-    canvas.style.height = "8px";
-    const ctx = canvas.getContext("2d");
-    const sw = w / allTemps.length;
-    allTemps.forEach((t, i) => {
-      const [r, g, b] = tempToRGB(t);
-      ctx.fillStyle = `rgb(${r},${g},${b})`;
-      ctx.fillRect(Math.floor(i * sw), 0, Math.ceil(sw) + 1, 16);
-    });
+    const tempBar = document.getElementById("sb-tempbar");
+    const gradientStops = allTemps
+      .map((t, i) => {
+        const [r, g, b] = tempToRGB(t);
+        const pct = ((i / (allTemps.length - 1)) * 100).toFixed(1);
+        return `rgb(${r},${g},${b}) ${pct}%`;
+      })
+      .join(", ");
+    tempBar.style.background = `linear-gradient(to right, ${gradientStops})`;
 
-    // day boundary markers, 20 readings per day
+    // temperature bar day markers
     const tickContainer = document.getElementById("sb-temp-days");
-    tickContainer.style.width = w + "px";
-    const dayDates = [
-      "Oct 5",
-      "Oct 6",
-      "Oct 7",
-      "Oct 8",
-      "Oct 9",
-      "Oct 10",
-      "Oct 11",
+    const dateTickers = [
+      { pct: 0, label: "Oct 5", align: "left" },
+      { pct: 100, label: "Oct 11", align: "right" },
     ];
-    const dayBoundaries = [0, 20, 40, 60, 80, 100, 120];
-    dayBoundaries.forEach((idx, i) => {
-      const pct = idx / allTemps.length;
+    dateTickers.forEach(({ pct, label, align }) => {
       const tick = document.createElement("div");
       tick.className = "sb-temp-tick";
-      tick.style.left = pct * w + "px";
-      tick.innerHTML = `<div class="sb-temp-tick-line"></div><div class="sb-temp-tick-label">${dayDates[i]}</div>`;
+      tick.style.left = pct + "%";
+      if (align === "right") tick.style.transform = "translateX(-100%)";
+      if (align === "left") tick.style.transform = "none";
+      tick.innerHTML = `<div class="sb-temp-tick-line"></div><div class="sb-temp-tick-label" style="transform:none;text-align:${align}">${label}</div>`;
       tickContainer.appendChild(tick);
     });
 
+    // temperature bar high/low annotations
     const annotationContainer = document.getElementById("sb-temp-annotations");
-    annotationContainer.style.position = "relative";
     const annotations = [
-      { idx: 28, label: "89.6°F", type: "high" },
-      { idx: 102, label: "32°F", type: "low" },
+      { idx: 28, label: "89.6°f", type: "high" },
+      { idx: 102, label: "32°f", type: "low" },
     ];
     annotations.forEach(({ idx, label, type }) => {
-      const pct = idx / allTemps.length;
-      const ann = document.createElement("div");
-      ann.className = `sb-temp-annotation ${type}`;
-      ann.style.left = pct * w + "px";
-      ann.style.position = "absolute";
-      ann.innerHTML =
+      const pct = ((idx / allTemps.length) * 100).toFixed(1);
+      const annotation = document.createElement("div");
+      annotation.className = `sb-temp-annotation ${type}`;
+      annotation.style.left = pct + "%";
+      annotation.style.position = "absolute";
+      annotation.innerHTML =
         type === "low"
           ? `<span>${label}</span><div class="sb-temp-caret-up"></div>`
           : `<span>${label}</span><div class="sb-temp-caret-down"></div>`;
-      annotationContainer.appendChild(ann);
+      annotationContainer.appendChild(annotation);
     });
   })();
 </script>
