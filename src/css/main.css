@@ -305,6 +305,7 @@ h3 .header-anchor:hover {
   opacity: 1;
   cursor: pointer;
   color: var(--hover-link-color);
+  font-weight: 400;
 }
 
 .toggle-theme-container {
@@ -705,6 +706,21 @@ figcaption {
   object-position: right;
 }
 
+/* centered photos in a double row */
+.photo-row-centered {
+  justify-content: center;
+  max-width: 100%;
+  gap: 48px;
+}
+.photo-row-centered figure {
+  flex: 0 0 auto;
+  width: fit-content;
+}
+.photo-row-centered img {
+  flex: 0 1 auto;
+  width: auto;
+}
+
 .next-previous-container {
   display: flex;
   justify-content: space-between;
@@ -766,6 +782,11 @@ figcaption {
 
   .photo-row-double {
     max-width: 100%;
+  }
+
+  .photo-row-triple,
+  .photo-row-centered {
+    gap: 14px;
   }
 
   .photo-row img {

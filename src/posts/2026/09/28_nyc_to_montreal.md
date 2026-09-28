@@ -174,7 +174,7 @@ The trip to Waterford was fairly chill (spoiler: I didn't run into any bears!) T
 
 I found the trail to be in great condition, too. There was one section that was closed for construction and not indicated as such on the EST's [Trail Closures](https://empiretrail.ny.gov/trail-closures) page, but I was able to reroute easily via suburban streets and reconnect back onto the trail after a few blocks.
 
-<div class="photo-row photo-row-triple">
+<div class="photo-row photo-row-double photo-row-centered">
 {% cldImage "IMG_1630.jpeg", "Trail Closed sign on a section of the trail", 360 %}
 {% cldImage "IMG_1632.jpeg", "Construction work on the closed section of the trail", 360 %}
 </div>
@@ -329,7 +329,7 @@ After an appropriate amount of panicking, I pulled out my phone to see my option
 
 It worked out great in the end! Once I got past my disappointment in missing out on the ferry trip, I absolutely loved my rerouted Vermont segment, which turned out to be part of the state's [Champlain Bikeway](https://champlainvalleynhp.org/recreation/lake-champlain-bikeways/lake-champlain-bikeways-maps-and-guidebooks/) system. Most of the ride was on quiet farm roads with barely any car traffic, about one every five to ten minutes it seemed, and any drivers I did encounter gave me a very generous, wide berth. I found Vermont bristling with so much character and personality. Along the way, I encountered more animals, gorgeous fall colors, and you guessed it: Halloween decorations.
 
-<div class="photo-row photo-row-triple">
+<div class="photo-row photo-row-double photo-row-centered">
 {% cldImage "IMG_1782.jpeg", "A brown horse behind a fence", 360 %}
 {% cldImage "IMG_1862.jpeg", "A different brown horse draped in a plaid blanket", 360 %}
 </div>
@@ -342,7 +342,7 @@ It worked out great in the end! Once I got past my disappointment in missing out
 
 {% cldImage "IMG_1847.jpeg", "A row of trees with green, yellow, red, and orange leaves", 1260 %}
 
-<div class="photo-row photo-row-triple">
+<div class="photo-row photo-row-double photo-row-centered">
 {% cldImage "IMG_1867.jpeg", "A pair of tree rows with bright red leaves", 360 %}
 {% cldImage "IMG_1860.jpeg", "Trees of varying colors along a major street", 360 %}
 </div>
@@ -353,7 +353,7 @@ It worked out great in the end! Once I got past my disappointment in missing out
 {% cldImage "IMG_1783.jpeg", "Three gorgeous tree!!!", 360 %}
 </div>
 
-I made 3 food stops on the way to my destination. The first at [The Bridge Restaurant](https://maps.app.goo.gl/h9Xr5hyPs8eTGrfQ9) when I first landed in Vermont around 10 am. I wanted to have some authentic Vermont maple syrup on blueberry pancakes, and this place did not disappoint. My second stop was shortly after noon at [3 Squares Cafe](https://maps.app.goo.gl/X96pVs1rDsUktBFz6) in Vergennes for a coffee and pastry. An hour and a half later, I made my third and final stop at the [Old Brick Store](https://maps.app.goo.gl/ZBTzwE9norMWiYK37) in Charlotte to use the restroom and grab some ice for my water bottles and a decadent chocolate chip cookie for later. I really liked the overall vibe of the store. It's a general provisions market carrying some [grocery basics, books, fresh-baked pastries, hot coffee](https://www.instagram.com/p/DC4N9WRuHFW), etc.; sort of a cross between a cafe, convenience store, and a mini supermarket. I highly recommend making a pit stop here if you find yourself passing through this part of Vermont, if only to peruse the offerings.
+I made three food stops on the way to my destination. The first at [The Bridge Restaurant](https://maps.app.goo.gl/h9Xr5hyPs8eTGrfQ9) when I first landed in Vermont around 10 am. I wanted to have some authentic Vermont maple syrup on blueberry pancakes, and this place did not disappoint. My second stop was shortly after noon at [3 Squares Cafe](https://maps.app.goo.gl/X96pVs1rDsUktBFz6) in Vergennes for a coffee and pastry. An hour and a half later, I made my third and final stop at the [Old Brick Store](https://maps.app.goo.gl/ZBTzwE9norMWiYK37) in Charlotte to use the restroom and grab more ice and a decadent chocolate chip cookie for later. I liked the overall vibe of this store. It's a general provisions market carrying [grocery basics, books, fresh-baked pastries, hot coffee](https://www.instagram.com/p/DC4N9WRuHFW), etc.; sort of a cross between a cafe, convenience store, and a mini supermarket. I highly recommend making a pit stop here if you find yourself passing through this part of Vermont, if only to peruse the offerings.
 
 They also had this quirky clock (art?) high up on the wall on the side of the building:
 
@@ -381,7 +381,7 @@ I showered, got dressed, re-packed my bags, pumped up my tires, and double-check
 
 My original plan had been to catch the [Local Motion Island Line Bike Ferry](https://www.localmotion.org/bike_ferry) along the Colchester Causeway from Burlington onto the South Hero Island. It's a popular, scenic [ferry ride](https://www.youtube.com/watch?v=fjFzIk9dmpQ) that came highly recommended in my trip research. Unfortunately, my early departure from Burlington meant I would miss the first ferry at 10 am, so I decided to pocket that experience for a future trip.
 
-There wasn't much life out on the streets that early. I passed a few homes decorated for Halloween but didn't stop for many pictures as I was conscious of time. I made my first rest stop an hour and a half later at a [convenience store on Chimney Corner](https://maps.app.goo.gl/2MirnAeUpt89WbWn9) to refill on water and ice. I then turned onto U.S. Highway 2, which has a very wide, generous shoulder that provided ample protection from the speeding car traffic. Riding here was a miles better experience than riding on the on-road sections of the EST. The highway connects the Vermont mainland via the [Sand Bar Causeway](https://maps.app.goo.gl/WKGxGrt2yQLXaYbT6) (with beautiful views of the lake, including a viewpoint at the [Samuel de Champlain Historic Landmark](https://maps.app.goo.gl/ELNhEPb7EJHnJzk27)) to Vermont's South Hero island.
+There wasn't much life out on the streets that early. I passed a few homes decorated for Halloween but didn't stop for many pictures as I was conscious of time. Right before turning onto U.S. Highway 2, I went into a [convenience store](https://maps.app.goo.gl/2MirnAeUpt89WbWn9) on Chimney Corner to refill on water and ice. The highway had a very wide, generous shoulder that provided ample protection from the speeding car traffic, making riding on it a far better experience compared to the on-road sections of the EST. The highway connects the Vermont mainland via the [Sand Bar Causeway](https://maps.app.goo.gl/WKGxGrt2yQLXaYbT6) (with beautiful views of the lake, including a viewpoint at the [Samuel de Champlain Historic Landmark](https://maps.app.goo.gl/ELNhEPb7EJHnJzk27)) to Vermont's South Hero island.
 
 <div class="photo-row photo-row-double">
 {% cldImage "IMG_1886.jpeg", "A skeleton dressed like a man in someone's driveway", 360 %}
@@ -394,23 +394,23 @@ There wasn't much life out on the streets that early. I passed a few homes decor
 {% cldImage "IMG_1899.jpeg", "My bike on the Sand Bar Causeway", 360 %}
 </div>
 
-Once on the island, I chose to get off the highway and take the longer route around the western edge through residential and farm roads. I thoroughly enjoyed this section of the ride and was quite sad to leave it when it came time to get onto the North Hero island via the highway. The ride through the North Hero island was much more bustling; no surprise since it was getting close to brunch time by that point. I made a pit stop at [Hero's Welcome](https://heroswelcome.com/) just before 11 am for more fluids and a snack. The general store was quite busy already, and I had to wait a few minutes in line to checkout. The staff were friendly but surprisingly not very curious about my trip. Even though I hadn't seen another cyclist in days, I inferred that my lycra-clad appearance was likely not an unusual occurrence for them. There were also two amusingly-labeled benches outside for people who identify with either of the two major political parties in the US (presumably) to sit apart from each other. Perhaps it was too early in the day for politics, but neither bench was occupied throughout the duration of my visit:
+Once on South Hero, I chose to get off the highway and take a longer route around the western edge of the island. I spent a lovely hour and a half through some residential streets in farm country and was quite sad when it came time to get onto North Hero island via the highway. The ride through the North Hero island was much more bustling, no surprise since it was getting close to brunch time by that point. I made a pit stop at [Hero's Welcome](https://heroswelcome.com/) just before 11 am for more fluids and a snack. The general store was quite busy already, and I had to wait a few minutes in line to checkout. There were two amusingly-labeled benches outside for people who identify with either of the two major political parties in the US (presumably) to sit apart from each other. Perhaps it was too early in the day for politics, but neither bench was occupied while I was there:
 
 {% cldImage "IMG_1916.jpeg", "A pair of benches outide Hero's Welcome general store labeled 'Democrats' and 'Republicans'", 1280 %}
 
 I sat inside for a bit and revisited my route for the day, trying to estimate when I would arrive in Montréal. My math put me at no later than 7:30 pm, just when it would be getting dark. Would I run out of steam before then? I was about to find out!
 
-I hopped back on my bike and continued north, passing through Hemlock Island to reach the [Alburgh-Noyan border](https://maps.app.goo.gl/VCLCm3P2kALSiJdV6) at 12:30 pm. As I pulled up to the border, I found myself overcome with emotion. It felt unreal to reach that point, the intersection of these two countries, having journeyed all the way from NYC over the past week. This was a thing that would have seemed crazy to the me of only a few years ago, who didn't even yet know what sorts of adventures I was capable of embarking on my own.
+I hopped back on my bike and continued north, passing through Hemlock Island to reach the [Alburgh-Noyan border](https://maps.app.goo.gl/VCLCm3P2kALSiJdV6) at 12:30 pm. As I pulled up to the border, I found myself slowing slightly, overcome with emotion. I had done something that was inconceivable only a few years ago: I'd ridden my bike by myself, from the comfort of my home, through forests and farms and highways, all the way to the intersection of these two countries. Here I was at the border with Canada. I couldn't believe that I'd accomplished this. No one made me do any of it. I had an idea. It seemed ambitious. I made myself nearly sick with worry. And I did it anyway.
 
-And yet. There I was.
+It didn't matter that Montréal was still another 50 miles away. Standing there felt so surreal, so significant. This feeling in this moment was the reason I'd set out on this journey in the first place.
 
-There was a long line of cars on the other side of the road heading from Canada to the US, but my side of the road — those heading from the US to Canada — was completely empty. I stood there for a few minutes wondering if I was really going to have to settle for just a selfie with the border sign, but as luck would have it, a car pulled up right then! I quickly asked them to take a picture of me and they were very happy to oblige. I'm so happy I was able to commemorate that moment.
+There was a long line of cars on the other side of the road heading from Canada to the US, but on my side heading from the US to Canada, I was the only traveler. I stood for a few minutes wondering if I'd have to settle for a selfie with the border sign, but as luck would have it, a car pulled up right then! I asked the passenger to take a picture of me and they were very happy to oblige:
 
 {% cldImage "IMG_1923.jpeg", "Me at the US/Canada border in Noyan", 360 %}
 
-I walked my bike over to the Canadian immigration officer who requested my passport and asked the standard questions about where I was going and how long I was staying before clearing me to enter the country.
+I walked my bike over to the Canadian immigration officer, who requested my passport and asked the standard questions about where I was going and how long I was staying before clearing me to enter the country.
 
-After entering Canada, I continued along Rte 225 (where [VT 225](https://en.wikipedia.org/wiki/Vermont_Route_225) turns into [Québec Route 225](https://en.wikipedia.org/wiki/Quebec_Route_225)) until I crossed the Richelieu River and merged onto [La Route Verte 2](https://fr.wikipedia.org/wiki/Route_Verte_2), one of seven major cycling routes that make up Québec's beloved [Route Verte network](https://fr.wikipedia.org/wiki/Route_verte_(Qu%C3%A9bec)). The trees along the way continued to impress as expected, considering they got first dibs on the leaf changing schedule. All of the road signs were in French (*sans surprise!*) so I was glad to be able to navigate via my bike computer.
+After entering Canada, I continued along Rte 225 (where [VT 225](https://en.wikipedia.org/wiki/Vermont_Route_225) turns into [Québec 225](https://en.wikipedia.org/wiki/Quebec_Route_225)) until I crossed the Richelieu River and landed on [La Route Verte 2](https://fr.wikipedia.org/wiki/Route_Verte_2), one of seven major cycling routes that make up Québec's beloved [Route Verte network](https://fr.wikipedia.org/wiki/Route_verte_(Qu%C3%A9bec)). The trees along the way impressed as expected, considering they got first dibs on the leaf changing schedule. All of the road signs were in French (*sans surprise!*) so I was glad to be able to navigate via my bike computer.
 
 <div class="photo-row photo-row-triple">
 {% cldImage "IMG_1937.jpeg", "A sign informing me I was now riding on Quebec's Route Verte cycling network", 360 %}
@@ -418,34 +418,32 @@ After entering Canada, I continued along Rte 225 (where [VT 225](https://en.wiki
 {% cldImage "IMG_1939.jpeg", "A cross-section of the road with trees of various colors", 360 %}
 </div>
 
-This section of the ride felt understandably remote with almost no rest stops of any kind that I could see. My [lunch stop](https://maps.app.goo.gl/f43ZRbaKUdCKCtBq7) was thus one of convenience: it was the first restaurant I could find on the map since I'd left Alburgh some 13 miles earlier. I arrived at lunch just before 2 pm, only a few minutes ahead of schedule. I took my time here, charging my phone and stretching my legs for a bit. Mentally, I knew I "only" had about 40 miles to go, but the accumulating fatigue over the past week was starting to settle on me, and I had to shake it off.
+This section of the ride felt understandably remote (being so close to the border) with almost no rest stops of any kind that I could see. My [lunch stop](https://maps.app.goo.gl/f43ZRbaKUdCKCtBq7) was thus one of convenience: it was the first restaurant I could find on the map since I'd left Alburgh, Vermont some 13 miles earlier. I arrived at lunch just before 2 pm. I took my time here, charging my phone and stretching my legs for a bit. Mentally, I knew I "only" had about 40 miles to go, but the week's fatigue was starting to catch up with me, and I had to shake it off.
 
-I continued my ride and made it to Saint-Jean-sur-Richelieu well ahead of schedule, at 3:45 pm. This was my original bailout point as there are a few hotels a block or two from the route, but given that Montréal was only another 28 miles from there, I decided I had enough in the tank to keep going for another 2-3 hours. I stopped at [Second Cup Café](https://maps.app.goo.gl/8EXJpPFhCwNiG7rM8) intending to grab a coffee for some extra stimulation but treated myself to an ice-cold strawberry gelato instead. It has the vibe of a chain shop and a spacious entryway with black walls, which might explain why no one seemed bothered when I brought my bicycle inside and leaned it against the wall.
+I continued my ride and made it to Saint-Jean-sur-Richelieu well ahead of schedule, around 3:45 pm. This was my original bailout point as there are a few hotels close to the route, but given that Montréal was only another 28 miles from there, I decided I had enough in the tank to keep going for another two to three hours. I stopped at [Second Cup Café](https://maps.app.goo.gl/8EXJpPFhCwNiG7rM8) intending to grab a coffee for some extra stimulation but treated myself to an ice-cold strawberry gelato instead. It was clearly a chain shop, and its spacious entryway was painted black, which might explain why no one seemed bothered when I brought my bicycle inside and leaned it against the wall.
 
 {% cldImage "IMG_1948.jpeg", "Me holding a gelato cup with my bicycle in the background", 360 %}
 
-I hopped on the [Chambly Canal Path](https://parks.canada.ca/lhn-nhs/qc/chambly/activ/piste-path) at Saint-Jean-ur-Richelieu and followed it north. This is a truly impressive, well-maintained [20 km long multi-use path](https://www.google.com/maps/d/viewer?hl=fr&mid=1TITaIhjZ1DPoIpBJi222ipP7es-UpZE5&ll=45.342722990596044%2C-73.2475654195979&z=13) that hugs the Chambly Canal and offers a broad variety of scenery, from views of stately homes across the water, to leafy shaded sections in the woods. It was really nice to once again share the path with runners, walkers, and fellow cyclists. After traveling for the better part of a week by myself, riding through Chambly made me feel less alone and as if I had just re-entered society from an exile of sorts.
+I hopped on the [Chambly Canal Path](https://parks.canada.ca/lhn-nhs/qc/chambly/activ/piste-path) at Saint-Jean-sur-Richelieu and followed it north. This is a truly impressive, well-maintained [20 km long multi-use path](https://www.google.com/maps/d/viewer?hl=fr&mid=1TITaIhjZ1DPoIpBJi222ipP7es-UpZE5&ll=45.342722990596044%2C-73.2475654195979&z=13) that hugs the Chambly Canal and offers a broad variety of scenery, from views of stately homes across the water, to leafy shaded sections in the woods. It was really nice to once again share the path with runners, walkers, and fellow cyclists. After traveling for the better part of a week by myself, riding through Chambly made me feel less alone and as if I had just re-entered society from an exile of sorts.
 
-<div class="photo-row photo-row-triple">
+<div class="photo-row photo-row-double photo-row-centered">
 {% cldImage "IMG_1950.jpeg", "A sign in Saint-Jean-sur-Richelieu along the Chambly Canal", 360 %}
 {% cldImage "IMG_1957.jpeg", "A cycling path in Saint-Hubert on the way to Montréal", 360 %}
 </div>
 
 {% cldImage "IMG_1954.jpeg", "a view of homes across the Chambly canal", 1280 %}
 
-I made my final rest stop at [Café MJ et Cie](https://maps.app.goo.gl/zugwBw7LrhgzU4Cm7) in Chambly. At 4:45 pm, it was buzzing with patrons of all ages. I glanced inside and saw that there was a line to use the restroom inside, so I locked my bike to one of the racks in front of the café and asked a couple seated at an outdoor table if they could watch it for me. Continuing west past Chambly, I finally approached the historic [Pont Jacques Cartier](https://jacquescartierchamplain.ca/en/road-traffic/jacques-cartier-bridge/) that cuts through St Helen's Island to Montréal. The time was 6:24 pm and the sun was starting to set.
+I made my final rest stop at [Café MJ et Cie](https://maps.app.goo.gl/zugwBw7LrhgzU4Cm7) in Chambly. At 4:45 pm, it was buzzing with patrons of all ages. I glanced inside and saw there was a line to use the restroom inside, so I locked my bike to a rack outside and asked a couple seated nearby to watch it for me. Continuing west past Chambly, I finally approached the historic [Pont Jacques Cartier](https://jacquescartierchamplain.ca/en/road-traffic/jacques-cartier-bridge/) that cuts through St Helen's Island to Montréal. The time was 6:24 pm and the sun was starting to set.
 
 {% cldImage "IMG_1960.jpeg", "Montréal in the distance, as seen from atop Pont Jacques Cartier", 360 %}
 
-To be honest, by this point, my entire body ached and I was just about ready to be done with the ride. My legs were starting to struggle to cooperate, but the sight of Montréal in the distance gave me the extra push I needed to roll down the bridge onto the busy streets. Somehow, I made it through another 2 miles before reaching my home for the next week: a lovely ground floor apartment I'd booked on [Kindred](https://available.livekindred.com/invite/fun.olu) on a quiet, tree-lined street in [Le Plateau-Mont-Royal](https://talentMontréal.com/en/interactive-map/plateau-mont-royal).
+By this point, my entire body ached and I was just about ready to be done riding. My legs were starting to struggle to cooperate, but the sight of Montréal in the distance gave me the extra push I needed to roll down the bridge onto the busy streets. Somehow, I made it through another 2 miles before reaching my home for the next week: a lovely ground floor apartment I'd booked on [Kindred](https://available.livekindred.com/invite/fun.olu) on a quiet, tree-lined street in [Le Plateau-Mont-Royal](https://talentMontréal.com/en/interactive-map/plateau-mont-royal).
 
-I could hardly believe it. I'd arrived! I made it!
+I was ecstatic. I'd arrived! I made it!
 
-I made it.
+Wow.
 
-Wow. Surreal.
-
-My first thought was: *I'm so glad to be off this bike and I'm never riding a bike ever again!* I was exhausted and slightly over-caffeinated. My second thought was: *Well hmm, I wonder what the trail to Toronto looks like?* But my overwhelming feeling after all of that was of gratitude to the universe and slight disbelief in myself. What had once seemed a potentially senseless trip when I could easily have taken a flight, a pointlessly dangerous journey through highways and forests alone, an aspiration so out of reach until it wasn't... had just happened.
+My first thought was: *I'm so glad to be off this bike and I'm never riding a bike ever again!* I was exhausted and slightly over-caffeinated. My second thought was: *Hmm, I wonder what the trail to Toronto looks like?* But my overwhelming feeling after all of that was of gratitude to the universe and slight disbelief in myself. What had once seemed a potentially senseless trip when I could easily have taken a flight, a pointlessly dangerous journey through highways and forests alone, an aspiration so out of reach until it wasn't... had just happened.
 
 And look at that. It wasn't even that bad after all. All of the anxiety I felt at the beginning now seemed rather silly in hindsight. It felt as though the week I'd just spent in nature, confronting and embracing my fears and leaning in to the discomfort had soothed and healed me, after all. Only a week before, I didn't fully believe that I could do this.
 
