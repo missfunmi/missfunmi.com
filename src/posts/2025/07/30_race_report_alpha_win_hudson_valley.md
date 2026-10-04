@@ -11,7 +11,7 @@ I kept repeating this to myself as I went into last month's [Alpha Win Hudson Va
 
 Right??
 
-—
+---
 
 ## Before The Race
 
@@ -81,7 +81,7 @@ I set out at a perky 8:39 min/mile, faster than anything I've run recently. I fe
 
 **Run Time:** 00:27:13 (8:45 min/mi) - 20/73 Female, 4/12 Age Group
 
----
+—
 
 ### Overall 🥳🎖️🥉
 
@@ -89,7 +89,7 @@ I finished in 1:37:08, a 6:33 PR over my previous showing at this race and a 3rd
 
 **Overall Time:** 1:37:08 - 3/12 Age Group, 15/73 Female, 46/ Overall
 
-—
+---
 
 ## What's Next?
 

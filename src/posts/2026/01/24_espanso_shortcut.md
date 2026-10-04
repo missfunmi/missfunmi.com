@@ -2,6 +2,7 @@
 title: Custom Date Shortcuts in Espanso
 description: "A handy text replacement shortcut that turns :jan31: into 'Sat Jan 31, 2026' using regex and bash."
 date: 2026-01-24
+modified: 2026-09-29
 tags: [software tips, 26 for 2026]
 ---
 
@@ -13,7 +14,7 @@ Looking through the [docs](https://espanso.org/docs/get-started/), I realized I 
 
 Here's how I implemented this text replacement in espanso using a bash script on macOS:
 
---
+---
 
 ## The Shortcut
 
@@ -40,7 +41,7 @@ There are 3 parts to this that I'll cover below:
 2. A bash script, which converts those parts into a readable weekday date
 3. How espanso's `vars` system connects the regex extracts to the text replacement output
 
----
+—
 
 ## 1. The Regex
 
@@ -50,15 +51,16 @@ There are 3 parts to this that I'll cover below:
 
 This regex matches patterns like `:jan31:` or `:mar8_2027:`. It extracts three pieces of information into variables: `month`, `day`, and `year` (even if `year` is blank).
 
-**How it works:**
+### How it works
+
 - `:` → matches a literal colon at the start.
 - `(?P<month>[a-z]{3})` → a named capture group called `month` that matches exactly 3 lowercase letters (`jan`, `feb`, etc.).
 - `(?P<day>[0-9]{1,2})` → a named capture group called `day` that matches 1 or 2 digits (the day of the month).
-- `_?`** → an optional underscore (appears if the year is included). I added an underscore to delineate the day from the year (e.g. in my `mar8_2027` example, it extracts `8` distinctly from `2027`).
+- `_?` → an optional underscore (appears if the year is included). I added an underscore to delineate the day from the year (e.g. in my `mar8_2027` example, it extracts `8` distinctly from `2027`).
 - `(?P<year>[0-9]{0,4})` → a named capture group called `year` that matches 0 to 4 digits. Zero digits are allowed so that `:jan31:` without a year still works — in that case, the `year` variable is still extracted as an empty string.
 - `:` → matches a literal colon at the end. Without this trailing colon, espanso would trigger too early — typing `:jan3` would activate before I finished typing `:jan31:` (if the latter is what I meant to type).
 
----
+—
 
 ## 2. The Bash Script
 
@@ -73,7 +75,8 @@ date -jf "%m %d %Y" "$mm $day $year" "+%a %b %-d, %Y"
 
 This (simpler than it looks) bash script turns the regex captures into a human-readable date that includes the weekday, filling in the current year if missing.
 
-How it works:
+### How it works
+
 1. Assign the captured regex variables to shell variables:
 {% raw %}
 ```bash
@@ -81,17 +84,17 @@ month="{{month}}"; day="{{day}}"; year="{{year}}";
 ```
 {% endraw %}
 
-1. Default the year to system year if empty (using [macOS's `date` function](https://ss64.com/mac/date.html)):
+2. Default the year to system year if empty (using [macOS's `date` function](https://ss64.com/mac/date.html)):
 ```bash
 [ -z "$year" ] && year=$(date +%Y);
 ```
 
-1. Map the abbreviated months to their numeric equivalents using [`sed`'s substitution command](https://www.gnu.org/software/sed/manual/sed.html#The-_0022s_0022-Command), so `jan` → `1`, `feb` → `2`, …, `dec` → `12`. There's probably a more elegant way to do this, but this works and I can read it six months from now. You can add as many substitutions as you like — `s` is pretty fast! Also, notice I don't bother doing input validation since I'm the one writing the shortcut on my computer anyway 😄
+3. Map the abbreviated months to their numeric equivalents using [`sed`'s substitution command](https://www.gnu.org/software/sed/manual/sed.html#The-_0022s_0022-Command), so `jan` → `1`, `feb` → `2`, …, `dec` → `12`. There's probably a more elegant way to do this, but this works and I can read it six months from now. You can add as many substitutions as you like — `s` is pretty fast! Also, notice I don't bother doing input validation since I'm the one writing the shortcut on my computer anyway 😄
 ```bash
 mm=$(echo $month | sed 's/jan/1/;s/feb/2/;s/mar/3/;…/'); # Trimmed for brevity, see full line above
 ```
 
-1. Finally, format the date to the desired output using the `date` function:
+4. Finally, format the date to the desired output using the `date` function:
 ```bash
 date -jf "%m %d %Y" "$mm $day $year" "+%a %b %-d, %Y"
 ```
@@ -99,7 +102,7 @@ date -jf "%m %d %Y" "$mm $day $year" "+%a %b %-d, %Y"
 - `-f "%m %d %Y"` → tells `date` how to interpret the input string — i.e. as `"month day year"` (e.g., `"1 31 2026"`).
 - `"+%a %b %-d, %Y"` → indicates how the date should be formatted on output. In the above example, the input date becomes `Sat Jan 31, 2026` on output.
 
----
+—
 
 ## 3. The `vars` Attributes
 
@@ -116,7 +119,8 @@ vars:
 espanso's `vars` lets you dynamically compute replacement text using shell logic (or other types, like clipboard, input, etc.). In this case, the shell script reads the regex captures and outputs a formatted date string.
 
 
-**How it works:**
+### How it works
+
 - `name: out` → the variable that espanso will replace in {% raw %}`replace: "{{out}}"`{% endraw %}.
 - `type: shell` → tells espanso to execute a shell command to compute the value of this variable.
 - `params: cmd` → the actual shell command to run. This command can reference the named regex captures using {% raw %}`{{month}}`{% endraw %}, {% raw %}`{{day}}`{% endraw %}, and {% raw %}`{{year}}`{% endraw %}. The output of the command is then returned back as the replacement for the matched text.
