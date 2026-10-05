@@ -14,6 +14,7 @@ import readingTimePlugin from "eleventy-plugin-reading-time";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItFootnote from "markdown-it-footnote";
+import markdownItAttrs from "markdown-it-attrs";
 import mila from "markdown-it-link-attributes";
 import pluginFilters from "./src/_config/filters.js";
 
@@ -75,7 +76,8 @@ export default async function (eleventyConfig) {
           placement: "after",
         }),
       })
-      .use(markdownItFootnote),
+      .use(markdownItFootnote)
+      .use(markdownItAttrs),
   );
 
   eleventyConfig.setLibrary("md", mdLib);
