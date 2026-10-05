@@ -266,11 +266,7 @@ I'm also thankful for all of the trip guidance I got from these Reddit communiti
 - [r/bikepacking](https://www.reddit.com/r/bikepacking/)
 - [r/bicycletouring](https://www.reddit.com/r/bicycletouring/)
 
-Lastly, thanks to the following people for feedback on both essays:
-
-- Bradley Dettmer
-- Dez Udezue
-- Tade Fayomi
+Lastly, thanks to Bradley Dettmer, Dez Udezue, and Tade Fayomi for feedback on both essays.
 
 ---
 
@@ -283,3 +279,5 @@ Lastly, thanks to the following people for feedback on both essays:
 - [Bikepacking On A Road Bike - Tips And Road Bike Set Ups](https://web.archive.org/web/20230508172158/https://cycletraveloverload.com/bikepacking-on-a-road-bike-tips-and-road-bike-set-ups/) (archive link) — *Codey Orgill*
 - [Packing lists for Credit Card Bike Touring](https://creditcardbiketouring.com/packing-lists/) — *Mats Henricson*
 - [What to Pack: The best gear for self supported credit card touring on the road](https://bikerumor.com/what-to-pack-the-best-gear-for-self-supported-credit-card-touring-on-the-road/) — *Zach Overholt*, Bike Rumor
+- [Intro to Bikepacking](https://www.rei.com/learn/series/intro-to-bikepacking) — *REI*
+- [Intro to Bike Touring](https://www.rei.com/learn/series/intro-to-bike-touring) — *REI*
