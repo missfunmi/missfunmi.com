@@ -252,6 +252,34 @@ svg.sb-spark polyline {
   margin-right: 4px;
 }
 
+.itinerary-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.itinerary-table {
+  table-layout: fixed;
+  width: 900px;
+  font-size: smaller;
+}
+
+/* Narrow fixed columns */
+.itinerary-table th:nth-child(1), td:nth-child(1) { width: 4%;  } /* Day */
+.itinerary-table th:nth-child(3), td:nth-child(3) { width: 9%;  } /* Date */
+.itinerary-table th:nth-child(4), td:nth-child(4) { width: 7%;  } /* Dist */
+.itinerary-table th:nth-child(5), td:nth-child(5) { width: 7%;  } /* Elev */
+
+/* Flexible wider columns */
+.itinerary-table th:nth-child(2), td:nth-child(2) { width: 13%; } /* Plan */
+.itinerary-table th:nth-child(6), td:nth-child(6) { width: 8%; } /* Route */
+.itinerary-table th:nth-child(7), td:nth-child(7) { width: 24%; } /* Route Notes */
+.itinerary-table th:nth-child(8), td:nth-child(8) { width: 20%; } /* Accommodation */
+
+/* Break long URLs */
+.itinerary-table td:nth-child(6) a {
+  word-break: break-all;
+}
+
 /* for tablet viewports */
 @media screen and (max-width: 1200px) {
   .sb-totals {
@@ -318,4 +346,20 @@ svg.sb-spark polyline {
   .sb-ticker-item + .sb-ticker-item::before {
     display: none;
   }
+
+  .itinerary-table th:nth-child(3),
+  .itinerary-table td:nth-child(3),
+  .itinerary-table th:nth-child(4),
+  .itinerary-table td:nth-child(4),
+  .itinerary-table th:nth-child(5),
+  .itinerary-table td:nth-child(5) {
+    display: none;
+  }
+
+  .itinerary-table th:nth-child(1), td:nth-child(1) { width: 3%;  } /* Day */
+  .itinerary-table th:nth-child(2), td:nth-child(2) { width: 8%; } /* Plan */
+  .itinerary-table th:nth-child(6), td:nth-child(6) { width: 5%; } /* Route */
+  .itinerary-table th:nth-child(7), td:nth-child(7) { width: 25%; } /* Route Notes */
+  .itinerary-table th:nth-child(8), td:nth-child(8) { width: 20%; } /* Accommodation */
+
 }

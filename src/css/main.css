@@ -414,6 +414,22 @@ a.back-link:hover:before {
   flex: 1;
 }
 
+.post-main .page-content table:not(.itinerary-table) {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.post-main .page-content th,
+.post-main .page-content td {
+  padding: 0.3rem 0.4rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e5e5e5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .post-toc {
   position: sticky;
   top: 2.16rem;
@@ -551,7 +567,8 @@ section ol {
   list-style: decimal;
 }
 
-section ol li {
+section ol li,
+section ul li {
   margin: 10px 0;
 }
 
