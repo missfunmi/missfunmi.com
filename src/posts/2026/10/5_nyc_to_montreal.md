@@ -3,25 +3,18 @@ title: I rode my bike from NYC to Montréal (Part 2)
 date: 2026-10-05
 description: Tips and a practical guide on how to plan a trip like this yourself.
 audience: People who are curious about what it's like to do a solo multi-day cycling trip for the first time, with or without plans to do something similar themselves.
-tags: [personal essay, trip report, bikepacking, outdoor adventures, solo trips, 26 for 2026]
+tags: [how to, personal essay, trip report, bikepacking, outdoor adventures, solo trips, 26 for 2026]
 ---
 
-In my [last post](/i-rode-my-bike-from-nyc-to-montreal-part-1/), I wrote about my experience riding from New York to Montréal last October. 
+In my [last post](/i-rode-my-bike-from-nyc-to-montreal-part-1/), I wrote about my experience riding from New York to Montréal last October.
 
-Let's take a moment to marvel at a few snaps from the trip:
-
-<div class="photo-row photo-row-double">
-{% cldImage "IMG_1867.jpeg", "A pair of tree rows with bright red leaves", 360 %}
-{% cldImage "IMG_1711.jpeg", "A friendly cow!", 360 %}
-</div>
+Let's take a moment to marvel at some snaps from the trip 😍:
 
 <div class="photo-row photo-row-triple">
+{% cldImage "IMG_1867.jpeg", "A pair of tree rows with bright red leaves", 360 %}
+{% cldImage "IMG_1711.jpeg", "A friendly cow!", 360 %}
 {% cldImage "IMG_1619.gif", "A tree with yellow and orange leaves swaying in the wind", 360 %}
-{% cldImage "IMG_1794.jpeg", "An oversisze scarecrow halloween decoration", 360 %}
-{% cldImage "IMG_1358.jpeg", "A tree with bright orange colors", 360 %}
 </div>
-
-I mean, look at those views 😍
 
 So how did I, a triathlete with no prior bikepacking or bicycle touring experience, manage to complete such an adventure all by myself?
 
@@ -39,17 +32,17 @@ The State of New York has done a truly incredible job documenting the EST in det
 
 {% cldImage "est.jpeg", "A screenshot of the Empire State Trail map", 1280 %}
 
-During my research, I discovered that more than half of the northbound trail is on narrow roadway shoulders next to fast-moving car traffic. The nearly 200 miles from Ticonderoga to the border via [Westport](https://empiretrail.ny.gov/whitehall-rouses-point/ticonderoga-westport), [Keeseville](https://empiretrail.ny.gov/whitehall-rouses-point/westport-keeseville), [Plattsburgh](https://empiretrail.ny.gov/whitehall-rouses-point/keeseville-plattsburgh), and [Rouses Point](https://empiretrail.ny.gov/whitehall-rouses-point/plattsburgh-rouses-point) looked especially gnarly. Even though I'm fairly experienced riding next to cars, I'd still rather avoid doing so, especially if I'm riding alone. Purely by chance, I ran into someone who'd completed this trip before and recommended I take a ferry from Ticonderoga to Shoreham and continue my journey to the border on the Vermont side of Lake Champlain. This sounded far more appealing and safer to navigate as a solo bikepacker.
+While studying the EST's map, I discovered that more than half of the northbound trail is on narrow roadway shoulders next to fast-moving car traffic. The nearly 200 miles from Ticonderoga to the border via [Westport](https://empiretrail.ny.gov/whitehall-rouses-point/ticonderoga-westport), [Keeseville](https://empiretrail.ny.gov/whitehall-rouses-point/westport-keeseville), [Plattsburgh](https://empiretrail.ny.gov/whitehall-rouses-point/keeseville-plattsburgh), and [Rouses Point](https://empiretrail.ny.gov/whitehall-rouses-point/plattsburgh-rouses-point) looked especially gnarly. Even though I'm fairly experienced riding next to cars, I'd still rather avoid doing so, especially if I'm alone. Purely by chance, I ran into someone who'd completed this trip before who recommended I take a ferry from Ticonderoga to Shoreham and continue my journey to the border on the Vermont side of Lake Champlain. This sounded far more appealing and safer to navigate as a solo bikepacker.
 
-I eventually settled on the following plan:
+After some extensive research, I settled on the following plan:
 
-1. Start my trip on the Empire State Trail, starting from [Van Cortlandt Park](https://empiretrail.ny.gov/new-york-city-poughkeepsie/van-cortlandt-park-elmsford), right next to the [Van Cortlandt Park - 242 St subway station](https://maps.app.goo.gl/LwQTiNSUUVhKdpw96). Having ridden the Hudson bike path countless times before, I thought I'd save myself the 20 miles and an hour plus of cycling through city streets. Instead, I'd start in the Bronx and ride on the EST through Poughkeepsie, Albany and Fort Edward to Ticonderoga.
-2. Depart the EST in Ticonderoga and take the [Fort Ticonderoga ferry](https://forttiferry.com/) across Lake Champlain into Vermont.
+1. Start my trip on the Empire State Trail at [Van Cortlandt Park](https://empiretrail.ny.gov/new-york-city-poughkeepsie/van-cortlandt-park-elmsford). Having ridden the Hudson bike path countless times before, I thought I'd save myself the 20 miles and an hour plus of cycling from my home to the park entrance. Instead, I'd take the 1 train to [Van Cortlandt Park - 242 St subway station](https://maps.app.goo.gl/LwQTiNSUUVhKdpw96) in the Bronx and ride on the EST through Poughkeepsie, Albany and Fort Edward to Ticonderoga.
+2. Depart the EST in Ticonderoga a few days later and take the [Fort Ticonderoga ferry](https://forttiferry.com/) across Lake Champlain into Vermont.
 3. Ride the quieter farm roads of Vermont's [Champlain Bikeway](https://champlainvalleynhp.org/recreation/lake-champlain-bikeways/lake-champlain-bikeways-maps-and-guidebooks/) through Vergennes, Charlotte and Shelburne to Burlington.
-4. From the Colchester Causeway near Burlington, take the infamous [Local Motion Island Line Bike Ferry](https://www.youtube.com/watch?v=fjFzIk9dmpQ) to get onto the beautiful South Hero and North Hero islands.
+4. From the Colchester Causeway near Burlington, take the popular [Local Motion Island Line Bike Ferry](https://www.youtube.com/watch?v=fjFzIk9dmpQ) to get onto the beautiful South Hero and North Hero islands.
 5. Enter Canada at the [Alburgh-Noyan border](https://maps.app.goo.gl/QDHoznv69xhRhFiz8), before continuing on to Saint-Jean-sur-Richelieu and finally Montréal via Canada's [Route Verte](https://www.routeverte.com/en/) multi-use system.
 
-Here's what that looked like across my 7 days of riding:
+Here's what that ended up looking like across my 7 days of riding:
 
 <iframe src="https://ridewithgps.com/embeds?type=trip&id=346835958&sampleGraph=true&privacyCode=VtbaCXZCONrrOpMdLdo3hciBTVgIQWjX" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
 
@@ -59,20 +52,27 @@ Here's what that looked like across my 7 days of riding:
 
 Most of these trails are well marked and relatively easy to follow, but I'd still need to know when to stop for water, food, a bathroom, or for the night. And when I needed to leave the trail for any of these (which was most of the time), I'd need to know where to do so and how to re-join the trail afterward.
 
-So I had two choices for navigating my trip. The first and easiest choice was to [download the GPX file of the entire route](https://empiretrail.ny.gov/trip-planning) from the Empire State Trail's website onto my bike computer and simply follow the map. The route file is not annotated with any landmarks, water fountains, public restrooms, cafés, or anything like that; it's just a point-to-point map of the entire trail. When I wanted a break or as I got closer to my planned stop for the day, I'd use my phone or bike computer to navigate to that location, typically a few miles off the trail. Relatively simple approach and appears to be the one many bikepackers take.
+I had two choices for navigating my trip. The first and easiest choice was to [download the GPX file of the entire route](https://empiretrail.ny.gov/trip-planning) from the Empire State Trail's website onto my bike computer and simply follow the map. The route file is not annotated with any landmarks, water fountains, public restrooms, cafés, or anything like that; it's just a point-to-point map of the entire trail. When I wanted a break or as I got closer to my planned stop for the day, I could use my phone or bike computer to navigate to that location, typically a few miles off the trail. Relatively simple approach and appears to be the one many bikepackers take.
 
 Personally, I like to see exactly where and when my next stop would be without having to constantly do the math in my head. To get the detail and precision I wanted for my daily riding, I could either add rest stops to my copy of the EST's route file or simply make my own individual daily route files, using the original EST route file as the base. I chose to do the latter.
 
-{% cldImage "IMG_8467.jpeg", "Garmin Edge 830 Plus showing course points on a route", 360 %}
+<div class="photo-row photo-row-triple photo-row-centered">
+{% cldImage "IMG_8467.jpeg", "Garmin Edge 830 Plus showing course points on a route", 360, "With an annotated route, many bike computers have a screen that estimates roughly how long it'll take you to get to your next stop" %}
+</div>
 
-I use [Ride With GPS](https://ridewithgps.com/) to plan my cycling routes, but [Strava](https://www.strava.com/athlete/routes), [Komoot](https://www.komoot.com/), [cycle.travel](https://cycle.travel/), and plenty others offer similar functionality. The basic workflow involved importing the full EST GPX file as a base/tracing layer, creating a second layer for the actual day's routes, then using a combination of Google Maps, RWGPS's [community-sourced locations](https://support.ridewithgps.com/hc/en-us/articles/36570435135131-Highlights-Points-of-Interest-and-Waypoints), and RWGPS's tools to plot the route between my start, end, and rest stops. There are a few quirks to using the route planner that take some practice to figure out, so I recommend a glimpse through their excellent [Advanced Route Planning](https://support.ridewithgps.com/hc/en-us/articles/4415470200859-Advanced-Route-Planning) documentation and other support center articles. After plotting a route, sending it to my bike computer for offline navigation was as easy as clicking a button in RWGPS.
+I use [Ride With GPS](https://ridewithgps.com/) to plan my cycling routes, but [Strava](https://www.strava.com/athlete/routes), [Komoot](https://www.komoot.com/), [cycle.travel](https://cycle.travel/), and plenty others offer similar functionality. The basic workflow involves importing the full EST GPX file as a base/tracing layer, creating a second layer for the actual day's routes, then using a combination of Google Maps and RWGPS's [community-sourced locations](https://support.ridewithgps.com/hc/en-us/articles/36570435135131-Highlights-Points-of-Interest-and-Waypoints) and route planning tools to map the route between my start, end, and rest stops. 
+
+There are a few quirks to using the route planner that take some practice to figure out (for example, the route planner doesn't always plot perfectly along your preferred trail and you might need to [manually adjust it in small sections](https://support.ridewithgps.com/hc/en-us/articles/4415462488475-Route-Planning-101#h_01GFXJC4MN1G8E6TBX2GQ2XNYY) using a feature called "Control Points"), and many of the more robust tools require a [subscription](https://support.ridewithgps.com/hc/en-us/articles/13900226761755-Go-Further-with-Premium-Access) to use. I recommend carving out some time to get past the learning curve and glimpsing through their excellent [Advanced Route Planning](https://support.ridewithgps.com/hc/en-us/articles/4415470200859-Advanced-Route-Planning) documentation and other support center articles for guidance.
+
+After plotting a route, sending it to my bike computer for offline navigation was as easy as clicking a button in RWGPS.
 
 {% cldImage "rwgps-1.jpeg", "Ride with GPS screenshot illustrating route import", 1280, "Importing a route file in Ride with GPS. Source: Ride with GPS" %}
 {% cldImage "rwgps-2.jpeg", "Ride with GPS screenshot illustrating route planning", 1280, "Planning a route on a separate layer in Ride with GPS. Source: Ride with GPS" %}
+{% cldImage "rwgps-3.jpeg", "Ride with GPS screenshot illustrating some options available on right-click", 1280, "Customizing your route in Ride with GPS. Source: Ride with GPS" %}
 
 *But couldn't I just use Google Maps to navigate from A to B?*
 
-A reasonable question, but no. Google Maps, being a general purpose mapping app, is not very well suited for navigating long distance cycling journeys. Part of this is because most long distance cyclists use one of the apps above for planning and tracking their rides, so Google doesn't have reliable, current information on safe and popular cycling paths (or sometimes [driving paths](https://www.techworm.net/2024/03/google-maps-leads-tourists-to-crocodile-inhabited-river.html) for that matter!).
+A reasonable question, but no. Google Maps, being a general purpose mapping app, is not very well suited for navigating long distance cycling journeys. Part of this is because most long distance cyclists use one of the apps above for planning and tracking their rides, so Google doesn't have reliable, current information on safe and popular cycling paths (or sometimes [driving paths](https://www.techworm.net/2024/03/google-maps-leads-tourists-to-crocodile-inhabited-river.html), for that matter!).
 
 —
 
@@ -92,13 +92,17 @@ So that's exactly what I did! A few days before I set out on my trip, I swung by
 
 It cost me a little under $180 to ship the entire box, plus around $27 in Canada for import duty for a total of $207. I paid for my return flight using airline miles and only spent about $12 out of pocket.
 
+<div class="photo-row photo-row-triple photo-row-centered">
+{% cldImage "IMG_1312.jpeg", "Post Carry Transfer case rolled up for shipping", 360, "Much less bulky than it looks. Folded as pictured, it roughly measured 30 x 14 x 14 inches (or 76 x 36 x 36 cm) and weighed 12 lbs (or 5.4 kg) empty" %}
+</div>
+
 —
 
 ### Where I slept
 
-During my research, I saw that many hotels in upstate New York and Vermont were either already sold out over the weekend or were charging extremely high nightly rates, likely due to the huge popularity of [Fall Foliage tourism](https://www.explorefall.com/fall-foliage-map) (*apparently, people like watching leaves change colors! Who would have guessed!*). By setting out on a Sunday and spending most of my trip during week days, I could avoid a very expensive weekend in Vermont. I was also thankful to have a friend in Burlington open up her home to me on my penultimate night.
+During my research, I saw that many hotels in upstate New York and Vermont were either already sold out over the weekend or were charging extremely high nightly rates, most likely due to the huge popularity of [Fall Foliage tourism](https://www.explorefall.com/fall-foliage-map) (*apparently, people like watching leaves change colors! Who would have guessed!*). By setting out on a Sunday and timing the majority of my trip to fall on week days, I was able to avoid a very expensive weekend in Vermont. I was thankful to have a friend in Burlington open up her home to me on my penultimate night.
 
-I also learned from online forums that many large or chain hotels tended to be okay with bringing your bicycle up to your room, so I decided to book those instead of the smaller, far more charming boutique-style hotels I'd have loved to stay at which tended to be less flexible about this. I certainly couldn't risk losing my bicycle to theft if I was forced to store it outside overnight. My friend Bradley who recently did a short trip along the EST chose to store their bicycle overnight at a bike shop to avoid such a situation, a really clever solution. If you go this route, be sure to call and confirm the shop's opening hours ahead of time and that those hours would work around your riding schedule.
+I also learned from online forums that many large or chain hotels tended to be okay with bringing your bicycle up to your room, so I decided to book those instead of the smaller, far more charming boutique-style hotels I'd have loved to stay at which tended to be less flexible about this. I certainly couldn't risk losing my bicycle to theft if I was forced to store it outside overnight. My friend Bradley, who [recently went a short trip along the EST](https://www.bradleydettmer.me/blog/empire-state-trail-schenectady-hudson) chose to store their bicycle overnight at a bike shop to avoid this situation, a really clever solution. If you're looking to do the same, be sure to call and confirm the shop's opening hours ahead of time and that those hours would work around your riding schedule.
 
 On a couple days, I couldn't find affordable hotels close enough to the trail and resorted to booking rooms on Airbnb instead. In both cases, I messaged the hosts ahead of time to inform them I was traveling with a bicycle and to get their confirmation that I could store it indoors.
 
@@ -145,7 +149,7 @@ After the first loaded test ride, I dropped a few things from my packing list an
 
 —
 
-### The Equipment I Took
+### What I Rode On
 
 {% cldImage "IMG_1333.jpeg", "Pre-departure picture of my bike before I headed out", 360 %}
 
@@ -161,7 +165,7 @@ Here is a list of the equipment I used:
 - **Pedals**: I have a pair of [Favero Assioma DUO](https://cycling.favero.com/shop/assioma-duo/) power meter pedals that I always travel with whenever I can't take my bike. They've served me well for nearly five years, I have no complaints. I don't think a power meter is a must for a bikepacking trip by any means, I just always use one when I ride and I like the data.
 - **Fenders**: I have a set of [Musguard OMNI](https://musguard.com/products/musguard-omni) front and rear tire fenders from when I backed them on Kickstarter in 2022. I was lucky it only rained once during my trip, overnight on the third night, but these mudguards came in handy the next morning when I rode through the still-wet streets. They are highly bendable and adjustable to suit many bikes, and I liked that they can be rolled up for storage when not in use.
 - **Navigation**: I use a [Garmin Edge 830](https://www.garmin.com/en-US/p/621232/) bike computer. As I stated earlier, I generally prefer using a bike computer to navigate while riding as the GPS is pretty accurate and the battery lasts several days on a single charge. It also helped with my efforts to disconnect from my phone and immerse myself in my surroundings.
-- **Bike lights**: I rarely had to ride in the dark (until the last day, when I rolled into Montréal as the sun was setting), but I still packed a 350 lumen front light from [Light & Motion](https://www.amazon.com/dp/B00KAPBYSW). For my tail light, I always ride with a [Garmin Varia RTL515 radar](https://www.garmin.com/en-US/p/698001/pn/010-02376-00/) light. I'm not exaggerating when I say this is the single most important thing I took on my trip. It works by detecting vehicles (cars, trucks, motorcyles, other cyclists) approaching you from behind at a speed faster than you're currently moving and simultaneously displays a warning dot on your bike computer screen, makes an audible alert, and flashes the radar's tail light for the approaching vehicle's visibility. This proved to be extremely useful once I got to the stretches of the trail [that are on narrow shoulders next to high speed traffic](/i-rode-my-bike-from-nyc-to-montreal-part-1/#day-4-waterford-glens-falls). Sometimes when I saw there were multiple vehicles approaching quickly, for example due to a recently changed traffic light, I'd even pull off the shoulder entirely into the grass or dirt to let the speeding cars pass. I cannot recommend getting a radar light enough, and I'll never bike anywhere without it. I did have to get an after-market mount to attach the light to my saddle bag. I got [this one](https://www.amazon.com/dp/B0CSPHSHRR) and it was easy to attach using the screws it came with.
+- **Bike lights**: I rarely had to ride in the dark (until the last day, when I rolled into Montréal as the sun was setting), but I still packed a 350 lumen front light from [Light & Motion](https://www.amazon.com/dp/B00KAPBYSW). For my tail light, I always ride with a [Garmin Varia RTL515 radar](https://www.garmin.com/en-US/p/698001/pn/010-02376-00/) light. I'm not exaggerating when I say this is the single most important thing I took on my trip. It works by detecting vehicles (cars, trucks, motorcycles, other cyclists) approaching you from behind at a speed faster than you're currently moving and simultaneously displays a warning dot on your bike computer screen, makes an audible alert, and flashes the radar's tail light for the approaching vehicle's visibility. This proved to be extremely useful once I got to the stretches of the trail [that are on narrow shoulders next to high speed traffic](/i-rode-my-bike-from-nyc-to-montreal-part-1/#day-4-waterford-glens-falls). Sometimes when I saw there were multiple vehicles approaching quickly, for example due to a recently changed traffic light, I'd even pull off the shoulder entirely into the grass or dirt to let the speeding cars pass. I cannot recommend getting a radar light enough, and I'll never bike anywhere without it. I did have to get an after-market mount to attach the light to my saddle bag. I got [this one](https://www.amazon.com/dp/B0CSPHSHRR) and it was easy to attach using the screws it came with.
 - **Bicycle maintenance tools**: I traveled with 4-ounce containers of wet and dry chain lubricants, a few disposable latex gloves, tire levers, spare tubes, and a [small multi-tool](https://www.topeak.com/global/en/product/1338-MINI-P20). I figured for anything more advanced, I could roll my bike to the nearest main road and call a taxi.
 - **Anti-chafe cream**: I ordered a [10-pack of 9ml Chamois Butt'r anti-chafe cream](https://www.amazon.com/dp/B00GJVZ9QE). I really like the compact form factor as I could keep a small one in my top tube bag for re-application at rest stops and stash the rest in my saddle bag for use on subsequent days.
 - **Bike lock**: I debated whether to take one at all, and the internet seems divided on this topic. In the end, I decided to travel with a [Hiplok Z LOK 3-digit Combination Bike Lock](https://hiplok.com/en-us/products/hiplok-z-lok-combo). At less than 3 ounces, it's not exactly the most secure lock, and I certainly wouldn't leave my bike unattended for longer than a few minutes with just this protecting it. As a deterrent against opportunistic theft though, it offered some peace of mind on the few occasions I made a brief pit stop and couldn't ask someone nearby to keep an eye on my bike.
@@ -169,7 +173,7 @@ Here is a list of the equipment I used:
 
 —
 
-### The Clothes I Took
+### What I Wore
 
 It was 69°F the morning I set out from NYC, rising to the high-80s on that first day, but by the fourth day, the temperatures had dropped to a high of 60°F. By the sixth day, I was setting out on a frosty 32°F morning. In short, I needed to pack a range of clothing to support the variety in weather conditions. Due to the aforementioned weight and capacity constraints, I could not fit a second pair of cycling clothes in my bag, so I resolved that the first thing I'd do after checking in to my accommodation each day would be to hand-wash the day's clothing, towel-dry them, then hang them up to air dry.
 
@@ -212,17 +216,18 @@ Here's everything I traveled with:
 
 —
 
-### The Nutrition I Packed
+### What I Ate & Drank
 
-Since my trip was in a relatively urban area, with civilization never more than a few miles away from the trail even in the most remote stretches, and since I planned to have a proper breakfast, lunch, and dinner everyday, I didn't feel I needed to bring 7 days of nutrition along. What I instead prioritized were:
+Since my trip was in a relatively urban area, with civilization never more than a few miles away from the trail even in the most remote stretches, and since I planned to have a proper breakfast, lunch, and dinner everyday, I didn't feel I needed to bring 7 days of nutrition and hydration along. What I instead prioritized were:
 
-- Electrolyte drink mixes — this served a dual function of giving me something flavored to drink other than plain water (which I had in my other bottle) as well as carb and sodium replenishment for what I lost via sweat while riding. I really like all of [Skratch](http://rwrd.io/ref_50GNVFF?c)'s hydration products; that's pretty much all I use.
-- A few gels and energy bars — for emergency snacking while riding, especially useful when I skipped a rest stop or had to ride a bit longer to the next one. I packed a few from Skratch, [GU](https://guenergy.com/collections/gels), [Maurten](https://www.maurten.com/products/solid-c-160?variant=4863688), and [Picky Bars](https://pickybars.com/) (which recently shut down, RIP). It was important for me to pack a decent variety of products I liked in order to minimize flavor fatigue.
-- A couple instant oatmeal packets (not shown in the picture) — these held me over on mornings where I couldn't get to a café or diner before heading out for the day.
+- **Water bottles** — I traveled with two [20 oz water bottles](https://polarbottle.shop/product/polar-bottle-20-oz-B081ZNKKG94) and kept plain water in one and a flavored drink mix (see below) in the other.
+- **Electrolyte drink mixes** — these served a dual function of giving me something flavored to drink other than plain water, as well as a sodium replenishment for what I lost in sweat while riding. I didn't math it out in any detail; I simply went with one travel-size drink mix packet for one bottle and topped it up with a new packet when that bottle ran out. I wasn't worried about an exact quantity as I figured I could replenish at a bike shop along the way if I ran out. I really like all of [Skratch](http://rwrd.io/ref_50GNVFF?c)'s hydration products; that's pretty much all I use.
+- **A few gels and energy bars** — for emergency snacking while riding, especially useful when I skipped a rest stop or had to ride a bit longer to the next one. I packed a few from Skratch, [GU](https://guenergy.com/collections/gels), [Maurten](https://www.maurten.com/products/solid-c-160?variant=4863688), and [Picky Bars](https://pickybars.com/) (which recently shut down, RIP). It was important for me to pack a decent variety of products I liked in order to minimize flavor fatigue.
+- **A couple instant oatmeal packets** (not shown in the picture) — these held me over on mornings where I couldn't get to a café or diner before heading out for the day.
 
 {% cldImage "nutrition.jpeg", "An overhead shot of the nutrition I traveled with", 360 %}
 
-In the end, I didn't use everything I took, but I was glad to have all of it on me. I've [bonked](https://en.wikipedia.org/wiki/Hitting_the_wall) in endurance events before and now err on the side of slightly over-packing vs. under-packing my nutrition.
+I kept this simple and went with what I had on hand and knew I liked. I didn't end up using everything I took, but I was glad to have all of it on me. I've [bonked](https://en.wikipedia.org/wiki/Hitting_the_wall) in endurance events before and now err on the side of slightly over-packing vs. under-packing my nutrition.
 
 ---
 
@@ -234,7 +239,7 @@ In the end, I didn't use everything I took, but I was glad to have all of it on 
 2. **Have a plan; share your plan**: Plotting my daily routes and rest stops up front helped me minimize surprises (although it's likely not possible to completely eliminate all surprises, as you can see from my trip!). It also meant I had a pre-set itinerary I could share with my close contacts so that they could follow my journey from afar. Additionally, I used Apple's [Find My](https://www.apple.com/icloud/find-my/) to share my location in realtime and posted my completed rides every day to [Strava](https://www.strava.com/athletes/missfunmi) so people could see my progress.
 3. **Test your equipment**: A popular mantra in racing is this: *Nothing new on race day*. I would say for an extended, multi-day trip like this, the same mantra applies. Don't let day 3 of your trip be the very first time you're trying a particular pair of shorts, or a set of clip-on aerobars, or a storage solution, or even your fully packed bike. There are few things more unpleasant than chafing in places you didn't anticipate or developing a knot in that one corner of your neck from an untested riding position and then having to abort your trip or ride through that discomfort. Make time to pack up everything you plan to take with you, wear the exact kit you intend to ride with, and go on one or more test rides before your trip to be absolutely sure you're comfortable with everything.
 4. **Study the trail and be prepared**: Can you imagine if I hadn't known that on day 5 of my trip, there would be no water or rest stops in the 28 miles between [my lunch stop in Whitehall and my accommodation in Ticonderoga](https://empiretrail.ny.gov/whitehall-rouses-point/whitehall-ticonderoga)? If I had neglected to refill both my bottles or grab an extra muffin and didn't have any extra snacks on me, I might have truly hated myself by the time I got to my destination. You should also anticipate losing cell service in parts of the trail, especially in the wilderness, and have a plan for that if it might impact your trip. In my case, I did that by saving offline maps for the region on Google Maps, installing the RWGPS app on my phone, and pre-downloading my audio entertainment. Some bikepackers even travel with a paper map, so if that's your vibe, definitely go for it.
-5. **Be flexible, be reasonably self-sufficient**: I stated in my last post that I didn't pre-commit to non-refundable bookings upfront. This allowed me to adjust my plan for days 3 through 6 in response to the extreme anxieties I was feeling in the first couple of days. If you have the flexibility to do so, it might be enough to just have a destination in mind for the day and adjust as you go based on how you're feeling during your ride. It's also really essential to have a plan for contingencies. I'm somewhat adept at fixing small bicycle issues with the tools I brought with me, but more complicated things might have required a visit to a bike shop. Having an idea of when and how to get off the trail to find a taxi or roll my bike to a shop (some of which I pre-saved in Google Maps) gave me peace of mind on that front.
+5. **Be flexible, be reasonably self-sufficient**: I stated in my last post that I didn't pre-commit to non-refundable bookings upfront. This allowed me to adjust my plan for days 3 through 6 in response to the extreme anxieties I was feeling in the first couple of days. There might be other reasons to deviate from your original plans, for example if a transportation service isn't running or you fell ill and needed to call it a day a little earlier than planned. If you have the flexibility, I'd encourage you to consider having a destination and itinerary in mind and adjusting as you go based on how you're feeling during your ride. It's also really essential to have a plan for contingencies. I'm somewhat adept at fixing small bicycle issues with the tools I brought with me, but more complicated things might have required a visit to a bike shop. Having an idea of when and how to get off the trail to find a taxi or roll my bike to a shop (some of which I pre-saved in Google Maps) gave me peace of mind on that front.
 6. **Have so much fun!**: Remember why you're on this trip in the first place. Whether it's to feel more connected to nature or humanity, whether it's to be awed by the sights along the way, whether it's to prove to yourself that you're capable of something difficult and brave; try not to lose sight of it. Stop and smell the literal roses. Take all the pictures. Laugh. Talk to the animals. Not every day might go amazingly. You might get rained on or develop some unexpected bicycle mishaps; you can't really predict the future, but you can plan for it, and I hope these two posts help you feel better prepared. And remember no matter what happens along the way, tomorrow will be a new day.
 
 —
