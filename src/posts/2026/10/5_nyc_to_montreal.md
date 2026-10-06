@@ -211,6 +211,7 @@ Here's everything I traveled with:
 - 1 pair of insulated tights
 - 1 long sleeve merino wool top
 - 1 packable down jacket
+- 1 beanie
 - 1 pair of flip flops
 - 1 pair of lightweight running shoes — I had an old pair of the [Saucony Fastwitch 9](https://www.letsrun.com/shoes/saucony/fastwitch-9), which only weigh about 5 ounces combined.
 
