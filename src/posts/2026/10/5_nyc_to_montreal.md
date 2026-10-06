@@ -130,7 +130,7 @@ I wrote out my full plan including all routes, rest stops, and each day's destin
 
 You can see the complete route collection on Ride with GPS [here](https://ridewithgps.com/collections/6010992).
 
-I didn't end up making all of these rest stops and I sometimes chose to go somewhere else instead once I actually stopped, but planning them ahead of time gave me fewer decisions to make in the moment and more familiarity with the route I'd be riding each day. It also helped me ensure I was well prepared for the "dead zones" along the EST where there are no available water or rest stops for nearly 30 miles.
+I didn't end up making all of the rest stops I plotted out — I skipped some or sometimes just chose to go somewhere else instead — but planning them ahead of time gave me fewer decisions to make in the moment and more familiarity with the route I'd be riding each day. It also helped me ensure I was well prepared for the "dead zones" along the EST where there are no available water or rest stops for nearly 30 miles.
 
 ---
 
