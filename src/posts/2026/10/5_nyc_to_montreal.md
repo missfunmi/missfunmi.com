@@ -18,7 +18,7 @@ Let's take a moment to marvel at some snaps from that post 😍:
 
 So how did I, a triathlete with no prior bikepacking or bicycle touring experience, manage to complete such an adventure all by myself?
 
-Here I go into more detail on how I prepared for this trip. I hope that it shows you that a trip like this is totally accessible even to newer cyclists and that it inspires you to go on one like it yourself.
+Here I go into more detail on how I prepared for this trip. I hope that it shows you that a trip like this is totally doable with a little planning and that it inspires you to go on one like it yourself.
 
 ---
 
